@@ -1,5 +1,5 @@
-﻿bm_3000_wotr = {
-	start_date = 3000.1.1
+﻿bm_9205_lotr = {
+	start_date = 9200.2.1
 	is_playable = yes
 	
 	# Thengel King
@@ -22,67 +22,154 @@
 			#Eomer and Eowyn are born by 3095
 #	}
 
-	# Théoden Thengling
+	# random joe
 	character = {
-		name = "bookmark_wotr_theoden"
-		dynasty = 100
-		dynasty_splendor_level = 1
+		name = "bookmark_lotr_cirdan"
+		dynasty = 3015
+		dynasty_splendor_level = 2
 		type = male
-		birth = 2948.9.19
-		title = k_rohan
+		birth = 145.1.1
+		title = e_lindon
 		government = feudal_government
-		religion = free_peoples
-		culture = rohirrim
+		religion = religion_eldar
+		culture = culture_falathrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = 6000017
-		position = { 1000 200 }
-		animation = personality_bold
+		history_id = 3065
+		position = { 386 160 }
+		animation = personality_honorable
 		
 		# Théodred, son and heir
 		# Éomer, nephew
 		# Éowyn, neice
 	}
-
-	# Wulfgar Brynjarsson
+	# King Earendur of Arnor
 	character = {
-		name = "bookmark_wotr_wulfgarbrynjarsson"
-		dynasty = house_brynjar
-		dynasty_splendor_level = 1
+		name = "bookmark_lotr_earendur"
+		dynasty = 2001
+		dynasty_splendor_level = 2
 		type = male
-		birth = 2977.9.1
-		title = d_dunlandfells
+		birth = 8983.1.1
+		title = e_arnor
 		government = feudal_government
-		religion = men_of_darkness
-		culture = hill_dunlending
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 6000051
-		position = { 500 200 }
-		animation = personality_cynical
-		
-		# Brynjarsson, father (ruler in 3000)
-		# Brant Wulfgarsson, son
-	}
-	
-	# Saruman (allied to the White Council until 3000)
-	character = {
-		name = "bookmark_wotr_saruman"
-		dynasty = 1000
-		dynasty_splendor_level = 1
-		type = male
-		birth = 1000.1.1
-		title = d_isengard
-		government = feudal_government
-		religion = free_peoples
-		culture = istari
+		religion="free_peoples"
+		culture="culture_arnorian"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = 6000053
-		position = { 500 500 }
-		animation = personality_honorable
-	
-		# Grima Wormtongue, but they're not related.
-		# Wulfgar Brynjarsson - for when we need the space for other characters.
+		history_id = 2007
+		position = { 581 222 }
+		animation = personality_forgiving
+		
+		# Théodred, son and heir
+		# Éomer, nephew
+		# Éowyn, neice
 	}
+	
+	# King Durin V of Khazad-Dum
+	character = {
+		name = "bookmark_lotr_durinv"
+		dynasty = 4001
+		dynasty_splendor_level = 2
+		type = male
+		birth = 8883.1.1
+		title = k_khazad_dum
+		government = feudal_government
+		religion="religion_khazad"
+		culture="culture_longbeard"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 4095
+		position = { 881 422 }
+		animation = personality_greedy
+		
+		# Théodred, son and heir
+		# Éomer, nephew
+		# Éowyn, neice
+	}
+	
+	# Other interesting characters in 2990
+	#	Balin (attempts to reclaim Moria in 2989)
+	#	Bilbo with the Ring (111 birthday in 3001)
+	#	King Bain (King Bard (the Bowman) would be more interesting)
+	#	Sauron in Mordor
+	#	Denethor II
+	#	Aragorn in Rivendell
+	
+	# Other potential dates.
+	#	Closer to WotR date 3018.9.23 Gandalf leaves Rohan. Frodo leaves Bag End.
+	#	WotR itself will need to be extended to about 10-30 years ingame.
+	#	Maybe start in 3000 and kick off the events in 3010?
+	#		Have Balin still in Moria.
+	#		With a smaller map Sauron will get as many event armies as he needs.
+}
 
+# just before rise of Angmar... Kin-strife is later!
+bm_9600_lotr = {
+	start_date = 9600.3.11
+	is_playable = yes
+	
+	# Thengel King
+#	character = {
+#		name = "bookmark_wotr_thengel"
+#		dynasty = 100
+#		dynasty_splendor_level = 1
+#		type = male
+#		birth = 2905.6.18
+#		title = k_rohan
+#		government = march_government
+#		religion = free_peoples
+#		culture = rohirrim
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+#		history_id = 6000016
+#		position = { 900 300 }
+#		animation = personality_rational
+		
+		# Théoden Thengling (Grima poisons him in 3014)
+			#Eomer and Eowyn are born by 3095
+#	}
+
+	# random joe
+	
+	
+	# Other interesting characters in 2990
+	#	Balin (attempts to reclaim Moria in 2989)
+	#	Bilbo with the Ring (111 birthday in 3001)
+	#	King Bain (King Bard (the Bowman) would be more interesting)
+	#	Sauron in Mordor
+	#	Denethor II
+	#	Aragorn in Rivendell
+	
+	# Other potential dates.
+	#	Closer to WotR date 3018.9.23 Gandalf leaves Rohan. Frodo leaves Bag End.
+	#	WotR itself will need to be extended to about 10-30 years ingame.
+	#	Maybe start in 3000 and kick off the events in 3010?
+	#		Have Balin still in Moria.
+	#		With a smaller map Sauron will get as many event armies as he needs.
+}
+# 1427 T.A. last few years of Eldacar of Gondor's reign before the Kin-strife!
+bm_9775_lotr = {
+	start_date = 9775.1.1
+	is_playable = yes
+	
+	# Thengel King
+#	character = {
+#		name = "bookmark_wotr_thengel"
+#		dynasty = 100
+#		dynasty_splendor_level = 1
+#		type = male
+#		birth = 2905.6.18
+#		title = k_rohan
+#		government = march_government
+#		religion = free_peoples
+#		culture = rohirrim
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+#		history_id = 6000016
+#		position = { 900 300 }
+#		animation = personality_rational
+		
+		# Théoden Thengling (Grima poisons him in 3014)
+			#Eomer and Eowyn are born by 3095
+#	}
+
+	# random joe
+	
 	
 	# Other interesting characters in 2990
 	#	Balin (attempts to reclaim Moria in 2989)

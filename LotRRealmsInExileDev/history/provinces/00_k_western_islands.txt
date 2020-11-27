@@ -1,0 +1,45 @@
+﻿### k_western_islands
+# c_tol_toronion
+2549 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+#####################
+#c_tol_himling
+2402 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = church_holding
+	#
+}
+#################
+# c_tol_fuin
+2406 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = city_holding
+	#
+}
+2403 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+	#
+}
+######################
+# c_tol_gondobar
+2404 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = city_holding
+	#
+}
+2405 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+	#
+}
+##############################

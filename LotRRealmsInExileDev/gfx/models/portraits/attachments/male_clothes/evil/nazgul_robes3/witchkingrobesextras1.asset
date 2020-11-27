@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "witchkingrobesextras1_mesh"
+	file = "witchkingrobesextras1.mesh"
+
+	meshsettings = {
+		name = "witchKingArmour_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "witchking_armor_diffuse.dds"
+		texture_normal = "witchking_armor_normal.dds"
+		texture_specular = "witchking_armor_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "witchkingrobesextras1_entity"
+	pdxmesh = "witchkingrobesextras1_mesh"
+}

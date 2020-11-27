@@ -27,14 +27,6 @@ headgear = {
 					should_be_naked_trigger = yes
 				}
 			}
-			modifier = { # For Sauruman
-				add = 100
-				has_character_flag = is_saruman	
-			}
-			modifier = { # For Wulfgar
-				add = 100
-				has_character_flag = is_wulfgar
-			}
 		}
 	}
 
@@ -100,7 +92,7 @@ headgear = {
 					}
 					has_government = theocracy_government
 				}
-				#portrait_western_clothing_trigger = yes
+				portrait_western_clothing_trigger = yes
 			}
 		}
 	}
@@ -129,7 +121,7 @@ headgear = {
 							}
 							has_government = theocracy_government
 						}
-						#portrait_western_clothing_trigger = yes
+						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
@@ -144,7 +136,7 @@ headgear = {
 								}
 								has_government = theocracy_government
 							}
-							#portrait_western_clothing_trigger = yes
+							portrait_western_clothing_trigger = yes
 						}
 					}
 				}
@@ -178,10 +170,10 @@ headgear = {
 							has_government = theocracy_government
 						}
 						NOT = { has_government = mercenary_government } # Blocked for mercenaries
-						#OR = {
-						#	portrait_western_clothing_trigger = yes
-						#	portrait_northern_clothing_trigger = yes
-						#}
+						OR = {
+							portrait_western_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -197,10 +189,10 @@ headgear = {
 								}
 								has_government = theocracy_government
 							}
-							#OR = {
-							#	portrait_western_clothing_trigger = yes
-							#	portrait_northern_clothing_trigger = yes
-							#}
+							OR = {
+								portrait_western_clothing_trigger = yes
+								portrait_northern_clothing_trigger = yes
+							}
 						}
 					}
 				}
@@ -230,10 +222,10 @@ headgear = {
 						}
 						NOT = { has_government = mercenary_government } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						#OR = {
-						#	portrait_western_clothing_trigger = yes
-						#	portrait_northern_clothing_trigger = yes
-						#}
+						OR = {
+							portrait_western_clothing_trigger = yes
+							portrait_northern_clothing_trigger = yes
+						}
 					}
 					AND = {
 						exists = primary_spouse
@@ -245,10 +237,10 @@ headgear = {
 							}
 							NOT = { has_government = mercenary_government } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							#OR = {
-							#	portrait_western_clothing_trigger = yes
-							#	portrait_northern_clothing_trigger = yes
-							#}
+							OR = {
+								portrait_western_clothing_trigger = yes
+								portrait_northern_clothing_trigger = yes
+							}
 						}
 					}
 				}
@@ -1854,15 +1846,64 @@ headgear = {
 			}
 		}
 	}
-	
-## ROHAN ##
+	####
+	##
+	############## LOTR ADDONS HERE
+	##
+	### ELVES - ELVISH
+	#
 
-	rohan_royalty = {
+	elvish_commoners = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = western_royalty
+				template = elvish_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_elvish_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	elvish_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_elvish_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	elvish_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_low_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}	
@@ -1872,13 +1913,113 @@ headgear = {
 				add = 50
 				OR = {
 					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_elvish_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_elvish_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	elvish_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
 						OR = {
-							highest_held_title_tier >= tier_kingdom
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_elvish_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_elvish_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	elvish_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
 							has_government = theocracy_government
 						}
 						NOT = { has_government = mercenary_government } # Blocked for mercenaries
 						NOT = { has_government = republic_government }
-						portrait_rohirrim_clothing_trigger = yes
+						portrait_elvish_clothing_trigger = yes
+				#always = no
 					}
 					AND = {
 						exists = primary_spouse
@@ -1890,12 +2031,2604 @@ headgear = {
 							}
 							NOT = { has_government = mercenary_government } # Blocked for mercenaries
 							NOT = { has_government = republic_government }
-							portrait_rohirrim_clothing_trigger = yes
+							portrait_elvish_clothing_trigger = yes
+				#always = no
 						}
 					}
+				}
+
+			}
+		}
+	}
+
+	elvish_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_elvish_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	elvish_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = elvish_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+                mode = modify_multiply
+                gene =  race_gene_mer_ears_01
+                value = 0.0
+            }
+			morph = {
+                mode = modify_multiply
+                gene =  race_gene_mer_ears_02
+                value = 0.0
+            }
+			morph = {
+                mode = modify_multiply
+				gene_bs_ear_size
+				value = 0.0
+            }
+			#morph = {
+            #    mode = replace
+            #    gene =     race_gene_mer_ears_01
+            #    template = default_1
+            #    value = 0.0
+            #}
+			#morph = {
+			#	mode = modify_multiply				
+			#	gene = gene_bs_ear_size
+			#	value = 0.0
+			#}
+			#
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 109
+				AND={
+				portrait_wear_helmet_trigger = yes
+				portrait_elvish_clothing_trigger = yes
 				}
 			}
 		}
 	}
 	
-}
+	#### HARADRIM
+	# MENA ##
+
+	haradrim_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_haradrim_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	haradrim_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_haradrim_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	haradrim_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_haradrim_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_haradrim_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	haradrim_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_haradrim_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_haradrim_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	haradrim_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_haradrim_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_haradrim_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	haradrim_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_haradrim_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	haradrim_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = haradrim_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_helmet_trigger = yes
+				portrait_haradrim_clothing_trigger = yes
+			}
+		}
+	}
+	
+	nazgul_hoods_wearing = {
+	    dna_modifiers = {
+			 accessory = {
+	            mode = add
+	            gene = headgear
+	            template = nazgul_hoods
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			#
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+	    }
+		#should make this particular to the withc king
+		#
+	    weight = {
+	        base = 0
+	        modifier = {
+				has_trait = nazgul
+				add = 131
+	        }
+	    }
+	}
+	nazgul_witchkingcrown_wearing = {
+	    dna_modifiers = {
+			 accessory = {
+	            mode = add
+	            gene = headgear
+	            template = nazgul_witchkingcrown
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			#
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+	    }
+		#should make this particular to the withc king
+		#
+	    weight = {
+	        base = 0
+	        modifier = {
+				has_trait = nazgulwitchking
+				add = 158
+	        }
+	    }
+	}
+	nazgul_witchking_war = {
+	    dna_modifiers = {
+			 accessory = {
+	            mode = add
+	            gene = headgear_2
+	            template = nazgul_withkinghelmet
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			#
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+	    }
+		#should make this particular to the withc king
+		#
+	    weight = {
+	        base = 0
+			modifier = {
+				add = 356
+				AND={
+				portrait_wear_helmet_trigger = yes
+				has_trait = nazgulwitchking
+				}
+			}
+	    }
+	}
+	#
+	sauronbattlehelm = {
+	    dna_modifiers = {
+			 accessory = {
+	            mode = add
+	            gene = headgear
+	            template = sauron_warhelm
+	            range = { 0 1 }
+	        }
+	    }
+		#should make this particular to the withc king
+		#
+	    weight = {
+	        base = 0
+	        modifier = {
+				has_trait = sauroninbattleform
+				add = 128
+	        }
+	    }
+	}
+	#### dwarven
+	# used mena ##
+
+	dwarven_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_dwarven_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	dwarven_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_dwarven_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	dwarven_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_dwarven_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_dwarven_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dwarven_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_dwarven_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_dwarven_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dwarven_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_dwarven_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_dwarven_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dwarven_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_dwarven_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	dwarven_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = dwarven_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_helmet_trigger = yes
+				portrait_dwarven_clothing_trigger = yes
+			}
+		}
+	}
+	nazgul_warhoods = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = nazgul_warhood
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+	        base = 0
+	        modifier = {
+				add = 155
+				AND={
+				has_trait = nazgul
+				portrait_wear_helmet_trigger = yes
+				}
+				
+	        }
+	    }
+	}
+	####
+	# Arnoreans
+	#### dwarven
+	# used mena ##
+
+	arnorian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_arnorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	arnorian_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_arnorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	arnorian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_arnorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_arnorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	arnorian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_arnorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_arnorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	arnorian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_arnorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_arnorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	arnorian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_arnorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	arnorian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_outward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_size
+				value = 0.0
+			}
+		}
+		#		
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_helmet_trigger = yes
+				portrait_arnorian_clothing_trigger = yes
+			}
+		}
+		
+	}
+	arnorian_kingswar = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_kingswar
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = arnorian_neckchainmail
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			
+			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 988
+
+				AND = {
+				highest_held_title_tier = tier_kingdom
+				portrait_wear_armor_trigger = yes
+				portrait_arnorian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	arnorian_highkingswar = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorian_highkingswar
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			#accessory = {
+			#	mode = add
+			#	gene = headgear_2
+			#	template = arnorian_neckchainmail
+			#	range = { 0 1 } # For the randomness to work correctly
+			#} # Removed as it conflicts with the cloak!
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 989
+
+				AND = {
+				highest_held_title_tier = tier_empire
+				portrait_wear_armor_trigger = yes
+				portrait_arnorian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	# Gondorians
+	#### 
+	# used mena ##
+
+	gondorian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_gondorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	gondorian_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_gondorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	gondorian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_gondorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_gondorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	gondorian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_gondorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_gondorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	gondorian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_gondorian_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_gondorian_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	gondorian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_gondorian_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	gondorian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_outward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_size
+				value = 0.0
+			}
+		}
+		#		
+		weight = {
+			base = 0
+			modifier = {
+				add = 112
+				portrait_wear_helmet_trigger = yes
+				portrait_gondorian_clothing_trigger = yes
+			}
+		}
+		
+	}
+	gondorian_kingswar = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_kingswar
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = arnorian_neckchainmail
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 989
+				OR = {
+						highest_held_title_tier = tier_kingdom
+						highest_held_title_tier = tier_empire
+					}
+				portrait_wear_armor_trigger = yes
+				portrait_gondorian_clothing_trigger = yes
+			}
+		}
+	}
+	##
+	morgoth_hoodwearing = {
+	    dna_modifiers = {
+			 accessory = {
+	            mode = add
+	            gene = headgear
+	            template = nazgul_hoods
+	            range = { 0 1 }
+	        }
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			#
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+	    }
+		#should make this particular to the withc king
+		#
+	    weight = {
+	        base = 0
+	        modifier = {
+				has_trait = morgothform
+				add = 128
+	        }
+	    }
+	}
+	##
+	############ VALAR
+	### ELVES - valar
+	#
+
+	valar_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_valar_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	valar_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_valar_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	valar_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_valar_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_valar_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	valar_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_valar_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_valar_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	valar_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_valar_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_valar_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	valar_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_valar_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	valar_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = valar_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+                mode = modify_multiply
+                gene =  race_gene_mer_ears_01
+                value = 0.0
+            }
+			morph = {
+                mode = modify_multiply
+                gene =  race_gene_mer_ears_02
+                value = 0.0
+            }
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			#morph = {
+            #    mode = replace
+            #    gene =     race_gene_mer_ears_01
+            #    template = default_1
+            #    value = 0.0
+            #}
+			#morph = {
+			#	mode = modify_multiply				
+			#	gene = gene_bs_ear_size
+			#	value = 0.0
+			#}
+			#
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 109
+				AND={
+				portrait_wear_helmet_trigger = yes
+				portrait_valar_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	###
+	#
+	#### blacknumenorean
+	# used MENA ##
+
+	blacknumenorean_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	blacknumenorean_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	blacknumenorean_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	blacknumenorean_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	blacknumenorean_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	blacknumenorean_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_blacknumenorean_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	blacknumenorean_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = blacknumenorean_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_outward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_size
+				value = 0.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 111
+				portrait_wear_helmet_trigger = yes
+				portrait_blacknumenorean_clothing_trigger = yes
+			}
+		}
+	}
+	#### ORCS
+	#### 
+	# used MENA ##
+
+	orc_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_orc_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	orc_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_orc_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	orc_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_orc_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_orc_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	orc_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_orc_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_orc_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	orc_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_orc_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_orc_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	orc_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_orc_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	orc_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = orc_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_outward
+				value = 0.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 111
+				portrait_wear_helmet_trigger = yes
+				portrait_orc_clothing_trigger = yes
+			}
+		}
+	}
+	
+	gondor_holyorder_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorholyorder_warhelm
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 112
+				portrait_wear_helmet_trigger = yes
+				OR = {
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_gondorian
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_gondorian
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_gondorian
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+	
+	#### Easterlings
+	#### blacknumenorean
+	# used MENA ##
+
+	easterling_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_easterling_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	easterling_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_easterling_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	easterling_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_easterling_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_easterling_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	easterling_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 2
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_easterling_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 2
+								}
+								has_government = theocracy_government
+							}
+							portrait_easterling_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	easterling_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_kingdom
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+						portrait_easterling_clothing_trigger = yes
+				#always = no
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_kingdom
+								has_government = theocracy_government
+							}
+							NOT = { has_government = mercenary_government } # Blocked for mercenaries
+							NOT = { has_government = republic_government }
+							portrait_easterling_clothing_trigger = yes
+				#always = no
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	easterling_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier = tier_empire
+				NOR = {
+					has_government = mercenary_government
+					has_government = republic_government
+					has_government = theocracy_government
+				}
+				portrait_easterling_clothing_trigger = yes
+				#always = no
+			}
+		}
+	}
+
+	easterling_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = easterling_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_outward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_size
+				value = 0.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 111
+				portrait_wear_helmet_trigger = yes
+				portrait_easterling_clothing_trigger = yes
+			}
+		}
+	}
+	arnor_holyorder_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arnorholyorder_warhelm
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 161
+				portrait_wear_helmet_trigger = yes
+				OR = {
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_arnorian
+				        has_government = holy_order_government
+				    }
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_arnorian
+				        is_landed = no
+				        portrait_wear_armor_trigger = yes
+				        exists = liege
+				        liege = {
+				            has_government = holy_order_government
+				        }
+				    }
+				    AND = {
+				        religion = religion:free_peoples_religion
+						culture = culture:culture_arnorian
+				        portrait_wear_armor_trigger = yes
+				        OR = {
+				            any_character_war = {
+				                OR = {
+				                    using_cb = undirected_great_holy_war
+				                    using_cb = directed_great_holy_war
+				                }
+				                is_attacker = prev
+				            }
+				            any_liege_or_above = {
+				                faith = prev.faith
+				                any_character_war = {
+				                    OR = {
+				                        using_cb = undirected_great_holy_war
+				                        using_cb = directed_great_holy_war
+				                    }
+				                    is_attacker = prev
+				                }
+				            }
+				        }
+				    }
+				}
+			}
+		}
+	}
+}	

@@ -1,0 +1,181 @@
+
+e_lindon={
+
+4902.1.1=
+{
+holder = 3139 # Ereinion Gil-Galad
+}
+6000.2.2 = { change_development_level = 5 } #
+8343.1.1={
+		holder = 3065 # Cirdan
+}
+
+
+
+}
+
+
+k_mithlond={
+	
+	4902.1.1=
+{
+holder = 3139 # Ereinion Gil-Galad
+liege = e_lindon
+}
+6000.2.2 = { change_development_level = 5 } #
+8343.1.1=
+{
+holder = 3065 # Cirdan
+}
+
+	
+}
+
+d_mithlond={
+	
+	527.1.1=
+{
+holder = 3055 # Finwë
+}
+4266.1.1=
+{
+holder = 3238 # Feänor
+}
+4283.1.1=
+{
+holder = 3239 # Maedhros
+}
+4312.1.1=
+{
+holder = 3129 # Fingolfin
+}
+4767.1.1=
+{
+holder = 3131 # Fingon
+}
+4784.1.1=
+{
+holder = 3132 # Turgon
+}
+4902.1.1=
+{
+holder = 3139 # Ereinion Gil-Galad
+}
+8343.1.1=
+{
+holder = 3065 # Cirdan
+}
+	
+}
+
+c_mithanunnlond={
+	
+	527.1.1=
+{
+holder = 3055 # Finwë
+}
+4266.1.1=
+{
+holder = 3238 # Feänor
+}
+4283.1.1=
+{
+holder = 3239 # Maedhros
+}
+4312.1.1=
+{
+holder = 3129 # Fingolfin
+}
+4767.1.1=
+{
+holder = 3131 # Fingon
+}
+4784.1.1=
+{
+holder = 3132 # Turgon
+}
+4902.1.1=
+{
+holder = 3139 # Ereinion Gil-Galad
+}
+8343.1.1=
+{
+holder = 3065 # Cirdan
+}
+	
+}
+
+k_forlindon={
+	
+	6000.2.2 = { change_development_level = 5 } #
+	4334.1.1={
+		holder = 3065 # Cirdan
+		liege = e_lindon
+	}
+
+}	
+
+
+
+
+
+d_forlond={
+
+800.1.1 = { change_development_level = 3 } #
+
+#
+4334.1.1=
+{
+holder = 3065 # Cirdan
+}
+8221.1.1=
+{
+holder = 3258 # Edhelnir
+}
+10589.1.1=
+{
+holder = 3259 # Edhellas
+}
+
+}
+
+c_forlond={
+800.1.1=
+{
+liege=d_forlond
+}
+4334.1.1=
+{
+holder = 3065 # Cirdan
+}
+8221.1.1=
+{
+holder = 3258 # Edhelnir
+}
+10589.1.1=
+{
+holder = 3259 # Edhellas
+}
+
+}
+
+# apariath
+c_apariath={
+800.1.1=
+{
+liege=d_forlond
+}
+4334.1.1=
+{
+holder = 3065 # Cirdan
+}
+8221.1.1=
+{
+holder = 3262 # Dorongur
+}
+10589.1.1=
+{
+holder = 3263 # Dorongil
+}
+
+}

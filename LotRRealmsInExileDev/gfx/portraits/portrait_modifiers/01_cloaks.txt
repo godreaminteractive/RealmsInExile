@@ -22,10 +22,6 @@ cloaks = {
 					portrait_byzantine_clothing_trigger = yes
 				}
 			}
-			modifier = { # For Sauruman
-				factor = 0
-				has_character_flag = is_saruman	
-			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -33,7 +29,6 @@ cloaks = {
 					highest_held_title_tier < tier_kingdom
 					has_government = theocracy_government
 					has_government = republic_government
-					should_be_naked_trigger = yes
 				}
 			}			
 		}
@@ -120,37 +115,138 @@ cloaks = {
 	# 	}
 	# }	
 	
-	
-## ROHAN ##
-	
-	rohan_kings = {
-		# outfit_tags = { rank_headgear } 
+	elven_equipment_war = {
 		dna_modifiers = {
+			#accessory = {
+			#	mode = add
+			#	gene = clothes
+			#	template = newpersian_war_nobility_clothes
+			#	range = { 0 1 } # For the randomness to work correctly
+			#}
+			## TESTING for separate chestpieces...use cloaks first
 			accessory = {
 				mode = add
-				
 				gene = cloaks
-				template = rohan_nobility
-				range = { 0 1 }
+				template = elven_armour_pieces
+				range = { 0 1 } # For the randomness to work correctly
 			}
+			#
 		}	
 		weight = {
 			base = 0
 			modifier = {
-				add = 150
-				AND = {
-					portrait_rohirrim_clothing_trigger = yes
-					highest_held_title_tier >= tier_kingdom
+				add = 126
+				AND={
+				portrait_wear_armor_trigger = yes
+				portrait_elvish_clothing_trigger = yes
 				}
 			}
-			modifier = {
-				factor = 0
-				OR = {
-					is_adult = no
-					should_be_naked_trigger = yes
-				}
-			}			
 		}
 	}
-	
+	# nazgul shoes and gauntlets
+	nazgul_equipment = {
+		dna_modifiers = {
+			
+			accessory = {
+	            mode = add
+	            gene = cloaks
+	            template = male_piece_nazgul_accessories
+	            range = { 0 1 }
+	        }
+			#
+		}	
+		weight = {
+	        base = 0
+	        modifier = {
+	            add = 128
+				has_trait = nazgul
+			}
+		}
+	}
+	# arnorian wargear shoulders
+	#TEMP
+	#
+	# headspot?
+	#discarded sauron_headpiece as it is uneeded due to helmet/combined fix
+	arnorian_equipment_war = {
+		dna_modifiers = {
+			#accessory = {
+			#	mode = add
+			#	gene = clothes
+			#	template = newpersian_war_nobility_clothes
+			#	range = { 0 1 } # For the randomness to work correctly
+			#}
+			## TESTING for separate chestpieces...use cloaks first
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = male_clothes_gondor_shoulder_pieces
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			#
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 126
+				AND={
+				portrait_wear_armor_trigger = yes
+				portrait_arnorian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	### witchking armour
+	# 
+	nazgul_witchking_shoulder = {
+		dna_modifiers = {
+			
+			accessory = {
+	            mode = add
+	            gene = cloaks_2
+	            template = witchking_shoulders
+	            range = { 0 1 }
+	        }
+			#
+		}	
+		weight = {
+	        base = 0
+			modifier = {
+				add = 356
+				AND={
+				portrait_wear_helmet_trigger = yes
+				has_trait = nazgulwitchking
+				}
+			}
+	    }
+	}
+	### Haradrim war
+	haradrim_equipment_war = {
+		dna_modifiers = {
+			#accessory = {
+			#	mode = add
+			#	gene = clothes
+			#	template = newpersian_war_nobility_clothes
+			#	range = { 0 1 } # For the randomness to work correctly
+			#}
+			## TESTING for separate chestpieces...use cloaks first
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = haradrim_armour_pieces
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			#
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 126
+				AND={
+				portrait_wear_armor_trigger = yes
+				portrait_haradrim_clothing_trigger = yes
+				}
+			}
+		}
+	}
 }

@@ -1,0 +1,263 @@
+﻿### Mithlond
+#c_mithlond 
+2231 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2230 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = city_holding
+	#
+}
+2515 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+#
+##c_lond_thalos
+2517 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2518 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2519 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+#
+##c_ghobel_luhn
+1808 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+1839 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1810 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+	#
+}
+2229 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+1811 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#########################
+2210 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+##############################
+# new region north
+#c_anfangneder
+2547 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2542 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+#############################
+#c_aranaforn 
+2541 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2725 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = city_holding
+	#
+}
+2543 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+###########################
+#c_annuduin 
+3806 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2546 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2548 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+##############################
+#c_caras_celairnen 
+2525 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2528 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = city_holding
+	#
+}
+2520 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2529 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2527 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2516 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+###############################
+# c_amon_mithlond
+2524 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2523 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = church_holding
+	#
+}
+2521 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2522 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2726 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+###############################
+#c_gwathrathaun 
+2533 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2554 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2526 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2532 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2534 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+##############################
+# c_lond_gawath
+2545 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2535 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+2537 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+3841 = { # 
+	culture = culture_sindar
+	religion = religion_eldar
+	holding = none
+	#
+}
+#######################

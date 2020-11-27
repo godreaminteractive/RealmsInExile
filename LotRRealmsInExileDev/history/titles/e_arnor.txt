@@ -1,0 +1,459 @@
+﻿#imported from ck2 ME
+#imported from ck2 ME
+e_arnor={
+	
+	8000.2.2 = { change_development_level = 3 } #
+	
+	8221.1.1=
+{
+holder = 12135 # Elendil
+#liege=e_reunited_kingdom
+}
+8343.1.1=
+{
+holder = 12136 # Isildur
+#liege=e_arnor
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+	
+}
+k_arthedain={
+	
+	8000.2.2 = { change_development_level = 3 } #
+	
+	8221.1.1=
+{
+holder = 12135 # Elendil
+#liege=e_reunited_kingdom
+}
+8343.1.1=
+{
+holder = 12136 # Isildur
+#liege=e_arnor
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+
+#
+9204.1.1=
+{
+holder = 2008 # Amlaith 
+liege=0
+}
+9289.1.1=
+{
+holder = 2009 # Beleg
+}
+9372.1.1=
+{
+holder = 2010 # Mallor
+}
+9453.1.1=
+{
+holder = 2011 # Celepharn
+}
+9534.1.1=
+{
+holder = 2012 # Celebrindor
+}
+9615.1.1=
+{
+holder = 2013 # Malvegil
+}
+9692.1.1=
+{
+holder = 2014 # Argeleb I
+}
+9699.1.1=
+{
+holder = 2015 # Arveleg I
+}
+9752.1.1=
+{
+holder = 2016 # Araphor
+}
+9932.1.1=
+{
+holder = 2017 # Argeleb II
+}
+10013.1.1=
+{
+holder = 2018 # Arvegil
+}
+10086.1.1=
+{
+holder = 2019 # Arveleg II
+}
+10156.1.1=
+{
+holder = 2020 # Araval
+}
+10234.1.1=
+{
+holder = 2021 # Araphant
+}
+10307.1.1=
+{
+holder = 2022 # Arvedui
+}
+10318.1.1=
+{
+holder = 0
+}
+11362.5.1=
+{
+holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+liege=e_reunited_kingdom
+}
+
+	
+}
+
+
+# Cardolan
+
+k_cardolan={
+	
+8000.2.2 = { change_development_level = 3 } #
+
+8221.1.1=
+{
+#liege = e_arnor
+holder = 12135 # Elendil
+}
+8343.1.1=
+{
+holder = 12136 # Isildur
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+	
+9204.1.1={
+	holder = 2083 # Thorondor 
+	liege=0
+}
+9283.1.1=
+{
+holder = 2084 # Turambar
+}
+9371.1.1=
+{
+holder = 2085 # Ciryon
+}
+9414.1.1=
+{
+holder = 2086 # Tarandil
+}
+9476.1.1=
+{
+holder = 2087 # Calimendil
+}
+9549.1.1=
+{
+holder = 2088 # Tardil
+}
+9587.1.1=
+{
+holder = 2089 # Minalcar
+}
+9688.1.1=
+{
+holder = 2090 # Ostoher
+}
+9752.1.1=
+{
+holder = 0
+}
+11362.5.1=
+{
+holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+liege=e_reunited_kingdom
+}
+
+}
+
+
+
+# Rhudaur
+
+k_rhudaur = {
+	
+8000.2.2 = { change_development_level = 2 } #	
+	
+8221.1.1=
+{
+holder = 12135 # Elendil
+#liege=e_reunited_kingdom
+}
+8343.1.1=
+{
+holder = 12136 # Isildur
+#liege=e_arnor
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+9204.1.1=
+{
+holder = 2093 # Aldarion - First King of Rudhaur
+liege=0
+}
+9298.1.1=
+{
+holder = 2094 # Orodreth
+}
+9376.1.1=
+{
+holder = 2095 # Eldathorn
+}
+9454.1.1=
+{
+holder = 2096 # Eldarion
+}
+9573.1.1=
+{
+holder = 2097 # Forodacil - Last Numenorean King of Rudhaur
+}
+9654.1.1=
+{
+holder = 14035 # Ulfang the Hillman
+}
+9670.1.1=
+{
+holder = 14036 # Gintaras
+}
+9707.1.1=
+{
+holder = 14037 # Algirdas
+}
+9752.1.1=
+{
+holder = 0 # Rhudaur is now part of Angmar
+}
+11362.5.1=
+{
+holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+liege=e_reunited_kingdom
+}
+
+	
+}	
+
+# called evendim in ck2 files
+d_annuminas = {
+
+8221.1.1=
+{
+holder = 12135 # Elendil
+#liege=e_arnor
+}
+8342.1.1=
+{
+holder = 12136 # Isildur
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+
+	
+}	
+
+
+c_annuminas = {
+	
+	
+8221.1.1=
+{
+holder = 12135 # Elendil
+#liege=d_evendim
+}
+8342.1.1=
+{
+holder = 12136 # Isildur
+}
+8345.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2002 # Arantar
+}
+8778.1.1=
+{
+holder = 2003 # Tarcil
+}
+8858.1.1=
+{
+holder = 2004 # Tarondor
+}
+8945.1.1=
+{
+holder = 2005 # Valandur
+}
+8995.1.1=
+{
+holder = 2006 # Elendur
+}
+9120.1.1=
+{
+holder = 2007 # Eärendur - Last King of Arnor
+}
+	
+	
+	
+	
+}	

@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "orcnewleatherwraps2_mesh"
+	file = "orcnewleatherwraps2.mesh"
+
+	meshsettings = {
+		name = "leather_wraps_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "leather_wraps_diffuse.dds"
+		texture_normal = "leather_wraps_normal.dds"
+		texture_specular = "leather_wraps_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "orcnewleatherwraps2_entity"
+	pdxmesh = "orcnewleatherwraps2_mesh"
+}

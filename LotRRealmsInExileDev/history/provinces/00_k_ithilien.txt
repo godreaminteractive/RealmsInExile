@@ -1,0 +1,238 @@
+﻿### k_ithilien - of e_gondor
+# 
+# Minas Ithil
+1030 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# 
+1223 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+# 
+#c_othnir
+1203 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# 
+2192 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+##
+# c_curedain
+1211 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# 
+1217 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+#c_coruvegil
+1222 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+###
+#c_aelin_veren
+1219 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# 
+1323 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+#c_hennuth_annun
+1196 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# 
+1220 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+1262 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+############################
+# alagdor
+1122 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+770 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+1208 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+##########################
+# rianbar
+1204 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1205 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+1218 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+#########################
+## telengaur
+1212 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1216 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+########################
+# glorel
+1206 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1215 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+####################
+# morgervil
+1209 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1315 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#####################
+# athrad_poros
+697 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+771 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+
+#######################
+# c_tiridor
+1214 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1326 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+########################
+#c_tir_ethraid
+696 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1213 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+3936 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###################
+# b_elemir 
+1210 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1260 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+################
+#c_usuluni
+1207 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1299 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+############
+

@@ -1,0 +1,378 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+##################
+#	  MALE		#
+##################
+# ELVISH
+male_headgear_elvish_lindon_warhelm_01 = {
+    set_tags = "no_hair"
+	set_tags = "helmet"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = lindon_warhelm1_entity      }
+}
+# Tiara1
+male_headgear_elvish_tiara_01 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = wr_tiara1_entity      }
+}
+# Tiara2
+male_headgear_elvish_tiara_02 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = noldor_tiara1_entity      }
+}
+# Tiara3
+male_headgear_elvish_tiara_03 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = noldor_tiara3_entity      }
+}
+# Tiara4
+male_headgear_elvish_tiara_04 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = noldor_tiara4_entity      }
+}
+# high crown -2nd cut one!
+male_headgear_elvish_highcrown_01 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = elven_highcrown1fixed_entity      }
+}
+### ROYAL CROWN ADDITIONS:
+
+male_headgear_royalcrown1 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown1_entity      }
+}
+
+male_headgear_royalcrown3 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = vik_crown3_entity      }
+}
+
+male_headgear_royalcrown4 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown4_entity      }
+}
+
+male_headgear_royalcrown5 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = vik_crown_5_entity      }
+}
+
+male_headgear_royalcrown6 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown6_entity      }
+}
+
+male_headgear_royalcrown7 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown7_entity      }
+}
+
+male_headgear_royalcrown8 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = vik_crown8_entity      }
+}
+
+male_headgear_royalcrown9 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown9_entity      }
+}
+
+male_headgear_royalcrown10 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown10_entity      }
+}
+
+male_headgear_royalcrown11 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = royalcrown11_entity      }
+}
+##
+male_headgear_royalcrown12 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = fancyroyalcrown1_entity      }
+}
+##
+male_headgear_royalcrown13 = {
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = fancyroyalcrown2_entity      }
+}
+## Nazgul Hood1
+male_headgear_nazgulhood1 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = male_headgear_nazgulhood_entity      }
+}
+## Nazgul Hood2 - is better?
+male_headgear_nazgulhood2 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = nazgulproperhood1_entity      }
+}
+# Nazgul witchking CROWN
+male_headgear_nazgulwitchcrown = {
+	set_tags = "crown"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = skyrimnewwitchkingcrown1_entity      }
+}
+# Nazgul witchking helmet
+male_headgear_nazgulwithkinghelm = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = witchkingwarcrown_entity      }
+																							# skyrim-mod based helm from nexus -> need permission!
+}
+## Nazgul warhood
+male_headgear_nazgulwarhood = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = nazgulwarhelmandhood1_entity      }
+}
+# Sauron war helmet -added hood for interior!
+male_headgear_sauronbattlehelm = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = sauronhelmetfinall2_entity      }
+}
+##Crown of Elessar funtest ->removed ROM one and now added proper SKYRIM extracted permissable mod one
+male_headgear_crownofelessar_final = {
+	set_tags = "crown"
+	#
+    entity = { required_tags = ""            shared_pose_entity = head        entity = CrownofElessar_final_entity      }
+}
+#Dwarven regular warhelm
+male_headgear_dwarven_warhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = dwarvenwarhelm1_entity      }
+}
+#Arnorian regular warhelm
+male_headgear_arnorian_warhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "no_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorwarhelmnew1_entity      }
+}
+#Arnorian top piece for warhelm
+male_headgear_arnorian_topridgeforhelm = {
+	#
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorwarhelmtopridge1_entity      }
+}
+#Arnorian kings regular warhelm - Elendil's Helm!
+male_headgear_arnorian_highkingwarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = elendilswarhelm_entity      }
+}
+### new from skyrim imported...might be too low-quality though
+male_headgear_arnorian_skyrimwarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = skyrimarnorianwarhelmfixed_entity      }
+}
+male_headgear_arnorian_highkingwarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = elendilmeshtest1_entity      }
+}
+# gondor soldier helmet 
+male_headgear_gondorian_soldierhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = gondorsoldierhelm1_entity      }
+}
+
+# gondorian citadel helmet
+### new from skyrim imported...might be too low-quality though
+male_headgear_gondorian_citadelhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = gondorfixedcitadelhelm_entity      }
+}
+
+male_headgear_gondorian_generalhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = gondorian_elite_helm_entity      }
+}
+#
+male_headgear_gondorian_goldhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = gondorian_gold_helm_entity      }
+}
+male_headgear_gondorian_fountainguard_helm = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = gondor_fountainguard_helmet1_entity      }
+}
+#  Isildurs warhelm
+#
+male_headgear_isildurswarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = isildurswarhelm1_entity      }
+}
+#
+male_headgear_arnorianneckchainmail = {
+	#
+    entity = { required_tags = ""            shared_pose_entity = head        entity = male_headgear_secular_western_war_nobility_01_entity      }
+}
+# Harad1
+male_headgear_haradrim_headwrap1 = {
+	#
+	set_tags = "helmet"
+	set_tags = "no_beard"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = haradrim_headwrap1_entity      }
+}
+# Harad2 - black
+male_headgear_haradrim_headwrap2 = {
+	#
+	set_tags = "helmet"
+	set_tags = "no_beard"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = haradrim_headwrap2_entity      }
+}
+# Harad3 - red
+male_headgear_haradrim_headwrap3 = {
+	#
+	set_tags = "helmet"
+	set_tags = "no_beard"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = haradrim_headwrap3_entity      }
+}
+####
+# Harad4 - used vanilla abbasid_2 and tweaked to fit neckpiece
+male_headgear_haradrim_headwrapmain = {
+	#
+	set_tags = "helmet"
+	set_tags = "no_beard"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = haradrimabbasidupdated1_entity      }
+}
+
+### black numenoreans crowns and warcrown
+male_headgear_blacknumenorean_kingwarhelm = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = hunwarcrown1_entity      }
+}
+## newcustomcrown1
+male_headgear_blacknumenorean_crown1 = {
+	#
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = newcustomcrown1_entity      }
+}
+
+## newcustomcrown2
+male_headgear_blacknumenorean_crown2 = {
+	#
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = newcustomcrown2_entity      }
+}
+## etst1 using old isldur helmet
+male_headgear_blacknumenorean_testwarhelm = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = testisildurremixed1_entity      }
+}
+#
+male_headgear_blacknumenorean_warhelm1 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = blacknumenorean_warhelm1_entity      }
+}
+# Orc warhelm1 
+male_headgear_orc_warhelm1 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "crown"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = orc_warhelm1_entity      }
+}
+
+male_headgear_easterling_warhelm1 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = easterling_warhelm1_entity      }
+}
+male_headgear_easterling_warhelm2 = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = easterling_warhelm2_entity      }
+}
+
+male_headgear_arnor_highcrown = {
+	set_tags = "crown"
+	set_tags = "hood"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorianhighcrownSOW_entity      }
+}
+male_headgear_arnor_princecrown = {
+	set_tags = "crown"
+	set_tags = "hood"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorprincecrown_entity      }
+}
+
+male_headgear_dunedain_royal_helm2 = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = dunedain_royal_helm2_entity      }
+}
+
+male_headgear_imperator_gondorhelm1 = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = fromimperator_gondor_helm_entity      }
+}
+
+male_headgear_arnor_newwarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = numenorean_warhelm2_entity      }
+}
+
+male_headgear_elendilswarhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = elendilhelmet_ver3_entity      }
+}	
+# Elendil-style helm...lower rank visuals
+male_headgear_elendilmidhelm = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnormidhelm1_entity      }
+}
+# Arnorian Fountain-Guard style helm!
+
+male_headgear_arnorianfountainguard = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "hood_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorfountainhelm1_entity      }
+}
+
+male_headgear_arnorianfountainguard_withmask = {
+	set_tags = "helmet"
+	#set_tags = "no_hair"
+	set_tags = "no_beard"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = arnorfountainhelm_withmask_entity      }
+}
+
+

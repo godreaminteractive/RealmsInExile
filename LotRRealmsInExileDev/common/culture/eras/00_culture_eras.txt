@@ -5,17 +5,17 @@ culture_era_tribal = { # The Realms in Exile are founded.
 }
 
 culture_era_early_medieval = { # The Isari arrive in Middle-earth.
-	year = 1000
+	year = 9100
 	invalid_for_government = tribal_government
 }
 
 culture_era_high_medieval = { # Last year of the Third Age.
 							  # If Realms in Exile includes a pre-WotR bookmark then move High Medieval to the Oath of Eorl or the death of Smaug.
-	year = 3021
+	year = 9400
 	invalid_for_government = tribal_government
 }
 
 culture_era_late_medieval = { # Death of King Aragorn II Elessar of the Reunited Kingdom.
-	year = 3120
+	year = 10000
 	invalid_for_government = tribal_government
 }

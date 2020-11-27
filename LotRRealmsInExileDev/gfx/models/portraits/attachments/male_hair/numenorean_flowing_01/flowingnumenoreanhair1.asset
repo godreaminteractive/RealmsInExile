@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "flowingnumenoreanhair1_mesh"
+	file = "flowingnumenoreanhair1.mesh"
+
+	meshsettings = {
+		name = "vik_hair_rough_long_01_helm_01_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "vik_hair_rough_long_01_diffuse.dds"
+		texture_normal = "vik_hair_rough_long_01_normal.dds"
+		texture_specular = "vik_hair_rough_long_01_specular.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "flowingnumenoreanhair1_entity"
+	pdxmesh = "flowingnumenoreanhair1_mesh"
+}

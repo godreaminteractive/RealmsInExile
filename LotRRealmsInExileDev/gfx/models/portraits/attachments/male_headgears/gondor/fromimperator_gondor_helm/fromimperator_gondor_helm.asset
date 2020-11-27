@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "fromimperator_gondor_helm_mesh"
+	file = "fromimperator_gondor_helm.mesh"
+
+	meshsettings = {
+		name = "gondor_military_clothes_helmetShape"
+		index = 0
+		texture_diffuse = "Dunedain_Helmet_Diffuse.dds"
+		texture_normal = "Dunedain_Helmet_Normal.dds"
+		texture_specular = "Dunedain_Helmet_Properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "fromimperator_gondor_helm_entity"
+	pdxmesh = "fromimperator_gondor_helm_mesh"
+}

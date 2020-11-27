@@ -1,0 +1,124 @@
+﻿namespace = lotrracesmaint
+
+# Events 
+#	
+# available themes:
+#	feast_activity
+#	seduction
+#	diplomacy
+#	hunt_activity
+#	default
+#	pilgrimage
+#	pilgrimage_activity
+#	family
+#	pregnancy
+#	death
+#	physical_health
+#	healthcare
+#	intrigue
+#	crown
+#	dungeon
+#	intrigue
+#	learning
+#	martial
+#	stewardship
+#	realm
+#	culture_change
+#	war
+#	faith
+#	dynasty
+#	skull
+#	education
+#	unfriendly
+#	friendly
+#	love
+#	default
+#	rival_relation
+#	recovery
+#	mental_health
+#	bastardy
+#	prison
+#	vassal
+### FEAST
+#	party war marriage
+### WAR
+#	war battle
+### LIFESTYLES
+#	stewardship_domain_focus stewardship_duty_focus stewardship_wealth_focus
+#	intrigue_intimidation_focus intrigue_skulduggery_focus intrigue_temptation_focus
+#	learning_theology_focus learning_medicine_focus learning_scholarship_focus
+#	diplomacy_family_focus diplomacy_foreign_affairs_focus diplomacy_majesty_focus
+#	martial_authority_focus martial_chivalry_focus martial_strategy_focus
+### RELATIONS
+#	friend_relation lover_relation rival_relation _relation _relation _relation
+#	unfriendly love education family party marriage faith vassal learning seduction
+### RELIGION
+#	faith death dungeon intrigue
+#	seduction
+### SCHEME
+#	befriend_scheme claim_throne_scheme romance_scheme fabricate_hook_scheme
+#	generic_intrigue_scheme murder_scheme seduce_scheme sway_scheme
+#	love intrigue skull recovery friendly unfriendly physical_health war diplomacy
+### SECRETS
+#	secret bastardy death seduction love
+### HUNTING
+#	hunting
+### PET
+#	pet
+### STRESS
+#	mental_break
+#	unfriendly
+### TRAITS
+#	witchcraft secret skull
+
+lotrracesmaint.001 = { # test1
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			is_alive = yes
+			NOT = { has_character_flag = fixed_species }
+			}
+	}
+
+	weight_multiplier = {
+		base = 1
+	}
+
+	#
+	immediate = {
+		add_character_flag = fixed_species
+		if = {
+			limit = {
+					AND={
+						OR={
+						has_culture_group  = lotr_amanyar_group
+						has_culture_group  = lotr_umanyar_group
+						has_culture_group  = lotr_moriquendi_group
+						has_culture_group  = lotr_quendi_group
+						}
+						NOT={
+					has_trait = elf
+						}
+					}
+				}
+				add_trait = elf
+		}
+			
+			#
+		if = {
+			limit = {
+					AND={
+					has_culture_group  = lotr_ainur_group	
+					NOT={
+						has_trait = valar
+						}
+					}
+				add_trait = valar
+			}
+				
+		}
+
+	}
+}	

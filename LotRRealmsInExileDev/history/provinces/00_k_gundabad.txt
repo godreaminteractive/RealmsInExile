@@ -1,0 +1,64 @@
+﻿### k_gundabad
+# mostly orcs now...
+
+# gundabad
+860 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = tribal_holding
+	#
+}
+1580 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = church_holding
+	#
+}
+######
+# Ugulai
+884 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = tribal_holding
+	#
+}
+800 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = none
+	#
+}
+#######
+# forovirkain
+1040 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = tribal_holding
+	#
+}
+1043 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = city_holding
+	#
+}
+######
+# angirith
+874 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = tribal_holding
+	#
+}
+1086 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = city_holding
+	#
+}
+3002 = { # 
+	culture = culture_regularorc
+	religion = religion_evilorc
+	holding = none
+	#
+}

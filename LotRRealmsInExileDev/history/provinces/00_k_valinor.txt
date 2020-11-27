@@ -1,0 +1,8 @@
+﻿### #
+# valinor?!
+6190 = { 
+	culture = culture_valar
+	religion = free_peoples
+	holding = castle_holding
+	#
+}

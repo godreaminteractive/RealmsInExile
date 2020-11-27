@@ -1,0 +1,49 @@
+﻿### K_rhun
+# 
+
+# rhun
+340 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = castle_holding
+	#
+}
+335 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = city_holding
+	#
+}
+342 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = church_holding
+	#
+}
+792 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = none
+	#
+}
+######
+# nurad
+337 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = castle_holding
+	#
+}
+333 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = none
+	#
+}
+796 = { # 
+	culture = culture_easterling
+	religion = religion_easterling
+	holding = none
+	#
+}
+#####################

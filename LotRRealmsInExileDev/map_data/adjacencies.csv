@@ -1,16 +1,76 @@
-From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-# ROHAN
-59;48;river_large;199;-1;-1;-1;-1;Entwash
-59;49;river_large;199;-1;-1;-1;-1;Entwash
-59;68;river_large;199;-1;-1;-1;-1;Entwash
-61;67;river_large;199;-1;-1;-1;-1;Entwash
-61;68;river_large;199;-1;-1;-1;-1;Entwash
-82;157;river_large;199;-1;-1;-1;-1;Isen
-71;155;river_large;199;-1;-1;-1;-1;Isen
-99;182;river_large;199;-1;-1;-1;-1;Anduin_Undeeps
-99;185;river_large;199;-1;-1;-1;-1;Anduin_Undeeps
-99;187;river_large;199;-1;-1;-1;-1;Anduin_Undeeps
-100;185;river_large;199;-1;-1;-1;-1;Anduin_Undeeps
-104;191;river_large;199;-1;-1;-1;-1;Anduin_Undeeps
-# UNUSED
+From;To;Type;Through;x;y;x;y;
+1200;1302;river_large;6504;-1;-1;-1;-1;-1;Osgiliath crossing
+1492;1201;river_large;6505;-1;-1;-1;-1;-1;Cair Andros west crossing
+1262;1201;river_large;6505;-1;-1;-1;-1;-1;Cair Andros east crossing
+2520;2228;river_large;6550;-1;-1;-1;-1;-1;Lindon Lhun crossing
+2555;2556;river_large;6507;-1;-1;-1;-1;-1;Nuar crossing
+2572;2581;river_large;6531;-1;-1;-1;-1;-1;Denuly crossing
+44;614;river_large;6511;-1;-1;-1;-1;-1;Harnen Ancalimmon crossing
+2280;2242;river_large;6540;-1;-1;-1;-1;-1;Lefnui crossing
+1322;1346;river_large;6554;-1;-1;-1;-1;-1;Gilrain crossing
+1209;709;river_large;6570;-1;-1;-1;-1;-1;Poros crossing
+1437;1404;river_large;6537;-1;-1;-1;-1;-1;Morthond lower crossing
+2141;2201;river_large;6518;-1;-1;-1;-1;-1;Angren crossing
+1036;945;river_large;6552;-1;-1;-1;-1;-1;Anghir crossing
+1036;1039;river_large;6552;-1;-1;-1;-1;-1;Anghir crossing
+1038;1036;river_large;6553;-1;-1;-1;-1;-1;Anghir crossing
+1038;946;river_large;6553;-1;-1;-1;-1;-1;Anghir crossing
+1038;919;river_large;6553;-1;-1;-1;-1;-1;Anghir crossing
+1600;1955;river_large;6516;-1;-1;-1;-1;-1;Baranduin lower crossing
+1600;2159;river_large;6549;-1;-1;-1;-1;-1;Baranduin lower crossing
+2085;2080;river_large;6526;-1;-1;-1;-1;-1;Lokhurush crossing
+3621;3911;river_large;6528;-1;-1;-1;-1;-1;Sires crossing
+2100;3911;river_large;6528;-1;-1;-1;-1;-1;Sires crossing
+3933;408;river_large;6572;-1;-1;-1;-1;-1;Riyesha crossing
+3933;401;river_large;6572;-1;-1;-1;-1;-1;Riyesha crossing
+467;494;river_large;6574;-1;-1;-1;-1;-1;Siresha crossing
+510;516;river_large;6559;-1;-1;-1;-1;-1;Siresha crossing
+510;3930;river_large;6559;-1;-1;-1;-1;-1;Siresha crossing
+500;501;river_large;6560;-1;-1;-1;-1;-1;Siresha crossing
+500;499;river_large;6575;-1;-1;-1;-1;-1;Siresha crossing
+102;101;river_large;6513;-1;-1;-1;-1;-1;Celduin crossing
+209;211;river_large;6515;-1;-1;-1;-1;-1;Celduin crossing
+178;179;river_large;6558;-1;-1;-1;-1;-1;Celduin crossing
+135;137;river_large;6565;-1;-1;-1;-1;-1;Vol Kug crossing
+3924;128;river_large;6564;-1;-1;-1;-1;-1;Fola Kolamok crossing
+132;126;river_large;6563;-1;-1;-1;-1;-1;Fola Kolamok crossing
+110;111;river_large;6561;-1;-1;-1;-1;-1;Othnen crossing
+283;3912;river_large;6568;-1;-1;-1;-1;-1;Othnen crossing
+2526;1602;river_large;6520;-1;-1;-1;-1;-1;Lhun crossing
+2525;1602;river_large;6520;-1;-1;-1;-1;-1;Lhun crossing
+2246;2256;river_large;6542;-1;-1;-1;-1;-1;Lefnui crossing
+2246;2279;river_large;6541;-1;-1;-1;-1;-1;Lefnui crossing
+2246;3941;river_large;6543;-1;-1;-1;-1;-1;Lefnui crossing
+2280;2241;river_large;6540;-1;-1;-1;-1;-1;Lefnui crossing
+2241;3941;river_large;6543;-1;-1;-1;-1;-1;Lefnui crossing
+1130;3785;river_large;6555;-1;-1;-1;-1;-1;Harnen crossing
+1405;1438;river_large;6537;-1;-1;-1;-1;-1;Morthond crossing
+1405;1408;river_large;6538;-1;-1;-1;-1;-1;Morthond crossing
+1408;1438;river_large;6539;-1;-1;-1;-1;-1;Morthond crossing
+3666;42;river_large;6062;-1;-1;-1;-1;-1;Shegga crossing
+3666;97;river_large;6062;-1;-1;-1;-1;-1;Shegga crossing
+3666;96;river_large;6062;-1;-1;-1;-1;-1;Shegga crossing
+3592;70;river_large;6134;-1;-1;-1;-1;-1;Gondethil crossing
+405;404;river_large;6160;-1;-1;-1;-1;-1; crossing
+3586;3588;sea;5599;-1;-1;-1;-1;-1; crossing
+3588;3927;sea;5600;-1;-1;-1;-1;-1; crossing
+3927;3587;sea;5600;-1;-1;-1;-1;-1; crossing
+3587;3584;sea;5601;-1;-1;-1;-1;-1; crossing
+3576;3569;sea;5592;-1;-1;-1;-1;-1;Tarsus crossing
+2549;2417;river_large;6122;-1;-1;-1;-1;-1; crossing
+2552;2456;river_large;6053;-1;-1;-1;-1;-1; crossing
+3802;2479;river_large;6050;-1;-1;-1;-1;-1; crossing
+3799;2273;river_large;6034;-1;-1;-1;-1;-1; crossing
+3269;3302;sea;5538;-1;-1;-1;-1;-1; crossing
+3278;3279;sea;5514;-1;-1;-1;-1;-1; crossing
+3620;2095;sea;6154;-1;-1;-1;-1;-1; crossing
+3667;1376;river_large;6023;-1;-1;-1;-1;-1; crossing
+1380;1379;river_large;6023;-1;-1;-1;-1;-1; crossing
+1380;1378;river_large;6023;-1;-1;-1;-1;-1; crossing
+1363;1374;river_large;6025;-1;-1;-1;-1;-1; crossing
+1363;1373;river_large;6025;-1;-1;-1;-1;-1; crossing
+3701;3758;;;-1;-1;-1;-1;-1;
+3760;3758;;;-1;-1;-1;-1;-1;
+3697;3755;;;-1;-1;-1;-1;-1;
+;;;;-1;-1;-1;-1;-1;
 -1;-1;;-1;-1;-1;-1;-1;

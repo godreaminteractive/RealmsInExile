@@ -1,0 +1,213 @@
+﻿# #
+#
+#
+#
+
+# #
+
+lotr_southron_group = {
+	graphical_cultures = {
+		arabic_group_coa_gfx
+		mena_building_gfx
+		haradrim_clothing_gfx
+		mena_unit_gfx
+		#dde_abbasid_clothing_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_mamluks" coat_of_arms = "mc_mamluks" }
+	}
+	
+	# culture near haradrim
+	culture_haradrim = {
+		color = hsv { 0.97 0.38 0.36 } # { 0.8 0.3 0.8 }
+		ethnicities = {
+			10 = race_haradrim
+		}
+		character_modifier = { # 12 points spent
+			# ?
+			intrigue	= 1
+#			trait		= dunedain
+			#trait		= blood_of_numenor
+		}
+		
+		#used_for_random = no
+
+		# TEMP NEEDS INPUT
+		cadet_dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+		}
+		# TEMP NEEDS REWORK -> using vanilla locs
+		dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+		}
+		dynasty_of_location_prefix = "min "
+		
+		male_names = {
+			Angamaitë Sangahyando 
+			Abaan Adnan Al Tufayl Amro Aqil Bakr Dirar
+			Ghasaan Haarith Hannad Hudhafah Hudhayfah Huthayfah Ikrimah
+			Jibran Jubayr Khaldoon Khuzaymah Lubayd Marwan
+			Maazin Mus’ab Muthanna "Na’man" Nawfal
+			Nizar Qusay Sufyan Ubaadah Ubayy
+			Udayl Umar Umaarah Umayr Utbah Waqqas Yaman Yazan
+			Abakada Abazza Ghaleim Abidin Adal Adërba Adergazuz
+			Yugurthen Zalelsë Zayar Zer'wal Zigza Zubeyr
+		}
+		female_names = {
+			Daenya Firyal Khawlah Mawiyah May Nusaybah Ramlah Rudaynah Rumaylah Rumaythah Sawda 
+			Suhayr Sumayyaa Tamadhur Yusraa Usaymah. 
+
+		}
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		
+	}
+	### Far Haradrim
+	# culture near haradrim
+	culture_far_haradrim = {
+		color = { 0.9 0.25 0.21 }
+		ethnicities = {
+			10 = race_haradrim
+		}
+		character_modifier = { # 12 points spent
+			# ?
+			intrigue	= 1
+#			trait		= dunedain
+			#trait		= blood_of_numenor
+		}
+		
+		#used_for_random = no
+
+		# TEMP NEEDS INPUT
+		cadet_dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+		}
+		# TEMP NEEDS REWORK -> using vanilla locs
+		dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+		}
+		dynasty_of_location_prefix = "min "
+		
+		male_names = {
+			Angamaitë Sangahyando 
+			Abaan Adnan Al Tufayl Amro Aqil Bakr Dirar
+			Ghasaan Haarith Hannad Hudhafah Hudhayfah Huthayfah Ikrimah
+			Jibran Jubayr Khaldoon Khuzaymah Lubayd Marwan
+			Maazin Mus’ab Muthanna Na’man Nawfal
+			Nizar Qusay Sufyan Ubaadah Ubayy
+			Udayl Umar Umaarah Umayr Utbah Waqqas Yaman Yazan
+			Abakada Abazza Ghaleim Abidin Adal Adërba Adergazuz
+			Yugurthen Zalelsë Zayar Zer'wal Zigza Zubeyr
+		}
+		female_names = {
+			Daenya Firyal Khawlah Mawiyah May Nusaybah Ramlah Rudaynah Rumaylah Rumaythah Sawda 
+			Suhayr Sumayyaa Tamadhur Yusraa Usaymah. 
+
+		}
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		
+	}
+
+}

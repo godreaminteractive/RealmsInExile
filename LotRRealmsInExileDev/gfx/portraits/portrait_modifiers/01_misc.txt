@@ -1,0 +1,23 @@
+﻿
+misc = {
+	# nazgul 2ndrobe set
+	nazgul_robespt2 = {
+		dna_modifiers = {
+			
+			accessory = {
+	            mode = add
+	            gene = misc
+	            template = nazgul_robes2
+	            range = { 0 1 }
+	        }
+			#
+		}	
+		weight = {
+	        base = 0
+	        modifier = {
+	            add = 128
+				has_trait = nazgul
+			}
+		}
+	}
+}

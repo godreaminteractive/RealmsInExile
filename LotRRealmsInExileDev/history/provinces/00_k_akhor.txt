@@ -1,0 +1,105 @@
+﻿### k_akhor black numenoreansruling over haradrim
+# 
+
+# akhor
+96 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+3666 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+	#
+}
+3637 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+3643 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+619 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+##########
+#c_sukh_shafra
+97 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+42 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+################
+##c_sukh_pharaz
+618 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+1966 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+	#
+}
+#################
+##c_sukh_tarim
+99 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+3797 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+###################
+#c_an_abar
+620 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+3794 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+2044 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+3868 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+	#
+}
+
+#
+#################

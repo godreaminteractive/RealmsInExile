@@ -283,13 +283,17 @@ stewardship_duty_1062_create_philosopher_effect = {
 			root.culture = {
 				trigger = {
 					NOT = {
-						root.culture = culture:istari
+						root.culture = {
+							culture = istari
+						}
 					}
 				}
 			}
 			culture:isengard_dunlending = {
 				trigger = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
@@ -321,13 +325,17 @@ stewardship_duty_1062_create_gardener_effect = {
 			root.culture = {
 				trigger = {
 					NOT = {
-						root.culture = culture:istari
+						root.culture = {
+							culture = istari
+						}
 					}
 				}
 			}
 			culture:isengard_dunlending = {
 				trigger = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
@@ -360,13 +368,17 @@ stewardship_duty_1062_create_poet_effect = {
 			root.culture = {
 				trigger = {
 					NOT = {
-						root.culture = culture:istari
+						root.culture = {
+							culture = istari
+						}
 					}
 				}
 			}
 			culture:isengard_dunlending = {
 				trigger = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}

@@ -1,0 +1,11 @@
+﻿
+death_journey_west = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}
+
+death_suicide_fall = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}
+#

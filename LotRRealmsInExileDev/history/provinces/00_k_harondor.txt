@@ -1,0 +1,561 @@
+﻿### k_harondor
+# Tirith Argon
+626 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+3647 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+46 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#
+# Romenor
+627 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+	#
+}
+2362 = { # 
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3786 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3651 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+# Faday 
+3785 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1253 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3787 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+624 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+2364 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###
+# mirlond
+615 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+642 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+1121 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+612 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1131 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###
+# has_sabiya
+613 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+611 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1251 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+44 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}				
+#### Laergaladrin here!
+
+710 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1252 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+
+1191 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+######
+1124 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}	
+3831 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+2041 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+709 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3780 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3783 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#####
+769 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1319 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1291 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+######
+700 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+699 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+768 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#####
+622 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+623 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+1132 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+3772 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3773 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#######
+# hingrenost
+1128 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+3740 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3788 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1129 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3830 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+##################
+## emyn imladrim
+3706 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+702 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+1249 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+1248 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#####################
+# nen caladham
+701 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+3660 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3777 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+703 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3782 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3661 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#################
+# c_abarloni
+617 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+50 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+621 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#####################
+# c_suk_abarrim
+616 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+2365 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+610 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+1123 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3645 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+2043 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#####################
+# c_zadir_abarrim
+3642 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1130 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+614 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+2875 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+2042 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+625 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+########################
+# c_eren_malduin
+3742 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1250 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3658 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3776 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+702 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3657 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+#########################
+#c_anotiroth
+1126 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+3796 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+1125 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+1256 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3741 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+693 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+##############################
+## c_eithel
+694 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+3770 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = church_holding
+}
+1127 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3781 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+695 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3659 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+712 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###############################
+# nen_narthan
+698 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+708 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = city_holding
+}
+3663 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3779 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3662 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###############################
+## nen_laer
+1254 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+1255 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1316 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3771 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+1318 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###################################
+# nen_hyarmen
+1317 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = castle_holding
+}
+711 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+3778 = {
+	culture = culture_haradrim
+	religion = religion_haradrim
+	holding = none
+}
+###################################
+#
+
+

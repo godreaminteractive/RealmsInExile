@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "vik_crown_5_mesh"
+	file = "vik_crown_5.mesh"
+
+	meshsettings = {
+		name = "vik_helmet_crown_05_lod1_group1Shape"
+		index = 0
+		texture_diffuse = "vik_helmet_crown_05_diffuse.dds"
+		texture_normal = "vik_helmet_crown_05_normal.dds"
+		texture_specular = "vik_helmet_crown_05_specular.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "vik_crown_5_entity"
+	pdxmesh = "vik_crown_5_mesh"
+}

@@ -1,0 +1,57 @@
+﻿### Using modified ck2 middle earth imported data!
+# House of isildur son of Elendil, Is a Cadet dynasty of the overall House Elros!
+house_elendilionath = {
+	name = "dynn_elendilionath"
+	dynasty = 12001
+	motto = dynn_elendilionath_motto
+	
+}	
+house_isildurionath = { 
+	name = "dynn_isildurionath"
+	dynasty = 12001
+	motto = dynn_isildurionath_motto
+}
+house_anarionath = { 
+	name = "dynn_anarionath"
+	dynasty = 12001
+	motto = dynn_anarionath_motto
+}
+#
+house_elatanionath = { 
+	name = "dynn_elatanionath"
+	dynasty = 12001
+	motto = dynn_elatanionath_motto
+}
+
+### ELvish work
+### 
+#house_nelyar = { 
+#	name = "dynn_nelyar"
+#	dynasty = 3015 # assigned to sub-house of Nelyar!
+#	motto = dynn_nelyar_motto
+#}
+
+# assigned to sub-house of Nelyar!
+house_nosnowe = { 
+	name = "dynn_nosnowe"
+	dynasty = 3012 
+	motto = dynn_nosnowe_motto
+}
+#
+house_noscelepwe = { 
+	name = "dynn_noscelepwe"
+	dynasty = 3012 
+	motto = dynn_noscelepwe_motto
+}
+#
+house_nostanwe = { 
+	name = "dynn_nostanwe"
+	dynasty = 3012 
+	motto = dynn_nostanwe_motto
+}
+# thranduils house?
+house_nosoropher = {
+	name = "dynn_nosoropher"
+	dynasty = 3012 
+	motto = dynn_nosoropher_motto
+}

@@ -9,3 +9,23 @@
 
 	}
 }
+# UGGGGH
+world_of_darkness = {
+	default = world_of_immortals
+
+	world_of_immortals = {
+	}	
+
+#	world_of_minions_and_monsters = {
+#	}
+	
+#	world_of_minions = {
+#	}	
+
+#	world_of_mortals_player_knows = {
+#	}
+
+#	world_of_mortals = {
+#	}
+
+}

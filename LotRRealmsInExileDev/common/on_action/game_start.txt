@@ -8,11 +8,6 @@ on_game_start = {
 			# LotR: set Saruman to Istari culture on game start to remove random Istari characters in his court.
 			set_culture = culture:istari
 			set_immortal_age = 60
-#			add_character_flag = {
-#				flag = had_nickname_event
-#				flag = immune_to_disease
-#				years = 3500
-#			}
 			if = {
 				limit = {
 					is_alive = yes
@@ -24,11 +19,6 @@ on_game_start = {
 				}
 			}
 		}
-		trigger_event = {
-			id = saruman.0045
-			days = { 6205 6570 } # 17 to 18 years
-		}
-		6,205
 	}
 	on_actions = {
 	}
@@ -100,5 +90,8 @@ on_game_start_after_lobby = {
 
 	events = {
 		game_rule.1000	#Autopopulate families.
+		# also added here as a way to catch random characters
+		# ADDED FOR EVLES AND VALAR Maintenance ATTEMPT 1
+		lotrracesmaint.001
 	}
 }

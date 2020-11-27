@@ -1,0 +1,19 @@
+﻿#LotR: 
+
+# is actually the 2nd age
+era_3_year = {
+    value = 8343 # possible correct based off of death of King Earendur in 9204 - which is supposed to be T.A. 861
+    if = {
+        limit = { has_global_variable = third_era_year }
+        add = global_var:third_era_year
+    }
+}
+
+# is actually the 3rd age
+era_4_year = {
+    value = 0
+    if = {
+        limit = { has_global_variable = four_era_year }
+        add = global_var:four_era_year
+    }
+}

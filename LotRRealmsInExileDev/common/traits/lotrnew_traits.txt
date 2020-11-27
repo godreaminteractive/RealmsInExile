@@ -1,0 +1,442 @@
+﻿
+
+#maia = {
+#	index = 600
+#}
+
+#magic = {
+#	index = 660
+#	icon = magic.dds
+#}
+#TEST 
+
+
+valar = {
+	#
+	index = 667
+	same_culture_opinion = 25
+	hostile_scheme_resistance_mult = 0.75
+	#
+	genetic = yes
+	physical = yes
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	#set_immortal_age = 58 # this goes to on_actions or events
+
+}
+
+maiar = {
+	index = 668
+	#icon = maia.dds
+	same_culture_opinion = 25
+	hostile_scheme_resistance_mult = 0.5
+	#
+	genetic = yes
+	physical = yes
+	inherit_chance = 100
+	birth=0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	#set_immortal_age = 35 # this goes to on_actions or events
+
+}
+
+
+elf = {
+	index = 669
+	
+	potential = {
+		OR ={
+			has_culture_group = culture_group:lotr_amanyar_group
+			has_culture_group = culture_group:lotr_umanyar_group
+			has_culture_group = culture_group:lotr_moriquendi_group
+			has_culture_group = culture_group:lotr_quendi_group
+
+		}
+	}
+	
+	random_creation = 100.00
+	birth = 100.00
+	
+	same_culture_opinion = 15
+	hostile_scheme_resistance_mult = 0.15
+	#no_prowess_loss_from_age = yes
+	#
+	genetic = yes
+	physical = yes
+	
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 25
+	
+	
+	negate_health_penalty_add = 1
+	health = 0.25
+	stress_gain_mult = -0.45
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -0.85
+	#attraction_opinion = -20
+	#flag = can_not_marry
+	#can_have_children = no
+	immortal = yes
+	life_expectancy = 3000
+	#set_immortal_age = 35 # this goes to on_actions or events
+
+}
+#
+
+half_elf = {
+	index = 670
+	#icon = maia.dds
+	same_culture_opinion = 15
+	hostile_scheme_resistance_mult = 0.1
+	#
+	genetic = yes
+	physical = yes
+	inherit_chance = 100
+	birth=0
+	#
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -0.85
+	#attraction_opinion = -20
+	#flag = can_not_marry
+	#can_have_children = no
+	immortal = yes
+	#set_immortal_age = 35 # this goes to on_actions or events
+
+}
+
+#Blood of numenor is different?
+#
+#### STATUS TRAITS? NOT SURE ABOUT THIS?
+
+# basically non-interactable?
+sailed_west = {
+	index = 671
+	#icon = maia.dds
+	#same_culture_opinion = 15
+	hostile_scheme_resistance_mult = 1.0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	shown_in_encyclopedia = no
+	
+
+}
+
+at_east = {
+	index = 672
+	#icon = maia.dds
+	#same_culture_opinion = 15
+	hostile_scheme_resistance_mult = 1.0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	shown_in_encyclopedia = no
+
+}
+
+infertility = {
+	index = 673
+	#icon = maia.dds
+	#same_culture_opinion = 15
+	#hostile_scheme_resistance_mult = 1.0
+	random_creation = 0
+	birth = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	#immortal = yes
+	shown_in_encyclopedia = no
+	
+}
+
+#Blood of numenor is different?
+actualnumenorean = {
+	
+	index = 674
+	martial = 1
+	prowess = 1
+	stewardship = 1
+	
+	birth=0
+	random_creation = 0
+	genetic = yes
+	physical = yes
+	same_opinion = 25
+	same_faith_opinion = 25
+	#
+	#
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 25
+	health = 0.65
+	
+	life_expectancy = 250
+	
+	
+	#
+}	
+
+numenorean_bloodline = {
+	##
+	index = 675
+	
+	martial = 1
+	prowess = 1
+	stewardship = 1
+	#
+	birth=0
+	random_creation = 0
+	
+	
+	genetic = yes
+	physical = yes
+	
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 50
+	
+	#
+	negate_health_penalty_add = 0.65
+	health = 0.45
+	life_expectancy = 150
+	stress_gain_mult = -0.15 
+	
+	
+	same_faith_opinion = 5
+	#
+	
+	
+	#
+}
+
+nazgul = {
+	index = 676
+
+	birth=0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	
+	dread_baseline_add = 25
+	
+	#set_immortal_age = 35 # this goes to on_actions or events
+	shown_in_encyclopedia = no
+
+}
+
+sauroninbattleform = {
+	index = 677
+
+	birth=0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	#immortal = yes
+	#set_immortal_age = 35 # this goes to on_actions or events
+	shown_in_encyclopedia = no
+
+}
+
+wraith = {
+	index = 678
+	#icon = maia.dds
+	#same_culture_opinion = 15
+	#hostile_scheme_resistance_mult = 1.0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	immortal = yes
+	no_prowess_loss_from_age = yes
+	physical = yes
+	
+}
+
+dwarven={
+	index = 679
+	# 
+	potential = {
+			has_culture_group = culture_group:lotr_dwarves_group
+	}
+	
+	random_creation = 100.00
+	birth = 100.00
+	
+	fertility = -0.5
+	genetic = yes
+	physical = yes
+	
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 100
+
+	
+	#
+	#negate_health_penalty_add = 0.75
+	health = 0.5
+	stress_gain_mult = -0.15 
+	life_expectancy = 230
+	
+}	
+
+# needs work!? concepting
+elf_friend={
+	index = 680
+	# 
+	random_creation = 0
+	birth=0
+	random_creation = 0
+	#
+	#
+	stress_gain_mult = -0.10 
+
+}
+
+morgothform = {
+	index = 681
+
+	birth=0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	fertility = -1
+	#attraction_opinion = -20
+	flag = can_not_marry
+	can_have_children = no
+	#immortal = yes
+	#set_immortal_age = 35 # this goes to on_actions or events
+	
+	shown_in_encyclopedia = no
+
+}
+
+inthevoid = {
+	index = 682
+
+	birth=0
+	random_creation = 0
+	
+	health_trait = yes
+	incapacitating = yes
+	disables_combat_leadership = yes
+	
+	ai_energy = -100
+	
+	shown_in_encyclopedia = no
+
+}
+
+nazgulwitchking = {
+	index = 683
+
+	birth=0
+	random_creation = 0
+	
+	# LotR: There shall be no baby Saruman. Or Mrs Gandalf.
+	#
+	
+	dread_baseline_add = 25
+	
+	#set_immortal_age = 35 # this goes to on_actions or events
+	
+	shown_in_encyclopedia = no
+
+}
+
+orc = {
+	index = 684
+	
+	potential = {
+			has_culture = culture:culture_regularorc
+	}
+
+	birth=100.00
+	random_creation = 100.00
+	genetic = yes
+	physical = yes
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 100
+	
+	life_expectancy = -15
+	
+	portrait_extremity_shift = 0.15
+	
+	
+	ai_honor = -25
+	ai_sociability = -10
+	ai_rationality = -15
+	ai_vengefulness = 15
+	
+	general_opinion = -10
+	attraction_opinion = -15
+	
+	
+}
+
+blacknumenorean = {
+	##
+	index = 685
+	potential = {
+			has_culture = culture:culture_blacknumenorean
+	}
+	
+	prowess = 1
+	#
+	birth=100.00
+	random_creation = 100.00
+	genetic = yes
+	physical = yes
+	
+	both_parent_has_trait_inherit_chance = 100
+	inherit_chance = 25
+	
+	#
+	negate_health_penalty_add = 0.15
+	health = 0.10
+	
+	
+	same_opinion = 5
+	#
+	#
+	life_expectancy = 25
+	
+	#
+}

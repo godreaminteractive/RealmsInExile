@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "nazgulproperhood1_mesh"
+	file = "nazgulproperhood1.mesh"
+
+	meshsettings = {
+		name = "FBXASC051c_leather_hood_02_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "3c_leather_hood_02_diffuse.dds"
+		texture_normal = "3c_leather_hood_02_normal.dds"
+		texture_specular = "3c_leather_hood_02_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "nazgulproperhood1_entity"
+	pdxmesh = "nazgulproperhood1_mesh"
+}

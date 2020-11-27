@@ -247,7 +247,7 @@ custom_kingdoms = {
 }
 
 generate_families = {
-	default = on_generate_families
+	default = off_generate_families
 
 	on_generate_families = {
 	

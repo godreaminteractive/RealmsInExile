@@ -1,0 +1,114 @@
+﻿
+
+#####################################
+#									#
+# 			TEMP additions to cloaks for LOTR armor pieces?		#
+#									#
+#####################################
+
+
+
+
+
+
+## MALE ##
+
+male_cloaks_secular_western_royalty_01 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_secular_western_royalty_01_entity }
+}
+
+
+
+
+
+## FEMALE ##
+
+
+female_cloaks_secular_western_royalty_01 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cloaks_secular_western_royalty_01_entity }
+}
+
+
+#  ADDONS - using for armour pieces temporarily
+
+# persian elite linothrax
+male_piece_lindonchestarmor1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = lindonfinalarmourfix_entity }
+}
+
+# nazgul gauntlets and shoes!
+male_piece_nazgul_accessories = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = witchkingrobesextras1_entity }
+}
+# sauron lowerbod
+## 
+male_clothes_sauron_legs = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = sauronlegs1_entity }
+}
+
+sauron_headpiece = {
+	set_tags = "helmet"
+	set_tags = "no_hair"
+    entity = { required_tags = ""            shared_pose_entity = head        entity = male_headgear_nazgulhood_entity      }
+}
+## dwarf pauldrons
+male_clothes_dwarven_shoulders1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = dwarfdaultrooon_entity }
+}
+## arnorian pauldrons
+male_clothes_arnorian_shoulders1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = arnorianarmpauldron1_entity }
+}
+## gondorian pauldrons
+male_clothes_gondorian_shoulders1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gondorian_armpauldrons1_entity }
+}
+
+# nazgul witchking shoulders
+male_piece_witchking_shoulders = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = witchkingshoulders_entity }
+}
+
+# common haradrim armor?!
+male_piece_haradrim_neck = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = haradchestpieceupdated1_entity }
+}
+# common haradrim armor2?!
+male_piece_haradrim_neckpiece2 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = haradrim_newneck2_entity }
+}
+
+# Gondorian Fountain Guards shoulders
+male_piece_gondor_fountainguard_shoulders = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gondor_newfountainguardshoulders2_entity }
+}
+
+# Easterling main body-armor
+male_piece_easterling_armour_pieces1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = easterling_armor1 }
+}
+
+# Arnorian SOW custom shoulders
+male_piece_arnoriansow_shoulders = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = SOW_gondorianshoulders_entity }
+}
+
+
+
+
+
+
+
+
+
+#####################################
+#									#
+# 			Catholic Capes			#
+#									#
+#####################################
+
+
+male_capes_religious_catholic_head_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_capes_religious_catholic_head_01_entity }
+}
+##########################################################################

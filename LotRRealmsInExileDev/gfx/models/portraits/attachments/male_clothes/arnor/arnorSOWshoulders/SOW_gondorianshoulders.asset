@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "SOW_gondorianshoulders_mesh"
+	file = "SOW_gondorianshoulders.mesh"
+
+	meshsettings = {
+		name = "gondorian_shoulders1Shape"
+		index = 0
+		texture_diffuse = "gondorian_bodysoldier_diffuse.dds"
+		texture_normal = "gondorian_bodysoldier_normal.dds"
+		texture_specular = "gondorian_bodysoldier_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "SOW_gondorianshoulders_entity"
+	pdxmesh = "SOW_gondorianshoulders_mesh"
+}

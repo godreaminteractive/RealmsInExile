@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "persianheadpiecefix2_mesh"
+	file = "persianheadpiecefix2.mesh"
+
+	meshsettings = {
+		name = "male_hair_persian_5_hatShape"
+		index = 0
+		texture_diffuse = "male_hair_persian_5b_hat_diffuse.dds"
+		texture_normal = "male_hair_persian_5b_hat_normal.dds"
+		texture_specular = "male_hair_persian_5b_hat_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "persianheadpiecefix2_entity"
+	pdxmesh = "persianheadpiecefix2_mesh"
+}

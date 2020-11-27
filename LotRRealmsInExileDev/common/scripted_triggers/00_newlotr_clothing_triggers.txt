@@ -1,0 +1,36 @@
+﻿# Elvish Portrait clothing triggers
+portrait_elvish_clothing_trigger = {
+		culture = { has_graphical_culture = elvish_clothing_gfx }
+}
+# Haradrim Portrait clothing triggers
+portrait_haradrim_clothing_trigger = {
+		culture = { has_graphical_culture = haradrim_clothing_gfx }
+}
+# Dwarven Portrait clothing triggers
+portrait_dwarven_clothing_trigger = {
+		culture = { has_graphical_culture = dwarven_clothing_gfx }
+}
+# Numenorean-Arnorian Portrait clothing triggers
+portrait_arnorian_clothing_trigger = {
+		culture = { has_graphical_culture = arnorian_clothing_gfx }
+}
+# Numenorean-Gondorian Portrait clothing triggers
+portrait_gondorian_clothing_trigger = {
+		culture = { has_graphical_culture = gondorian_clothing_gfx }
+}
+# Valar Portrait clothing triggers
+portrait_valar_clothing_trigger = {
+		culture = { has_graphical_culture = valar_clothing_gfx }
+}
+# Blacknuemnorean Portrait clothing triggers
+portrait_blacknumenorean_clothing_trigger = {
+		culture = { has_graphical_culture = blacknumenorean_clothing_gfx }
+}
+# Orc Portrait clothing triggers
+portrait_orc_clothing_trigger = {
+		culture = { has_graphical_culture = orc_clothing_gfx }
+}
+# Easterling Portrait clothing triggers
+portrait_easterling_clothing_trigger = {
+		culture = { has_graphical_culture = easterling_clothing_gfx }
+}

@@ -246,24 +246,61 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		special_wooden_leg = {
+		nazgul_legwear = {
 			index = 5
 			male = {
-				1 = male_legwear_special_wooden_leg_01
+				1 = male_piece_nazgul_accessories
 			}
 			female = {
-			#	1 = female_legwear_secular_mena_war_nobility_01
+				1 = empty
 			}
 			boy = male
 			girl = female
 		}
-		generic_legwear = {
+		sauron_legwear = {
 			index = 6
 			male = {
-				1 = male_legwear_generic
+				1 = male_clothes_sauron_legs
 			}
 			female = {
-				1 = female_legwear_secular_western_common_01
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		orc_basic_legwear = {
+			index = 7
+			male = {
+				1 = male_clothes_orc_loincloth1
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+	}
+
+	special_legwear = {
+
+		special_wooden_leg = {
+			index = 0
+			male = {
+				1 = male_legwear_special_wooden_leg_01
+			}
+			female = {
+				1 = female_legwear_special_wooden_leg_01
+			}
+			boy = male
+			girl = female
+		}
+		special_nazgul_withkinghelmet = {
+			index = 1
+			male = {
+				1 = male_headgear_nazgulwithkinghelm
+			}
+			female = {
+				1 = empty
 			}
 			boy = male
 			girl = female
@@ -300,17 +337,192 @@ accessory_genes = {
 				1 = female_cloaks_secular_western_royalty_01
 			}
 		}
-		
-		rohan_nobility = {
+		elven_armour_pieces= {
 			index = 2
+
+
 			male = {
-				1 = male_cloaks_rohan_nobility
+				3 = male_piece_lindonchestarmor1
+				
+			}
+
+			female = {
+				1 = female_clothes_secular_byzantine_war_nobility_01_low
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		### ADDED HERE!
+		male_piece_nazgul_accessories= {
+			index = 3
+
+
+			male = {
+				3 = male_piece_nazgul_accessories
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		#is a robe-hood!
+		sauron_headpiece = {
+			index = 4
+
+
+			male = {
+				3 = sauron_headpiece
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		# dwarven shoulder-pauldrons
+		male_clothes_dwarven_shoulders={
+			index = 5
+
+
+			male = {
+				3 = male_clothes_dwarven_shoulders1
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		male_clothes_arnor_shoulder_pieces = {
+			index = 6
+
+
+			male = {
+				1 = empty
+				#########3 = male_clothes_arnorian_shoulders1 should be this one! temp removed for visuals
+				#3 = male_clothes_gondorian_shoulders1
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		male_clothes_gondor_shoulder_pieces = {
+			index = 7
+
+
+			male = {
+				1 = empty
+				#3 = male_clothes_arnorian_shoulders1
+				############3 = male_clothes_gondorian_shoulders1 - > should be this one! temp removed for visuals
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		haradrim_armour_pieces = {
+			index = 8
+
+
+			male = {
+				3 = male_piece_haradrim_neck
+				3 = male_piece_haradrim_neckpiece2
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+	}
+	
+	cloaks_2 = {
+		no_cloak = {
+			index = 0
+			male = {
+				1 = empty
 			}
 			female = {
 				1 = empty
 			}
 		}
-	}		
+		witchking_shoulders = {
+			index = 1
+			male = {
+				1 = male_piece_witchking_shoulders
+			}
+			female = {
+				1 = empty
+			}
+		}
+		fountainguard_shoulders = {
+			index = 1
+			male = {
+				1 = male_piece_gondor_fountainguard_shoulders
+			}
+			female = {
+				1 = empty
+			}
+		}
+		easterling_armour_pieces = {
+			index = 2
+
+
+			male = {
+				1 = male_piece_easterling_armour_pieces1
+				
+			}
+
+			female = {
+				1 = empty
+				
+			}
+
+			boy = male
+			girl = female
+		}
+		arnorian_sowshoulders = {
+			index = 3
+			male = {
+				1 = male_piece_arnoriansow_shoulders
+			}
+			female = {
+				1 = empty
+			}
+		}
+		
+	}
+
 }
 
 

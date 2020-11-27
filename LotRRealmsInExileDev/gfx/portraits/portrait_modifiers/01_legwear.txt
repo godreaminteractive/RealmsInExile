@@ -117,6 +117,8 @@
 				OR = {
 					portrait_western_clothing_trigger = yes
 					portrait_byzantine_clothing_trigger = yes
+					portrait_arnorian_clothing_trigger = yes
+					portrait_gondorian_clothing_trigger = yes
 				}
 				
 			}
@@ -154,26 +156,70 @@
 		}
 	}
 	
-## ROHAN ##
-	
-	generic_legwear = {
+	#nazgul attempt!
+	nazgul_legarms = {
+		dna_modifiers = {
+			
+			accessory = {
+	            mode = add
+	            gene = legwear
+	            template = nazgul_legwear
+	            range = { 0 1 }
+	        }
+			#
+		}	
+		weight = {
+	        base = 0
+	        modifier = {
+				has_trait = nazgul
+				add = 133
+			}
+		}
+	}
+	#nazgul attempt!
+	sauron_legarms = {
+		dna_modifiers = {
+			
+			accessory = {
+	            mode = add
+	            gene = legwear
+	            template = sauron_legwear
+	            range = { 0 1 }
+	        }
+			#
+		}	
+		weight = {
+	        base = 0
+	        modifier = {
+				AND={
+				has_trait = sauroninbattleform
+				}
+				add = 133
+			}
+		}
+	}
+	# ORCs
+	orc_legwear = {
 
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = legwear
-				template = generic_legwear
+				template = orc_basic_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
+			# morph = {
+			# 	mode = modify_multiply
+			# 	gene = gene_bs_body_shape
+			# 	value = 1.0
+			# 	template = body_shape_average
+			# }
 		}	
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
-				AND = {
-					portrait_rohirrim_clothing_trigger = yes
-					highest_held_title_tier >= tier_kingdom
-				}
+				add = 24
+				portrait_orc_clothing_trigger = yes
 			}
 		}
 	}

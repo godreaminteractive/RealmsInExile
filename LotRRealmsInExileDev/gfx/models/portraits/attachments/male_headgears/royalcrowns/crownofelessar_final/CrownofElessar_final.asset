@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "CrownofElessar_final_mesh"
+	file = "CrownofElessar_final.mesh"
+
+	meshsettings = {
+		name = "elessar_crownfiwnofelessarShape"
+		index = 0
+		texture_diffuse = "crown_of_elessar_albedo.dds"
+		texture_normal = "crown_of_elessar_normal.dds"
+		texture_specular = "crown_of_elessar_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "CrownofElessar_final_entity"
+	pdxmesh = "CrownofElessar_final_mesh"
+}

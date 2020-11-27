@@ -1,0 +1,361 @@
+﻿#e_reunitedkingdom = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "black"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_arnor_02.dds"
+#		color1 = "white"
+#	}
+#}
+
+### valinor
+e_valinor = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "e_valinor.dds"
+    }
+}
+## Lindon
+e_lindon = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "e_lindon.dds"
+    }
+}
+
+### 
+e_arnor = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "e_arnor.dds"
+    }
+}
+
+e_gondor = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "e_gondor.dds"
+    }
+}
+k_khazad_dum = { #
+	pattern = "pattern_solid.dds"
+    color1 = "grey"
+    color2 = "black"
+    textured_emblem = {
+        texture = "k_khazad_dum.dds"
+    }
+}
+###
+k_arthedain = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "k_arthedain.dds"
+    }
+}
+c_annuminas = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "black"
+    textured_emblem = {
+        texture = "c_annuminas.dds"
+    }
+}
+d_annuminas = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "black"
+    textured_emblem = {
+        texture = "d_annuminas.dds"
+    }
+}
+d_fornost = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "d_fornost.dds"
+    }
+}
+c_fornost = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "c_fornost.dds"
+    }
+}
+c_men_erain = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "c_men_erain.dds"
+    }
+}
+#
+c_umbar = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "c_umbar.dds"
+    }
+}
+d_umbar = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "d_umbar.dds"
+    }
+}
+k_umbar = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "k_umbar.dds"
+    }
+}
+k_harondor = { #
+	pattern = "pattern_solid.dds"
+    color1 = "red"
+    color2 = "red"
+    textured_emblem = {
+        texture = "k_harondor.dds"
+    }
+}
+e_anadune = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "e_anadune.dds"
+    }
+}
+d_pelennor = { 
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "d_pelennor.dds"
+    }
+}
+d_lossarnach = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "d_lossarnach.dds"
+    }
+}
+d_pelargir = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "d_pelargir.dds"
+    }
+}
+c_pelargir = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "c_pelargir.dds"
+    }
+}
+d_royal_demesne = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+        texture = "d_royal_demesne.dds"
+    }
+}
+c_osgiliath_ithilien = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_osgiliath_ithilien.dds"
+    }
+}
+
+c_osgiliath_anorien = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_osgiliath_anorien.dds"
+    }
+}
+
+c_minas_anor = { #
+	pattern = "pattern_solid.dds"
+    color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_minas_anor.dds"
+    }
+}
+k_lebennin = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "k_lebennin.dds"
+    }
+}
+k_anorien = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "k_anorien.dds"
+    }
+}
+k_ithilien = { #
+	pattern = "pattern_solid.dds"
+   color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "k_ithilien.dds"
+    }
+}
+k_belfalas = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "white"
+    textured_emblem = {
+        texture = "k_belfalas.dds"
+    }
+}
+d_tolfalas = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "white"
+    textured_emblem = {
+        texture = "d_tolfalas.dds"
+    }
+}
+d_belfalas = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "d_belfalas.dds"
+    }
+}
+c_dol_amroth = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_dol_amroth.dds"
+    }
+}
+c_dol_amroth = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_dol_amroth.dds"
+    }
+}
+d_forithilien = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "d_forithilien.dds"
+    }
+}
+c_minas_ithil = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    textured_emblem = {
+        texture = "c_minas_ithil.dds"
+    }
+}
+d_fountainguards = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "black"
+    textured_emblem = {
+        texture = "d_fountainguards.dds"
+    }
+}
+
+# Cardolan
+k_cardolan = { #
+	pattern = "pattern_solid.dds"
+    color1 = "green"
+    color2 = "white"
+    colored_emblem = {
+		texture = "ce_cardolan_01.dds"
+		color1 = "white"
+		color2 = "blue"
+		instance = { rotation = 0 scale = { 0.99 0.99 }  position = { 0.5 0.5 } }
+	}
+}
+
+# Rhudaur
+k_rhudaur = { #
+	pattern = "pattern_solid.dds"
+    color1 = "red"
+    color2 = "white"
+    colored_emblem = {
+		texture = "ce_rhudaur_01.dds"
+		color1 = "white"
+		color2 = "blue"
+		instance = { rotation = 0 scale = { 0.99 0.99 }  position = { 0.5 0.5 } }
+	}
+}
+
+## 
+k_mithlond = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "k_mithlond.dds"
+    }
+}
+
+d_mithlond = { #
+	pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "blue"
+    textured_emblem = {
+        texture = "d_mithlond.dds"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

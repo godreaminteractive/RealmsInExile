@@ -42,6 +42,30 @@ middle_earth_west_rhovanion_anduin = {
 	}
 }
 
+# The SOUTH
+middle_earth_south = {
+	regions = {
+		 middle_earth_harad middle_earth_far_harad
+	}
+}
+
+# Harad
+middle_earth_harad = {
+	duchies = {
+		d_umbar d_akhor d_pharaz
+	}
+}
+
+
+
+# Far Harad and Bellakar
+
+middle_earth_far_harad = {
+	duchies = {
+			d_mardruak
+		}
+}
+
 ###########################################################################
 # Graphical Regions
 ###########################################################################
@@ -68,6 +92,16 @@ graphical_dunland = {
 	graphical = yes
 	regions = {
 		middle_earth_west_enedwaith
+	}
+}
+
+#### ADDONS?
+# using mena for south and harad?
+
+graphical_mena = {
+	graphical = yes
+	regions = {
+		middle_earth_south
 	}
 }
 
@@ -141,5 +175,14 @@ special_dunland_t4a_kingdom = {
 special_gondor_calenardhon = {
 	duchies = {
 		d_thefolde d_isengard d_westmark d_eastmark d_eastrohan
+	}
+}
+
+
+### ADDONS - SPECIAL 
+
+world_innovation_elephants = {
+	regions = {
+		 middle_earth_far_harad
 	}
 }

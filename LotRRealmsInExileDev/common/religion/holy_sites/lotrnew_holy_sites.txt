@@ -1,0 +1,54 @@
+﻿
+
+################################
+# Free Peoples of Middle-earth #
+################################
+
+# Dunedain and Arnor religion
+elostirion = {
+	county = c_emyn_beraid
+	barony = b_elostirion
+	character_modifier = {
+		name = holy_site_elostirion_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+mindolluin = {
+	county = c_minas_anor
+	barony = b_minas_anor
+	character_modifier = {
+		name = holy_site_mindolluin_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+eilenaer = {
+	county = c_amon_anwar
+	barony = b_eilenaer
+	character_modifier = {
+		name = holy_site_eilenaer_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+# for annuminas holy site copied from ck2 ver.
+aelinhith = {
+	county = c_pinnath_aelinhith
+	barony = b_tol_aelinhith
+	character_modifier = {
+		name = holy_site_aelinhith_effect_name
+		direct_vassal_opinion = 5
+	}
+
+}
+# Amon Sul - Palantir is here! major site for the northern kingdoms and a point of contention later on!
+amonsul = {
+	county = c_emyn_sul
+	barony = b_amon_sul
+	character_modifier = {
+		name = holy_site_amonsul_effect_name
+		direct_vassal_opinion = 5
+	}
+
+}

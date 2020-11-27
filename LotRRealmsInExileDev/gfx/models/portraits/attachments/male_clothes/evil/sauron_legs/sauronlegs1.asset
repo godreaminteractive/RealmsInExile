@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "sauronlegs1_mesh"
+	file = "sauronlegs1.mesh"
+
+	meshsettings = {
+		name = "smd_mesh11041Shape"
+		index = 0
+		texture_diffuse = "sauron_legs_diffuse.dds"
+		texture_normal = "sauron_legs_normal.dds"
+		texture_specular = "sauron_legs_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "sauronlegs1_entity"
+	pdxmesh = "sauronlegs1_mesh"
+}

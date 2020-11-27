@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "saurontorso1_mesh"
+	file = "saurontorso1.mesh"
+
+	meshsettings = {
+		name = "smd_mesh25576Shape"
+		index = 0
+		texture_diffuse = "sauron_body_diffuse.dds"
+		texture_normal = "sauron_body_normal.dds"
+		texture_specular = "sauron_body_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "saurontorso1_entity"
+	pdxmesh = "saurontorso1_mesh"
+}

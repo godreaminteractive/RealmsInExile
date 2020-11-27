@@ -16,21 +16,52 @@ seasons = "seasons.txt"
 #############
 # SEA ZONES
 #############
+#Seazones, Ranges:
+sea_zones = RANGE { 3500 3505 } #Sea of Rhun
+sea_zones = RANGE { 5500 5605 } #Haragaer
+sea_zones = RANGE { 5978 5999 } #Edge of map 
+sea_zones = RANGE { 6000 6187 } #Belegaer
 
 ###############
 # MAJOR RIVERS
 ###############
-
+river_provinces = LIST { 6502 6503 6504 6505 6506 6535 6536 } #Anduin
+river_provinces = LIST { 6507 } #Nuar
+river_provinces = LIST { 6508 } #Akhana
+river_provinces = LIST { 6509 6531 } #Denuly
+river_provinces = LIST { 6510 6511 6512 6523 6532 6533 6555 } #Harnen
+river_provinces = LIST { 6513 6514 6515 6556 6557 6558 6562 } #Celduin
+river_provinces = LIST { 6516 6517 6548 6549 } #Baranduin
+river_provinces = LIST { 6518 6519 6524 6544 6545 } #Angren
+river_provinces = LIST { 6520 6525 6550 6551 } #Lhun
+river_provinces = LIST { 6521 6522 6546 6547 } #Gwathlo
+river_provinces = LIST { 6526 6527 } #Lokhurush
+river_provinces = LIST { 6528 6529 6530 } #Sires
+river_provinces = LIST { 6537 6538 6539 } #Morthond
+river_provinces = LIST { 6540 6541 6542 6543 } #Lefnui
+river_provinces = LIST { 6552 6553 } #Angsir
+river_provinces = LIST { 6554 } #Gilrain
+river_provinces = LIST { 6559 6560 6574 6575 } #Siresha
+river_provinces = LIST { 6561 6568 6569 } #Othnen
+river_provinces = LIST { 6563 6564 } #Fola Kolomok
+river_provinces = LIST { 6565 6566 6567 } #Vol Kug
+river_provinces = LIST { 6534 6570 6571 } #Poros
+river_provinces = LIST { 6572 6573 } #Siyesha
 ########
 # LAKES
 ########
-
+lakes = RANGE { 3435 3499 }
+lakes = RANGE { 3520 3549 }
+#Lakes, List:
 #####################
 # IMPASSABLE TERRAIN
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
-
+impassable_mountains = LIST { 7999 }				
+impassable_mountains = RANGE { 5978 5999 } #Impassable edge of map oceans/rivers
+impassable_mountains = RANGE { 4000 4400 }	
+impassable_mountains = RANGE { 4402 4665 }	
 ############
 # WASTELAND
 ############

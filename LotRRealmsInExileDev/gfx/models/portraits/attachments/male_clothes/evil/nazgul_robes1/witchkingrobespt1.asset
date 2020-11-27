@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "witchkingrobespt1_mesh"
+	file = "witchkingrobespt1.mesh"
+
+	meshsettings = {
+		name = "witchkingRobes_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "witchking_robes2_diffuse.dds"
+		texture_normal = "witchking_robes_normal.dds"
+		texture_specular = "witchking_robes_specular.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "witchkingrobespt1_entity"
+	pdxmesh = "witchkingrobespt1_mesh"
+}

@@ -1,0 +1,16 @@
+﻿### k sauron's hideout?
+# mostly orcs now...?
+
+# 
+1106 = { # 
+	culture = culture_regularorc
+	religion = evilofmelkor
+	holding = tribal_holding
+	#
+}
+1102 = { # 
+	culture = culture_regularorc
+	religion = evilofmelkor
+	holding = church_holding
+	#
+}

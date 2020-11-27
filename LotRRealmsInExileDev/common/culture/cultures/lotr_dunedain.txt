@@ -41,7 +41,7 @@ lotr_dunedain_group = {
 #		dunedain_unit_gfx
 		western_coa_gfx
 		mediterranean_building_gfx
-		western_clothing_gfx
+		#western_clothing_gfx
 		western_unit_gfx
 	}
 
@@ -66,11 +66,16 @@ lotr_dunedain_group = {
 		{ name = mercenary_company_keepers_of_arnor } # Keepers of Arnor
 		{ name = mercenary_company_swords_of_the_north } # Swords of the North
 	}
-
-	numenorean = {
+	
+	# culture_numenorean
+	culture_numenorean = {
+		graphical_cultures = {
+			western_coa_gfx
+			arnorian_clothing_gfx
+		}
 		color = hsv { 0.81 0.27 0.42 }
 		ethnicities = {
-			10 = mediterranean
+			10 = race_numenorean
 		}
 		character_modifier = { # 12 points spent
 			martial		= 2
@@ -78,7 +83,7 @@ lotr_dunedain_group = {
 			learning	= 1
 			prowess		= 2
 #			trait		= dunedain
-			trait		= blood_of_numenor
+			#trait		= blood_of_numenor
 		}
 		
 		used_for_random = no
@@ -107,7 +112,36 @@ lotr_dunedain_group = {
 		}
 		dynasty_of_location_prefix = "dynnp_an"
 		male_names = {
-			Adanedhel Adrahil Aegion Aeglos Aerennel Agarwaen Agathor Ainundil Ainundur Alandur Alatar Alcarin Alcarnir Aldamir Aldarion Algund Almaryon Alphorn Alphros Alquandil Alquandur Alquantur Alquarosse Alquatir Amandil Amandur Amantur Amdir Amlach Amlaith Amroth Amrothor Amrothos Anaratan Anardil Anardur Anarion Anborn Ancalimon Androg Anducal Anduchil Andunar Andvir Angamaite Angbor Angelimir Annael Arachon Aradan Arador Araglas Aragorn Aragost Arahad Arahael Aramir Aranarth Arandur Aranel Arantar Aranuir Aranwe Araphant Araphor Arassuil Aratan Arathorn Araval Aravir Aravorn Arciryas Ardamin Ardamir Ardamire Argeleb Argonui Arlong Arminas Artamir Artanaro Arvedui Arvegil Arveleg Asgon Astandil Astandur Atanaher Atanalcar Atanamir Atanatar Aulendil Aulendur Ausir Autearyon Axantur Balan Baragond Baragund Barahir Baramir Baran Baranor Barthalion Belatar Beldir Belecthor Beleg Belegar Belegor Belegorn Belegund Belehir Belemir Belen Beor Bereg Beregar Beregond Beregund Berehir Berelach Beren Berenor Berethor Bergil Bor Borlach Borlad Borlas Borlong Borodir Boromir Boron Borondir Borothor Borthand Brandir Bregolas Bregor Cail Calimehtar Calimon Calion Calmacil Caramir Caranthir Castaher Castamaite Castamir Castarion Celdrahil Celeborn Celebrimbor Celebrindor Celepharn Cemendil Cemendur Cirdan Cirion Ciryaher Ciryandil Ciryandur Ciryatan Ciryatur Ciryon Corintur Cunamir Cunendil Cunendur Curimardin Cuthalion Daeron Damrod Denethor Derufin Dervorin Dior Dirhael Dirhavel Dorlad Dorlas Duilin Duinhir Duranil Eadacil Eadil Eadur Eambar Earcil Earendacil Earendil Earendur Eargon Earnil Earnur Eartar Ebor Ecteleion Ecthelion Edhelion Edhelmir Egalmoth Elatan Elatar Eldacar Eldalote Eldamir Eldarion Elecar Electele Electhel Elegost Elemmacil Elenalcar Elendil Elendin Elendur Elentir Elentur Elessar Elladan Elphir Elrohir Elrond Elros Eluchil Elumir Elured Elurin Emeryondo Enthor Eradan Erchirion Eremir Eruaryon Erucolindo Estel Estelmo Falandil Falandur Falassion Falastur Falmandil Falmandur Faramir Farandil Farandur Farlong Feandil Feandur Feanor Feantur Filigod Findegil Findemir Forlong Forweg Fuinur Gaeraglar Gaerdon Galador Galdor Galion Gelmir Gethron Gil-galad Girion Glorfindel Glormagil Golasdan Golasgil Gorthol Grithnir Guilin Gundor Gunthor Gwaihir Gwathir Gwindor Hador Halbarad Halberen Halboron Haldad Haldan Haldar Haldir Hallacar Hallas Hallatan Halmir Handir Hanmir Harathor Hardang Hathol Hatholdir Hathor Henderch Herendil Herendur Herenion Herion Hermacil Heruaryon Herucalmo Herucar Herumor Herunumen Hirgon Hirilonde Hirluin Hostamir Hostandil Hundad Hundar Hunthor Huor Hurin Hyarmendacil Imlach Incandil Incandur Indor Ingold Ingoldo Iorlas Iorthor Irmondil Irmondur Isilatan Isildil Isildur Isilehtar Isilmo Ithilbor Ivrindil Ivrindur Labadal Laurefindil Lauremacil Laurendil Laurendur Lintoron Llotendil Lorindol Mablung Maeglin Maewhir Maglor Magor Maiandil Maiandur Maiendil Maiendur Mairon Malach Malandil Malbeth Mallor Malvegil Mamandil Mamandur Manthor Manwendil Manwendur Marach Maratar Mardil Marenar Marmacil Mavar Mellondir Meneldil Meneldur Minadir Minalcar Minardil Minardur Minastan Minastir Mindacil Minyatur Mireadur Mireatan Mirendil Mirendur Mirion Mirlong Miryaher Miryanar Miryaryon Mordulin Moreinion Morinehtar Morlaen Mormacil Mormegil Mornar Mornuru Morvegil Nahar Namondil Namondur Naramir Narendil Narendur Narmacil Narmenel Neithan Nendur Nildondil Nildondur Nolimon Nolondil Nolondur Nucumna Nucumnehtar Numellote Numemir Numendil Numendur Numentur Ohtar Olorendil Olorendur Oluchil Olumir Olured Olurin Ondoher Orchaldor Orleg Ornendil Ornendur Orodor Orodreth Oromendil Oromendur Orontor Oropher Orophin Orrostar Orrostur Orthalion Ortollote Ossendil Ossendur Ostoher Ostomir Ostonar Palantir Palarran Parmaite Peleg Pelendur Pelethanor Penlodh Ragnir Raimond Raion Ranatar Restimar Rodnor Romatar Romemir Romendacil Romendil Romendur Romer Romestamo Rumil Sador Saelon Saerod Saeros Salgant Salmandil Salmandur Sangahyandion Sangahyando Seregon Silmardil Silmardur Silmerano Singollo Siriondil Soronramar Sorontar Soronto Suldor Sulendil Sulendur Sulicar Sulimar Sulion Sulitar Sulmacil Surion Tarannon Tarcalar Tarcil Tarciryan Targon Tarion Tarmacil Tarondor Tarostar Telcontar Telemacil Telemmaite Telemnar Telicur Telumehtar Terendul Thalion Thingol Thorondir Thorondor Thorongil Thoronroval Thurin Tiliondil Tiliondur Tuor Turambar Turendil Turendur Turgon Turin Turlong Turmacil Udalraph Uilomir Uinendil Uinendur Ulbar Uldor Ulfang Ulfast Ulmondil Ulmondur Ulrad Ulwarth Umarth Umbardacil Valacar Valamir Valandil Valandur Vardamir Vardil Vardur Veaher Veandil Veandur Veantur Vingidur Vingintur Vinyaher Vinyaran Vinyarion Virinar Virinehtar Voromir Vorommacil Vorommaite Vorondil Vorondur Voronwe Yulion
+			Adanedhel Adrahil Aegion Aeglos Aerennel Agarwaen Agathor Ainundil Ainundur Alandur Alatar Alcarin Alcarnir Aldamir Aldarion Algund Almaryon Alphorn Alphros 
+			Alquandil Alquandur Alquantur Alquarosse Alquatir Amandil Amandur Amantur Amdir Amlach Amlaith Amroth Amrothor Amrothos Anaratan Anardil Anardur Anarion Anborn 
+			Ancalimon Androg Anducal Anduchil Andunar Andvir Angamaite Angbor Angelimir Annael Arachon Aradan Arador Araglas Aragorn Aragost Arahad Arahael Aramir Aranarth 
+			Arandur Aranel Arantar Aranuir Aranwe Araphant Araphor Arassuil Aratan Arathorn Araval Aravir Aravorn Arciryas Ardamin Ardamir Ardamire Argeleb Argonui Arlong 
+			Arminas Artamir Artanaro Arvedui Arvegil Arveleg Asgon Astandil Astandur Atanaher Atanalcar Atanamir Atanatar Aulendil Aulendur Ausir Autearyon Axantur Balan 
+			Baragond Baragund Barahir Baramir Baran Baranor Barthalion Belatar Beldir Belecthor Beleg Belegar Belegor Belegorn Belegund Belehir Belemir Belen Beor Bereg Beregar 
+			Beregond Beregund Berehir Berelach Beren Berenor Berethor Bergil Bor Borlach Borlad Borlas Borlong Borodir Boromir Boron Borondir Borothor Borthand Brandir Bregolas 
+			Bregor Cail Calimehtar Calimon Calion Calmacil Caramir Caranthir Castaher Castamaite Castamir Castarion Celdrahil Celeborn Celebrimbor Celebrindor Celepharn Cemendil 
+			Cemendur Cirdan Cirion Ciryaher Ciryandil Ciryandur Ciryatan Ciryatur Ciryon Corintur Cunamir Cunendil Cunendur Curimardin Cuthalion Daeron Damrod Denethor Derufin 
+			Dervorin Dior Dirhael Dirhavel Dorlad Dorlas Duilin Duinhir Duranil Eadacil Eadil Eadur Eambar Earcil Earendacil Earendil Earendur Eargon Earnil Earnur Eartar 
+			Ecteleion Ecthelion Edhelion Edhelmir Egalmoth Elatan Elatar Eldacar Eldalote Eldamir Eldarion Elecar Electele Electhel Elegost Elemmacil Elenalcar Elendil Elendin 
+			Elendur Elentir Elentur Elessar Elladan Elphir Elrohir Elrond Elros Eluchil Elumir Elured Elurin Emeryondo Enthor Eradan Erchirion Eremir Eruaryon Erucolindo Estel 
+			Estelmo Falandil Falandur Falassion Falastur Falmandil Falmandur Faramir Farandil Farandur Farlong Feandil Feandur Feanor Feantur Filigod Findegil Findemir Forlong 
+			Forweg Fuinur Gaeraglar Gaerdon Galador Galdor Galion Gelmir Gethron Gil-galad Girion Glorfindel Glormagil Golasdan Golasgil Gorthol Grithnir Guilin Gundor Gunthor 
+			Gwaihir Gwathir Gwindor Hador Halbarad Halberen Halboron Haldad Haldan Haldar Haldir Hallacar Hallas Hallatan Halmir Handir Hanmir Harathor Hardang Hathol Hatholdir 
+			Hathor Henderch Herendil Herendur Herenion Herion Hermacil Heruaryon Herucalmo Herucar Herumor Herunumen Hirgon Hirilonde Hirluin Hostamir Hostandil Hundad Hundar 
+			Hunthor Huor Hurin Hyarmendacil Imlach Incandil Incandur Indor Ingold Ingoldo Iorlas Iorthor Irmondil Irmondur Isilatan Isildil Isildur Isilehtar Isilmo Ithilbor 
+			Ivrindil Ivrindur Labadal Laurefindil Lauremacil Laurendil Laurendur Lintoron Llotendil Lorindol Mablung Maeglin Maewhir Maglor Magor Maiandil Maiandur Maiendil 
+			Maiendur Mairon Malach Malandil Malbeth Mallor Malvegil Mamandil Mamandur Manthor Manwendil Manwendur Marach Maratar Mardil Marenar Marmacil Mavar Mellondir 
+			Meneldil Meneldur Minadir Minalcar Minardil Minardur Minastan Minastir Mindacil Minyatur Mireadur Mireatan Mirendil Mirendur Mirion Mirlong Miryaher Miryanar 
+			Miryaryon Mordulin Moreinion Morinehtar Morlaen Mormacil Mormegil Mornar Mornuru Morvegil Nahar Namondil Namondur Naramir Narendil Narendur Narmacil Narmenel 
+			Nendur Nildondil Nildondur Nolimon Nolondil Nolondur Nucumna Nucumnehtar Numellote Numemir Numendil Numendur Numentur Ohtar Olorendil Olorendur Oluchil 
+			Olumir Olured Olurin Ondoher Orchaldor Orleg Ornendil Ornendur Orodor Orodreth Oromendil Oromendur Orontor Oropher Orophin Orrostar Orrostur Orthalion 
+			Ortollote Ossendil Ossendur Ostoher Ostomir Ostonar Palantir Palarran Parmaite Peleg Pelendur Pelethanor Penlodh Ragnir Raimond Raion Ranatar Restimar Rodnor 
+			Romatar Romemir Romendacil Romendil Romendur Romer Romestamo Rumil Sador Saelon Saerod Saeros Salgant Salmandil Salmandur Sangahyandion Sangahyando Seregon 
+			Silmardil Silmardur Silmerano Singollo Siriondil Soronramar Sorontar Soronto Suldor Sulendil Sulendur Sulicar Sulimar Sulion Sulitar Sulmacil Surion Tarannon 
+			Tarcalar Tarcil Tarciryan Targon Tarion Tarmacil Tarondor Tarostar Telcontar Telemacil Telemmaite Telemnar Telicur Telumehtar Terendul Thalion Thingol Thorondir 
+			Thorondor Thorongil Thoronroval Thurin Tiliondil Tiliondur Tuor Turambar Turendil Turendur Turgon Turin Turlong Turmacil Udalraph Uilomir Uinendil Uinendur Ulbar 
+			Uldor Ulfang Ulfast Ulmondil Ulmondur Ulrad Ulwarth Umarth Umbardacil Valacar Valamir Valandil Valandur Vardamir Vardil Vardur Veaher Veandil Veandur Veantur 
+			Vingidur Vingintur Vinyaher Vinyaran Vinyarion Virinar Virinehtar Voromir Vorommacil Vorommaite Vorondil Vorondur Voronwe Yulion
 		}
 		female_names = {
 			Adanel Aerin Aerinel Ailinel Ainarauta Aldawen Almarian Almariel Almarien Almarwen Almiel Altariel Amandilme Amarie Amarwen Amiel Anaire Ancalime Andaranel Andreth Andriel Anwen Aragiliel Aranel Aranelaith Aranwen Aranwinga Arbereth Ardien Aredhel Arellas Arniel Artanis Arwen Arwing Aryawen Aurel Avarwen Baraniel Beinwen Beldis Beleth Bellas Belthil Belwen Bereth Beril Beruthiel Boriel Borien Boromis Borowen Borwen Bregil Brithwen Calanril Calimawen Calime Calisse Calwen Celdwen Celebiel Celebrian Celebrindal Celenneth Corwen Culurien Dorien Dulin Earendilme Eariel Earnisse Earuile Earwen Eawen Edhetariel Eirien Elanna Elanor Eledhwen Elemmire Elendilme Elenwen Elenwing Elerya Elestel Elian Eliane Elisse Elnith Elwing Emeldir Emeldire Emelin Emelisse Emelwen Emerwen Eraniel Erendis Erestel Esteliel Estelien Estendilme Faelivrin Faire Faniel Farawen Feiniel Findis Finduilas Fingalithil Finvain Firiel Firien Forowen Fuiniel Galadriel Galadwen Galenil Gelliel Gildis Gillas Gilmith Gilraen Gilraeth Gilrian Gilwen Gloredhel Glorwen Gwaewen Gwelwen Haleth Hareth Heldiriel Heliniel Hereniel Hiril Hirwen Hunleth Hurowen Idrien Idril Ilumire Ilweranta Indil Ioreth Ireth Iricie Irilde Irime Irisse Isilme Isilwen Itarilde Ithilwen Ithilwing Ivorwen Ivriniel Lalaith Lalwen Laurelach Lindamel Lindisse Lindorie Liriel Lloteien Llotendilme Loralya Lorwend Losse Lossie Lothiriel Lothwen Lothwing Luindis Lumiel Lurien Luthien Maewen Maewiel Maia Mairen Malrunya Malwen Melabrian Melde Meldis Melenis Meleth Melian Melyanna Meneloth Merien Millote Minisse Minuial Miriel Mirien Mirilas Mirime Mirwen Miryaiel Miryaien Mithiel Mithrellas Moriel Morien Morlime Morwen Nariel Narien Narieth Narime Narniel Nedhwen Nehte Nellas Nerwen Nessanie Nessiel Nienor Nildawen Nimloth Nimrodel Niniel Noliel Numeniel Nuneth Oarwen Olosse Orbereth Orothel Orowen Pallas Palurien Parawen Quiltaye Quimelle Raimelin Rian Rianna Romeniel Saelind Sarawen Selerwen Selloth Serinde Siliel Silien Silmariel Silmarien Sirioniel Suriel Surien Tarandis Taurwen Telenisse Telepe Teleprianna Telerien Telperien Thaliel Tiliel Tindome Tindomiel Tinuveil Turwen Uinilme Umbasiel Undomiel Urwen Vaire Vana Vanimelde Vardilme Vardurme Veaniel Veawen Viresse Vorima Yavaniel Yavien
@@ -117,9 +151,14 @@ lotr_dunedain_group = {
 	}
 	
 	dunedain = {
+		graphical_cultures = {
+			western_coa_gfx
+			#TEMP
+			arnorian_clothing_gfx
+		}
 		color = hsv { 0.81 0.27 0.42 } # { 0.4 0.3 0.6 }
 		ethnicities = {
-			10 = mediterranean
+			10 = race_numenorean
 		}
 		character_modifier = { # 12 points spent
 			martial		= 2
@@ -161,19 +200,14 @@ lotr_dunedain_group = {
 		patronym_suffix_female = "dynnpat_suf_iel"
 	}
 
-#	arnorian = {
-#		color = hsv { 0.81 0.27 0.42 } # { 0.5 0.2 0.5 }
-#	}
-
-#	arnorian = {
-#		color = hsv { 0.81 0.27 0.42 } # { 0.7 0.5 0.7 }
-#	}
-
-
 	belfalathrim = {
+		graphical_cultures = {
+			western_coa_gfx
+			arnorian_clothing_gfx
+		}
 		color = hsv { 0.81 0.27 0.42 } # { 0.8 0.3 0.8 }
 		ethnicities = {
-			10 = mediterranean
+			10 = race_numenorean
 		}
 		character_modifier = { # 12 points spent
 			martial		= 2
@@ -216,19 +250,107 @@ lotr_dunedain_group = {
 		patronym_suffix_male = "dynnpat_suf_ion"
 		patronym_suffix_female = "dynnpat_suf_iel"
 	}
-	gondorian = {
-		color = hsv { 0.7 0.7 0.7 } # { 0.4 0.3 0.6 }
+
+	culture_arnorian = {
+		graphical_cultures = {
+			western_coa_gfx
+			arnorian_clothing_gfx
+		}
+		color = { 0.39 0.39 0.68 }
+		#color = hsv { 0.81 0.26 0.41 } # { 0.8 0.3 0.8 }
 		ethnicities = {
-			10 = mediterranean
+			10 = race_numenorean
 		}
 		character_modifier = { # 12 points spent
-			martial		= 3
+			martial		= 2
 #			diplomacy	= 
 #			intrigue	= 
-			stewardship	= 3
-#			learning	= 
-			prowess		= 3
+			stewardship	= 4
+			learning	= 1
+			prowess		= 2
+#			trait		= dunedain
 			trait		= blood_of_numenor
+		}
+		
+		used_for_random = no
+
+		cadet_dynasty_names = {
+			"dynn_Elatanionath" "dynn_Ardamirionath" "dynn_Valandilionath" "dynn_Ciryaturionath"
+			"dynn_Cuthalionath" "dynn_Belecthorionath" "dynn_Haldirionath" "dynn_Narmenelionath"
+			"dynn_Belegundionath" "dynn_Galadorionath" "dynn_Mindacilionath" "dynn_Orrosturionath"
+			"dynn_Calimonionath" "dynn_Virinarionath" "dynn_Feandurionath" "dynn_Damrodionath"
+			"dynn_Atanamirionath" "dynn_Telemnarionath" "dynn_Thoronrovalionath" "dynn_Rumilionath"
+			"dynn_Ranatarionath"
+		}
+		dynasty_names = {
+			"dynn_Elatanionath" "dynn_Ardamirionath" "dynn_Valandilionath" "dynn_Ciryaturionath"
+			"dynn_Cuthalionath" "dynn_Belecthorionath" "dynn_Haldirionath" "dynn_Narmenelionath"
+			"dynn_Belegundionath" "dynn_Galadorionath" "dynn_Mindacilionath" "dynn_Orrosturionath"
+			"dynn_Calimonionath" "dynn_Virinarionath" "dynn_Feandurionath" "dynn_Damrodionath"
+			"dynn_Atanamirionath" "dynn_Telemnarionath" "dynn_Thoronrovalionath" "dynn_Rumilionath"
+			"dynn_Ranatarionath"
+		}
+		dynasty_of_location_prefix = "dynnp_an"
+		male_names = {
+			Adanedhel Adrahil Aegion Aeglos Aerennel Agarwaen Agathor Ainundil Ainundur Alandur Alatar Alcarin Alcarnir Aldamir Aldarion Algund Almaryon Alphorn Alphros Alquandil 
+			Alquandur Alquantur Alquarosse Alquatir Amandil Amandur Amantur Amdir Amlach Amlaith Amroth Amrothor Amrothos Anaratan Anardil Anardur Anarion Anborn Ancalimon Androg 
+			Anducal Anduchil Andúnar Andvir Angamaite Angbor Angelimir Annael Arachon Aradan Arador Araglas Aragorn Aragost Arahad Arahael Aramir Aranarth Arandur Aranel Arantar 
+			Aranuir Aranwe Araphant Araphor Arassuil Aratan Arathorn Araval Aravir Aravorn Arciryas Ardamin Ardamir Ardamire Argeleb Argonui Arlong Arminas Artamir Artanaro Arvedui 
+			Arvegil Arveleg Asgon Astandil Astandur Atanaher Atanalcar Atanamir Atanatar Aulendil Aulendur Ausir Autearyon Axantur Balan Baragond Baragund Barahir Baramir Baran 
+			Baranor Barthalion Belatar Beldir Belecthor Beleg Belegar Belegor Belegorn Belegund Belehir Belemir Belen Beor Bereg Beregar Beregond Beregund Berehir Berelach Beren 
+			Berenor Berethor Bergil Bor Borlach Borlad Borlas Borlong Borodir Boromir Boron Borondir Borothor Borthand Brandir Bregolas Bregor Cail Calimehtar Calimon Calion Calmacil 
+			Caramir Caranthir Castaher Castamaite Castamir Castarion Celdrahil Celeborn Celebrimbor Celebrindor Celepharn Cemendil Cemendur Cirdan Cirion Ciryaher Ciryandil Ciryandur 
+			Ciryatan Ciryatur Ciryon Corintur Cunamir Cunendil Cunendur Curimardin Cuthalion Daeron Damrod Denethor Derufin Dervorin Dior Dirhael Dirhavel Dorlad Dorlas Duilin Duinhir 
+			Duranil Eadacil Eadil Eadur Eambar Earcil Earendacil Earendil Earendur Eargon Earnil Earnur Eartar Ebor Ecteleion Ecthelion Edhelion Edhelmir Egalmoth Elatan Elatar Eldacar 
+			Eldalote Eldamir Eldarion Elecar Electele Electhel Elegost Elemmacil Elenalcar Elendil Elendin Elendur Elentir Elentur Elessar Elladan Elphir Elrohir Elrond Elros Eluchil 
+			Elumir Elured Elurin Emeryondo Enthor Eradan Erchirion Eremir Eruaryon Erucolindo Estel Estelmo Falandil Falandur Falassion Falastur Falmandil Falmandur Faramir Farandil 
+			Farandur Farlong Feandil Feandur Feanor Feantur Filigod Findegil Findemir Forlong Forweg Fuinur Gaeraglar Gaerdon Galador Galdor Galion Gelmir Gethron Gil-galad Girion 
+			Glorfindel Glormagil Golasdan Golasgil Gorthol Grithnir Guilin Gundor Gunthor Gwaihir Gwathir Gwindor Hador Halbarad Halberen Halboron Haldad Haldan Haldar Haldir Hallacar 
+			Hallas Hallatan Halmir Handir Hanmir Harathor Hardang Hathol Hatholdir Hathor Henderch Herendil Herendur Herenion Herion Hermacil Heruaryon Herucalmo Herucar Herumor Herunumen 
+			Hirgon Hirilonde Hirluin Hostamir Hostandil Hundad Hundar Hunthor Huor Hurin Hyarmendacil Imlach Incandil Incandur Indor Ingold Ingoldo Iorlas Iorthor Irmondil Irmondur Isilatan 
+			Isildil Isildur Isilehtar Isilmo Ithilbor Ivrindil Ivrindur Labadal Laurefindil Lauremacil Laurendil Laurendur Lintoron Llotendil Lorindol Mablung Maeglin Maewhir Maglor Magor 
+			Maiandil Maiandur Maiendil Maiendur Mairon Malach Malandil Malbeth Mallor Malvegil Mamandil Mamandur Manthor Manwendil Manwendur Marach Maratar Mardil Marenar Marmacil Mavar 
+			Mellondir Meneldil Meneldur Minadir Minalcar Minardil Minardur Minastan Minastir Mindacil Minyatur Mireadur Mireatan Mirendil Mirendur Mirion Mirlong Miryaher Miryanar Miryaryon 
+			Mordulin Moreinion Morinehtar Morlaen Mormacil Mormegil Mornar Mornuru Morvegil Nahar Namondil Namondur Naramir Narendil Narendur Narmacil Narmenel Neithan Nendur Nildondil 
+			Nildondur Nolimon Nolondil Nolondur Nucumna Nucumnehtar Numellote Numemir Numendil Numendur Numentur Ohtar Olorendil Olorendur Oluchil Olumir Olured Olurin Ondoher Orchaldor 
+			Orleg Ornendil Ornendur Orodor Orodreth Oromendil Oromendur Orontor Oropher Orophin Orrostar Orrostur Orthalion Ortollote Ossendil Ossendur Ostoher Ostomir Ostonar Palantir 
+			Palarran Parmaite Peleg Pelendur Pelethanor Penlodh Ragnir Raimond Raion Ranatar Restimar Rodnor Romatar Romemir Romendacil Romendil Romendur Romer Romestamo Rumil Sador 
+			Saelon Saerod Saeros Salgant Salmandil Salmandur Sangahyandion Sangahyando Seregon Silmardil Silmardur Silmerano Singollo Siriondil Soronramar Sorontar Soronto Suldor Sulendil 
+			Sulendur Sulicar Sulimar Sulion Sulitar Sulmacil Surion Tarannon Tarcalar Tarcil Tarciryan Targon Tarion Tarmacil Tarondor Tarostar Telcontar Telemacil Telemmaite Telemnar 
+			Telicur Telumehtar Terendul Thalion Thingol Thorondir Thorondor Thorongil Thoronroval Thurin Tiliondil Tiliondur Tuor Turambar Turendil Turendur Turgon Turin Turlong Turmacil 
+			Udalraph Uilomir Uinendil Uinendur Ulbar Uldor Ulfang Ulfast Ulmondil Ulmondur Ulrad Ulwarth Umarth Umbardacil Valacar Valamir Valandil Valandur Vardamir Vardil Vardur Veaher 
+			Veandil Veandur Veantur Vingidur Vingintur Vinyaher Vinyaran Vinyarion Virinar Virinehtar Voromir Vorommacil Vorommaite Vorondil Vorondur Voronwe Yulion
+		}
+		female_names = {
+			Adanel Aerin Aerinel Ailinel Ainarauta Aldawen Almarian Almariel Almarien Almarwen Almiel Altariel Amandilme Amarie Amarwen Amiel Anaire Ancalime Andaranel Andreth Andriel Anwen Aragiliel Aranel Aranelaith Aranwen Aranwinga Arbereth Ardien Aredhel Arellas Arniel Artanis Arwen Arwing Aryawen Aurel Avarwen Baraniel Beinwen Beldis Beleth Bellas Belthil Belwen Bereth Beril Beruthiel Boriel Borien Boromis Borowen Borwen Bregil Brithwen Calanril Calimawen Calime Calisse Calwen Celdwen Celebiel Celebrían Celebrindal Celenneth Corwen Culurien Dorien Dulin Earendilme Eariel Earnisse Earuile Earwen Eawen Edhetariel Eirien Elanna Elanor Eledhwen Elemmire Elendilme Elenwen Elenwing Elerya Elestel Elian Eliane Elisse Elnith Elwing Emeldir Emeldire Emelin Emelisse Emelwen Emerwen Eraniel Erendis Erestel Esteliel Estelien Estendilme Faelivrin Faire Faniel Farawen Feiniel Findis Finduilas Fingalithil Finvain Firiel Firien Forowen Fuiniel Galadriel Galadwen Galenil Gelliel Gildis Gillas Gilmith Gilraen Gilraeth Gilrian Gilwen Gloredhel Glorwen Gwaewen Gwelwen Haleth Hareth Heldiriel Heliniel Hereniel Hiril Hirwen Hunleth Hurowen Idrien Idril Ilumire Ilweranta Indil Ioreth Ireth Iricie Irilde Irime Irisse Isilme Isilwen Itarilde Ithilwen Ithilwing Ivorwen Ivriniel Lalaith Lalwen Laurelach Lindamel Lindisse Lindorie Liriel Lloteien Llotendilme Loralya Lorwend Losse Lossie Lothiriel Lothwen Lothwing Luindis Lumiel Lurien Luthien Maewen Maewiel Maia Mairen Malrunya Malwen Melabrian Melde Meldis Melenis Meleth Melian Melyanna Meneloth Merien Millote Minisse Minuial Miriel Mirien Mirilas Mirime Mirwen Miryaiel Miryaien Mithiel Mithrellas Moriel Morien Morlimë Morwen Nariel Narien Narieth Narime Narniel Nedhwen Nehte Nellas Nerwen Nessanie Nessiel Nienor Nildawen Nimloth Nimrodel Niniel Noliel Numeniel Nuneth Oarwen Olosse Orbereth Orothel Orowen Pallas Palurien Parawen Quiltaye Quimelle Raimelin Rian Rianna Romeniel Saelind Sarawen Selerwen Selloth Serinde Siliel Silien Silmariel Silmarien Sirioniel Suriel Surien Tarandis Taurwen Telenisse Telepe Teleprianna Telerien Telperien Thaliel Tiliel Tindome Tindomiel Tinuveil Turwen Uinilme Umbasiel Undomiel Urwen Vaire Vana Vanimelde Vardilme Vardurme Veaniel Veawen Viresse Vorima Yavaniel Yavien
+			# Belfalathrim names
+			Morwen Meril Thaena Saewara
+		}
+		patronym_suffix_male = "dynnpat_suf_ion"
+		patronym_suffix_female = "dynnpat_suf_iel"
+		
+		always_use_patronym = yes	
+	}
+	
+	culture_gondorian = {
+		graphical_cultures = {
+			western_coa_gfx
+			gondorian_clothing_gfx
+		}
+		color = { 0.97 0.95 0.91 }
+		#color = hsv { 0.41 0.42 0.53 } # { 0.8 0.3 0.8 }
+		ethnicities = {
+			10 = race_numenorean
+		}
+		character_modifier = { # 12 points spent
+			martial		= 1
+#			diplomacy	= 
+#			intrigue	= 
+			stewardship	= 1
+			learning	= 1
+			prowess		= 2
+#			trait		= dunedain
+			#trait		= blood_of_numenor
 		}
 		
 		used_for_random = no
@@ -255,11 +377,72 @@ lotr_dunedain_group = {
 		}
 		female_names = {
 			Adanel Aerin Aerinel Ailinel Ainarauta Aldawen Almarian Almariel Almarien Almarwen Almiel Altariel Amandilme Amarie Amarwen Amiel Anaire Ancalime Andaranel Andreth Andriel Anwen Aragiliel Aranel Aranelaith Aranwen Aranwinga Arbereth Ardien Aredhel Arellas Arniel Artanis Arwen Arwing Aryawen Aurel Avarwen Baraniel Beinwen Beldis Beleth Bellas Belthil Belwen Bereth Beril Beruthiel Boriel Borien Boromis Borowen Borwen Bregil Brithwen Calanril Calimawen Calime Calisse Calwen Celdwen Celebiel Celebrían Celebrindal Celenneth Corwen Culurien Dorien Dulin Earendilme Eariel Earnisse Earuile Earwen Eawen Edhetariel Eirien Elanna Elanor Eledhwen Elemmire Elendilme Elenwen Elenwing Elerya Elestel Elian Eliane Elisse Elnith Elwing Emeldir Emeldire Emelin Emelisse Emelwen Emerwen Eraniel Erendis Erestel Esteliel Estelien Estendilme Faelivrin Faire Faniel Farawen Feiniel Findis Finduilas Fingalithil Finvain Firiel Firien Forowen Fuiniel Galadriel Galadwen Galenil Gelliel Gildis Gillas Gilmith Gilraen Gilraeth Gilrian Gilwen Gloredhel Glorwen Gwaewen Gwelwen Haleth Hareth Heldiriel Heliniel Hereniel Hiril Hirwen Hunleth Hurowen Idrien Idril Ilumire Ilweranta Indil Ioreth Ireth Iricie Irilde Irime Irisse Isilme Isilwen Itarilde Ithilwen Ithilwing Ivorwen Ivriniel Lalaith Lalwen Laurelach Lindamel Lindisse Lindorie Liriel Lloteien Llotendilme Loralya Lorwend Losse Lossie Lothiriel Lothwen Lothwing Luindis Lumiel Lurien Luthien Maewen Maewiel Maia Mairen Malrunya Malwen Melabrian Melde Meldis Melenis Meleth Melian Melyanna Meneloth Merien Millote Minisse Minuial Miriel Mirien Mirilas Mirime Mirwen Miryaiel Miryaien Mithiel Mithrellas Moriel Morien Morlimë Morwen Nariel Narien Narieth Narime Narniel Nedhwen Nehte Nellas Nerwen Nessanie Nessiel Nienor Nildawen Nimloth Nimrodel Niniel Noliel Numeniel Nuneth Oarwen Olosse Orbereth Orothel Orowen Pallas Palurien Parawen Quiltaye Quimelle Raimelin Rian Rianna Romeniel Saelind Sarawen Selerwen Selloth Serinde Siliel Silien Silmariel Silmarien Sirioniel Suriel Surien Tarandis Taurwen Telenisse Telepe Teleprianna Telerien Telperien Thaliel Tiliel Tindome Tindomiel Tinuveil Turwen Uinilme Umbasiel Undomiel Urwen Vaire Vana Vanimelde Vardilme Vardurme Veaniel Veawen Viresse Vorima Yavaniel Yavien
+			# Belfalathrim names
+			Morwen Meril Thaena Saewara
 		}
 		patronym_suffix_male = "dynnpat_suf_ion"
 		patronym_suffix_female = "dynnpat_suf_iel"
+		
+		always_use_patronym = yes	
 	}
+	
+	### NOT SURE HERE
+	culture_blacknumenorean = {
+		graphical_cultures = {
+			western_coa_gfx
+			blacknumenorean_clothing_gfx
+		}
+		color = { 0.87 0.55 0.61 }
+		#color = hsv { 0.97 0.98 0.91 } # { 0.8 0.3 0.8 }
+		ethnicities = {
+			10 = race_blacknumenorean
+		}
+		character_modifier = { # 12 points spent
+			martial		= 1
+#			diplomacy	= 
+#			intrigue	= 
+			intrigue	= 1
+			prowess		= 1
+#			trait		= dunedain
+			#trait		= blood_of_numenor
+		}
+		
+		used_for_random = no
 
+		cadet_dynasty_names = {
+			"dynn_Elatanionath" "dynn_Ardamirionath" "dynn_Valandilionath" "dynn_Ciryaturionath"
+			"dynn_Cuthalionath" "dynn_Belecthorionath" "dynn_Haldirionath" "dynn_Narmenelionath"
+			"dynn_Belegundionath" "dynn_Galadorionath" "dynn_Mindacilionath" "dynn_Orrosturionath"
+			"dynn_Calimonionath" "dynn_Virinarionath" "dynn_Feandurionath" "dynn_Damrodionath"
+			"dynn_Atanamirionath" "dynn_Telemnarionath" "dynn_Thoronrovalionath" "dynn_Rumilionath"
+			"dynn_Ranatarionath"
+		}
+		dynasty_names = {
+			"dynn_Elatanionath" "dynn_Ardamirionath" "dynn_Valandilionath" "dynn_Ciryaturionath"
+			"dynn_Cuthalionath" "dynn_Belecthorionath" "dynn_Haldirionath" "dynn_Narmenelionath"
+			"dynn_Belegundionath" "dynn_Galadorionath" "dynn_Mindacilionath" "dynn_Orrosturionath"
+			"dynn_Calimonionath" "dynn_Virinarionath" "dynn_Feandurionath" "dynn_Damrodionath"
+			"dynn_Atanamirionath" "dynn_Telemnarionath" "dynn_Thoronrovalionath" "dynn_Rumilionath"
+			"dynn_Ranatarionath"
+		}
+		dynasty_of_location_prefix = "dynnp_an"
+		male_names = {
+			Abâruzîr Abâruzûr Abârzagar Agandaûr Herumor Abattârik Abrazîr Abrazûr Abrazôr Adrahil Adûnabâr Adûnakhôr Adûnaphazôr Adûnazîr Adûnazûr Agandaûr Aglahad Akhôrahil Aphanuzîr 
+			Aphanuzûr Arphagôr Ârukhûrân Ârunarû Arzagar Avalôikhâz Avalôizîr Avalôizûr Azarkarbû Azarnarû Azrubêl Azruzûr Azûlphazgân Azûlzîr
+			Azûlzûr Balkumagân Balkuthôr Belnardu Belzagar Dâurnardu Edrahil Êruhil Gimilkhâd Gimilzagar Gimilzôr Îbal Imrahil Imrakhôr Imrazôr Indilzar Inziladûn Inzilbêl
+			Inzilzûr Inzilurud Minulzîr Minulzôr Minulzûr Mûrakhôr Mûrazôr Nâloân Nîlozîr Nîlozûr Nimruzîr Nimruzûr Nimrukhâz Pharazôn Sakalbâr Sakalthôr Sapazîr Sapazûr Tamarzîr 
+			Tamarzûr Ulbâr_Mavar Ulbuzîr Ulbuzûr Ûrêthôr Ûrêzîr Ûrêzûr Zabathân Zabathânardu Zimrabâr Zimrâdun Zimrkhâz Zimrathôn Zimrathôr Zimrazôr Zimrazûl
+		}
+		female_names = {
+			Abattâbêth Adrabêth Adûnaphel Adûphazî Âmugarâphel Anîzil Avradî Avradîbêlin Azrubêlin Azrukali Azrunithi Bêlkali Bêlnithil Gimilkali Îbanithil 
+			Imrabêth Imraphel Inzilbêlin Inzilbêth Mûrabêth Mûraphel Mûrnithil Zamîn Zimraphel
+			Zimrinzil Zimrnithil Zîryô
+		}
+		patronym_suffix_male = "dynnpat_suf_ion"
+		patronym_suffix_female = "dynnpat_suf_iel"
+		
+		always_use_patronym = yes	
+	}
 
 
 

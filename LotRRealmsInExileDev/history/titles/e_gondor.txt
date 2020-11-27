@@ -1,188 +1,2389 @@
-﻿# THE KINGDOM OF GONDOR
-
-e_gondor = {
-	3.1.1 = {
-		holder = lineofanarion1 # Anárion
-	}
-	139.1.1 = {
-		holder = lineofanarion5 # Meneldil
-	}
-	221.1.1 = {
-		holder = lineofanarion7 # Cemendur
-	}
-	238.1.1 = {
-		holder = lineofanarion8 # Eärendil
-	}
-	324.1.1 = {
-		holder = lineofanarion9 # Anardil
-	}
-	411.1.1 = {
-		holder = lineofanarion10 # Ostoher
-	}
-	492.1.1 = {
-		holder = lineofanarion11 # Rómendacil
-	}
-	541.1.1 = {
-		holder = lineofanarion12 # Turambar
-	}
-	667.1.1 = {
-		holder = lineofanarion13 # Atanatar
-	}
-	748.1.1 = {
-		holder = lineofanarion14 # Siriondil
-	}
-	830.1.1 = {
-		holder = lineofanarion15 # Tarannon Falastur
-	}
-	913.1.1 = {
-		holder = lineofanarion18 # Eärnil
-	}
-	936.1.1 = {
-		holder = lineofanarion19 # Ciryandil
-	}
-	1015.1.1 = {
-		holder = lineofanarion20 # Hyarmendacil Ciryahe
-	}
-	1149.1.1 = {
-		holder = lineofanarion21 # Atanatar Alcarin
-	}
-	1226.1.1 = {
-		holder = lineofanarion22 # Narmacil
-	}
-	1294.1.1 = {
-		holder = lineofanarion23 # Calmacil
-	}
-	1304.1.1 = {
-		holder = lineofanarion24 # Rómendacil
-	}
-	1366.1.1 = {
-		holder = lineofanarion26 # Valacar
-	}
-	1432.1.1 = {
-		holder = lineofanarion27 # Eldacar
-	}
-	1437.1.1 = {
-		holder = lineofanarion53 # Castamir, the Usurper
-	}
-	1447.1.1 = {
-		holder = lineofanarion27 # Eldacar
-	}
-	1490.1.1 = {
-		holder = lineofanarion29 # Aldamir
-	}
-	1540.1.1 = {
-		holder = lineofanarion30 # Hyarmendacil Vinyarion
-	}
-	1621.1.1 = {
-		holder = lineofanarion31 # Minardil
-	}
-	1634.1.1 = {
-		holder = lineofanarion32 # Telemnar
-	}
-	1636.1.1 = {
-		holder = lineofanarion37 # Tarondor
-	}
-	1798.1.1 = {
-		holder = lineofanarion38 # Telumehtar Umbardacil
-	}
-	1850.1.1 = {
-		holder = lineofanarion39 # Narmacil
-	}
-	1856.1.1 = {
-		holder = lineofanarion40 # Calimehtar
-	}
-	1936.1.1 = {
-		holder = lineofanarion41 # Ondoher
-	}
-	1944.1.1 = {
-		holder = lineofanarion50 # Eärnil II
-	}
-	2043.1.1 = {
-		holder = lineofanarion51 # Eärnur, the Last King of Gondor
-	}
+﻿#imported from ck2 ME
+#imported from ck2 ME
+# high kingdom
+e_gondor={
 	
-	### The Stewards of Gondor
+	8000.2.2 = { change_development_level = 3 } #
 	
-	2050.1.1 = {
-		holder = linesteward4 # Mardil Voronwë
-	}
-	2080.1.1 = {
-		holder = linesteward5 # Eradan
-	}
-	2116.1.1 = {
-		holder = linesteward6 # Herion
-	}
-	2148.1.1 = {
-		holder = linesteward7 # Belegorn
-	}
-	2204.1.1 = {
-		holder = linesteward8 # Húrin
-	}
-	2244.1.1 = {
-		holder = linesteward11 # Túrin
-	}
-	2278.1.1 = {
-		holder = linesteward15 # Hador
-	}
-	2295.1.1 = {
-		holder = linesteward16 # Barahir
-	}
-	2412.1.1 = {
-		holder = linesteward17 # Dior
-	}
-	2435.1.1 = {
-		holder = linesteward19 # Denethor
-	}
-	2477.1.1 = {
-		holder = linesteward22 # Boromir
-	}
-	2489.1.1 = {
-		holder = linesteward23 # Cirion
-	}
-	2567.1.1 = {
-		holder = linesteward24 # Hallas
-	}
-	2605.1.1 = {
-		holder = linesteward50 # Húrin II
-	}
-	2628.1.1 = {
-		holder = linesteward25 # Belecthor
-	}
-	2655.1.1 = {
-		holder = linesteward26 # Orodreth
-	}
-	2685.1.1 = {
-		holder = linesteward27 # Ecthelion I
-	}
-	2698.1.1 = {
-		holder = linesteward30 # Egalmoth
-	}
-	2743.1.1 = {
-		holder = linesteward31 # Beren
-	}
-	2763.1.1 = {
-		holder = linesteward32 # Beregond
-	}
-	2811.1.1 = {
-		holder = linesteward33 # Belecthor II
-	}
-	2872.1.1 = {
-		holder = linesteward34 # Thorondir 
-	}
-	2882.1.1 = {
-		holder = linesteward35 # Túrin II 
-	}
-	2914.1.1 = {
-		holder = linesteward36 # Turgon 
-	}
-	2953.1.1 = {
-		holder = linesteward37 # Ecthelion II 
-	}
-	2984.1.1 = {
-		holder = linesteward38 # Denethor II 
-	}
-#	2984.1.1 = {
-#		holder = ARAGORN / ELESSAR
-#	}
+	8343.1.1=
+{
+holder = 12136 # Isildur
+}
+8345.1.1=
+{
+holder = 12143 # Meneldil
+}
+8501.1.1=
+{
+holder = 1408 # Cemendur
+}
+8581.1.1=
+{
+holder = 1641 # Eärendil
+}
+8667.1.1=
+{
+holder = 1643 # Anardil
+}
+8754.1.1=
+{
+holder = 1644 # Ostoher
+}
+8835.1.1=
+{
+holder = 1646 # Rómendacil I
+}
+8884.1.1=
+{
+holder = 1648 # Turambar
+}
+9010.1.1=
+{
+holder = 1650 # Atanatar I
+}
+9091.1.1=
+{
+holder = 1652 # Siriondil
+}
+9173.1.1=
+{
+holder = 1654 # Tarannon
+}
+9256.1.1=
+{
+holder = 1657 # Eärnil I
+}
+9279.1.1=
+{
+holder = 1659 # Ciryandil
+}
+9358.1.1=
+{
+holder = 1661 # Hyarmendacil I
+}
+9492.1.1=
+{
+holder = 1663 # Atanatar II
+}
+9569.1.1=
+{
+holder = 1665 # Narmacil I
+}
+9637.1.1=
+{
+holder = 1666 # Calmacil
+}
+9647.1.1=
+{
+holder = 1668 # Rómendacil II
+}
+9709.1.1=
+{
+holder = 1670 # Valacar
+}
+9775.1.1=
+{
+holder = 1671 # Eldacar
+}
+9780.1.1=
+{
+holder = 1739 # Castamir
+}
+9790.1.1=
+{
+holder = 1671 # Eldacar
+}
+9833.1.1=
+{
+holder = 1674 # Aldamir
+}
+9883.1.1=
+{
+holder = 1677 # Hyarmendacil II
+}
+9964.1.1=
+{
+holder = 1682 # Minardil
+}
+9977.1.1=
+{
+holder = 1693 # Telemnar
+}
+9979.1.1=
+{
+holder = 1709 # Tarondor
+}
+10141.1.1=
+{
+holder = 1710 # Telumehtar Umbardacil
+}
+10193.1.1=
+{
+holder = 1712 # Narmacil II
+}
+10199.1.1=
+{
+holder = 1718 # Calimehtar
+}
+10279.1.1=
+{
+holder = 1721 # Ondoher
+}
+10287.7.12=
+{
+holder = 1725 # Minohtar
+}
+10287.7.13=
+{
+holder = 1733 # Eärnil II
+}
+10386.1.1=
+{
+holder = 1734 # Eärnur
+}
+10393.1.1=
+{
+holder = 0 
+}
+	
 }
 
+
+#k of gondor
+k_anorien={
+	
+	8000.2.2 = { change_development_level = 3 } #
+	
+	4950.1.1=
+{
+holder =  24001 # Ishmalogim lines
+}
+5010.1.1=
+{
+holder =  24002
+}
+5051.1.1=
+{
+holder =  24003
+}
+5102.1.1=
+{
+holder =  24004
+}
+5153.1.1=
+{
+holder =  24005
+}
+5215.1.1=
+{
+holder =  24006
+}
+5262.1.1=
+{
+holder =  24007
+}
+5317.1.1=
+{
+holder =  24008
+}
+5375.1.1=
+{
+holder =  24009
+}
+5427.1.1=
+{
+holder =  24010
+}
+5488.1.1=
+{
+holder =  24011
+}
+5550.1.1=
+{
+holder =  24012
+}
+5604.1.1=
+{
+holder =  24013
+}
+5666.1.1=
+{
+holder =  24014
+}
+5717.1.1=
+{
+holder =  24015
+}
+5774.1.1=
+{
+holder =  24016
+}
+5836.1.1=
+{
+holder =  24017
+}
+5891.1.1=
+{
+holder =  24018
+}
+5945.1.1=
+{
+holder =  24019
+}
+6005.1.1=
+{
+holder = 24020
+}
+6068.1.1=
+{
+holder = 24021
+}
+6130.1.1=
+{
+holder = 24022
+}
+6188.1.1=
+{
+holder = 24023
+}
+6246.1.1=
+{
+holder = 24024
+}
+6303.1.1=
+{
+holder = 24025
+}
+6359.1.1=
+{
+holder = 24026
+}
+6422.1.1=
+{
+holder = 24027
+}
+6475.1.1=
+{
+holder = 24028
+}
+6534.1.1=
+{
+holder = 24029
+}
+6596.1.1=
+{
+holder = 24030
+}
+6650.1.1=
+{
+holder = 24031
+}
+6710.1.1=
+{
+holder = 24032
+}
+6771.1.1=
+{
+holder = 24033
+}
+6822.1.1=
+{
+holder = 24034
+}
+6883.1.1=
+{
+holder = 24035
+}
+6942.1.1=
+{
+holder = 24036
+}
+7007.1.1=
+{
+holder = 0
+}
+
+
+7800.1.1=
+{
+liege="e_numenor"
+holder =  12349 # Ainundur
+}
+7991.1.1=
+{
+holder =  12350 # Duranil
+}
+8104.1.1=
+{
+holder =  12351 # Eärcil
+}
+8194.1.1=
+{
+holder =  12352 # Hostandil
+}
+8220.1.1=
+{
+liege="e_reunited_kingdom"
+}
+8221.1.1=
+{
+holder =  12137 # Anarion
+}
+8343.1.1=
+{
+holder =  1160 # Haldar
+liege = "e_gondor"
+}
+8471.1.1=
+{
+holder =  1161 # Rùmil
+}
+8525.1.1=
+{
+holder =  1162 # Aranwë
+}
+8577.1.1=
+{
+holder =  1163 # Tarcil
+}
+8618.1.1=
+{
+holder =  1164 # Andunar
+}
+8655.1.1=
+{
+holder =  1165 # Andvir
+}
+8710.1.1=
+{
+holder =  1166 # Turin I
+}
+8746.1.1=
+{
+holder =  1167 # Belimir
+}
+8821.1.1=
+{
+holder =  1168 # Baragund I
+}
+8880.1.1=
+{
+holder =  1169 # Vorondil
+}
+8935.1.1=
+{
+holder =  1170 # Mamandil 
+}
+9005.1.1=
+{
+holder =  1171 # Naramir 
+}
+9047.1.1=
+{
+holder =  1173 # Mardil 
+}
+9066.1.1=
+{
+holder =  1174 # Numendur 
+}
+9113.1.1=
+{
+holder =  1175 # Gwindor
+}
+9155.1.1=
+{
+holder =  1176 # Hurin I
+}
+9228.1.1=
+{
+holder =  1177 # Alandur I
+}
+9258.1.1=
+{
+holder =  1178 # Bregor 
+}
+9318.1.1=
+{
+holder =  1179 # Ohtar I
+}
+9363.1.1=
+{
+holder =  1180 # Turgon I
+}
+9418.1.1=
+{
+holder =  1181 # Terendul I
+}
+9458.1.1=
+{
+holder =  1182 # Belegor
+}
+9511.1.1=
+{
+holder =  1183 # Dirhael
+}
+9551.1.1=
+{
+holder =  1184 # Dorlas
+}
+9601.1.1=
+{
+holder =  1185 # Eäcil
+}
+9648.1.1=
+{
+holder =  1186 # Eäthil
+}
+9705.1.1=
+{
+holder =  1187 # Eädur
+}
+9747.1.1=
+{
+holder =  1188 # Halmir
+}
+9785.1.1=
+{
+liege = e_gondor_kinstrife
+}
+9790.1.1=
+{
+liege = e_gondor
+}
+9805.1.1=
+{
+holder =  1189 # Hardang
+}
+9844.1.1=
+{
+holder =  1190 # Hathor
+}
+9885.1.1=
+{
+holder =  1191 # Hatholdir
+}
+9925.1.1=
+{
+holder =  1192 # Harathor
+}
+9975.1.1=
+{
+holder =  1193 # Hanmir
+}
+10001.1.1=
+{
+holder =  1194 # Hurin II
+}
+10055.1.1=
+{
+holder =  1195 # Andvir II
+}
+10093.1.1=
+{
+holder =  1196 # Galdor
+}
+10132.1.1=
+{
+holder =  1197 # Baragund II
+}
+10180.1.1=
+{
+holder =  1198 # Belemir
+}
+10217.1.1=
+{
+holder =  1199 # Bereg
+}
+10246.1.1=
+{
+holder =  1200 # Bregor
+}
+10299.1.1=
+{
+holder =  1201 # Belegor
+}
+10331.1.1=
+{
+holder =  1202 # Turin II
+}
+10379.1.1=
+{
+holder =  1203 # Baran
+}
+10393.1.1=
+{
+liege="e_steward_gondor"
+}
+10420.1.1=
+{
+holder =  1204 # Caranthir
+}
+10466.1.1=
+{
+holder =  1205 # Alatar
+}
+10543.1.1=
+{
+holder =  1206 # Aldamir
+}
+10601.1.1=
+{
+holder =  1207 # Ecthelion
+}
+10631.1.1=
+{
+holder =  1208 # Hurin III
+}
+10688.1.1=
+{
+holder =  1209 # Alandur II
+}
+10710.1.1=
+{
+holder =  1210 # Numenir
+}
+10747.1.1=
+{
+holder =  1211 # Nolondur
+}
+10792.1.1=
+{
+holder =  1212 # Nucumnehtar
+}
+10830.1.1=
+{
+holder =  16021 # Tiliondur (corrected ID)
+}
+10874.1.1=
+{
+holder =  16020 # Turmacil (corrected ID)
+}
+10913.1.1=
+{
+holder =  1214 # Turendil
+}
+10946.1.1=
+{
+holder =  1215 # Turgon II
+}
+10977.1.1=
+{
+holder =  1216 # Tuor II
+}
+11028.1.1=
+{
+holder =  1217 # Telicur
+}
+11080.1.1=
+{
+holder =  1218 # Terendul
+}
+11116.1.1=
+{
+holder =  1219 # Sulendur
+}
+11155.1.1=
+{
+holder =  1220 # Seregon
+}
+11175.1.1=
+{
+holder =  1221 # Saelon
+}
+11244.1.1=
+{
+holder =  1222 # Maglor (Name change)
+}
+11280.1.1=
+{
+holder =  1015 # Hador (son of Maglor)
+}
+11335.1.1=
+{
+holder =  1014 # Herion
+}
+11347.1.1=
+{
+holder =  2000 # Hurin IV of the Keys
+}
+11362.5.1=
+{
+liege = e_reunited_kingdom
+}
+11418.1.1=
+{
+holder =  30320 # Herion II of the Keys
+}
+11483.1.1=
+{
+holder =  30321 # Hirgon of the Keys
+}
+	
+	
+}
+
+# 
+d_royal_demesne = {
+
+8331.1.1=
+{
+liege="e_gondor"
+holder = 12137 # Anárion
+}
+8343.1.1=
+{
+holder = 12143 # Meneldil
+}
+8501.1.1=
+{
+holder = 1408 # Cemendur
+}
+8581.1.1=
+{
+holder = 1641 # Eärendil
+}
+8667.1.1=
+{
+holder = 1643 # Anardil
+}
+8754.1.1=
+{
+holder = 1644 # Ostoher
+}
+8835.1.1=
+{
+holder = 1646 # Rómendacil I
+}
+8884.1.1=
+{
+holder = 1648 # Turambar
+}
+9010.1.1=
+{
+holder = 1650 # Atanatar I
+}
+9091.1.1=
+{
+holder = 1652 # Siriondil
+}
+9173.1.1=
+{
+holder = 1654 # Tarannon
+}
+9256.1.1=
+{
+holder = 1657 # Eärnil I
+}
+9279.1.1=
+{
+holder = 1659 # Ciryandil
+}
+9358.1.1=
+{
+holder = 1661 # Hyarmendacil I
+}
+9492.1.1=
+{
+holder = 1663 # Atanatar II
+}
+9569.1.1=
+{
+holder = 1665 # Narmacil I
+}
+9637.1.1=
+{
+holder = 1666 # Calmacil
+}
+9647.1.1=
+{
+holder = 1668 # Rómendacil II
+}
+9709.1.1=
+{
+holder = 1670 # Valacar
+}
+9775.1.1=
+{
+holder = 1671 # Eldacar
+}
+9780.1.1=
+{
+holder = 1739 # Castamir
+}
+9790.1.1=
+{
+holder = 1671 # Eldacar
+}
+9833.1.1=
+{
+holder = 1674 # Aldamir
+}
+9883.1.1=
+{
+holder = 1677 # Hyarmendacil II
+}
+9964.1.1=
+{
+holder = 1682 # Minardil
+}
+9977.1.1=
+{
+holder = 1693 # Telemnar
+}
+9979.1.1=
+{
+holder = 1709 # Tarondor
+}
+10141.1.1=
+{
+holder = 1710 # Telumehtar Umbardacil
+}
+10193.1.1=
+{
+holder = 1712 # Narmacil II
+}
+10199.1.1=
+{
+holder = 1718 # Calimehtar
+}
+10279.1.1=
+{
+holder = 1721 # Ondoher
+}
+10287.7.12=
+{
+holder = 1725 # Minohtar
+}
+10287.7.13=
+{
+holder = 1733 # Eärnil II
+}
+10386.1.1=
+{
+holder = 1734 # Eärnur
+}
+10393.1.1=
+{
+#liege="e_steward_gondor"
+holder = 1916 # Mardil Voronwë
+}
+10423.1.1=
+{
+holder = 1917 # Eradan
+}
+10459.1.1=
+{
+holder = 1918 # Herion
+}
+10491.1.1=
+{
+holder = 1919 # Belegorn
+}
+10547.1.1=
+{
+holder = 1920 # Húrin I
+}
+10587.1.1=
+{
+holder = 1921 # Túrin I
+}
+10621.1.1=
+{
+holder = 1922 # Hador
+}
+10738.1.1=
+{
+holder = 1923 # Barahir
+}
+10755.1.1=
+{
+holder = 1924 # Dior
+}
+10778.1.1=
+{
+holder = 1926 # Denethor I
+}
+# Boromir dies at the same time as his father
+10820.1.1=
+{
+holder = 1928 # Cirion
+}
+10910.1.1=
+{
+holder = 1929 # Hallas
+}
+10948.1.1=
+{
+holder = 1930 # Húrin II
+}
+10971.1.1=
+{
+holder = 1931 # Belecthor I
+}
+10998.1.1=
+{
+holder = 1932 # Orodreth
+}
+11028.1.1=
+{
+holder = 1933 # Ecthelion I
+}
+11041.1.1=
+{
+holder = 1935 # Egalmoth
+}
+11086.1.1=
+{
+holder = 1936 # Beren
+}
+11106.1.1=
+{
+holder = 1937 # Beregond
+}
+11154.1.1=
+{
+holder = 1938 # Belecthor II
+}
+11215.1.1=
+{
+holder = 1939 # Thorondir
+}
+11225.1.1=
+{
+holder = 1940 # Túrin II
+}
+11257.1.1=
+{
+holder = 1941 # Turgon
+}
+11296.1.1=
+{
+holder = 1942 # Ecthelion II
+}
+11327.1.1=
+{
+holder = 1943 # Denethor II
+}
+
+
+	
+}	
+
+
+c_minas_anor = {
+	
+8000.1.1=
+{
+liege="d_pelennor"
+}
+8221.1.1=
+{
+holder = 12137 # Anarion
+}
+8343.1.1=
+{
+holder = 12143 # Meneldil
+}
+8501.1.1=
+{
+holder = 1408 # Cemendur
+}
+8581.1.1=
+{
+holder = 1641 # Eärendil
+}
+8667.1.1=
+{
+holder = 1643 # Anardil
+}
+8754.1.1=
+{
+holder = 1644 # Ostoher
+}
+8835.1.1=
+{
+holder = 1646 # Rómendacil I
+}
+8884.1.1=
+{
+holder = 1648 # Turambar
+}
+9010.1.1=
+{
+holder = 1650 # Atanatar I
+}
+9091.1.1=
+{
+holder = 1652 # Siriondil
+}
+9173.1.1=
+{
+holder = 1654 # Tarannon
+}
+9256.1.1=
+{
+holder = 1657 # Eärnil I
+}
+9279.1.1=
+{
+holder = 1659 # Ciryandil
+}
+9358.1.1=
+{
+holder = 1661 # Hyarmendacil I
+}
+9492.1.1=
+{
+holder = 1663 # Atanatar II
+}
+9569.1.1=
+{
+holder = 1665 # Narmacil I
+}
+9637.1.1=
+{
+holder = 1666 # Calmacil
+}
+9647.1.1=
+{
+holder = 1668 # Rómendacil II
+}
+9709.1.1=
+{
+holder = 1670 # Valacar
+}
+9775.1.1=
+{
+holder = 1671 # Eldacar
+}
+9780.1.1=
+{
+holder = 1739 # Castamir
+}
+9785.1.1=
+{
+holder = 1671 # Eldacar
+}
+9833.1.1=
+{
+holder = 1674 # Aldamir
+}
+9883.1.1=
+{
+holder = 1677 # Hyarmendacil II
+}
+9964.1.1=
+{
+holder = 1682 # Minardil
+}
+9977.1.1=
+{
+holder = 1693 # Telemnar
+}
+9979.1.1=
+{
+holder = 1709 # Tarondor
+}
+10141.1.1=
+{
+holder = 1710 # Telumehtar Umbardacil
+}
+10193.1.1=
+{
+holder = 1712 # Narmacil II
+}
+10199.1.1=
+{
+holder = 1718 # Calimehtar
+}
+10279.1.1=
+{
+holder = 1721 # Ondoher
+}
+10287.7.12=
+{
+holder = 1725 # Minohtar
+}
+10287.7.13=
+{
+holder = 1733 # Eärnil II
+}
+10386.1.1=
+{
+holder = 1734 # Eärnur
+}
+10393.1.1=
+{
+holder = 1916 # Mardil Voronwë
+}
+10423.1.1=
+{
+holder = 1917 # Eradan
+}
+10459.1.1=
+{
+holder = 1918 # Herion
+}
+10491.1.1=
+{
+holder = 1919 # Belegorn
+}
+10547.1.1=
+{
+holder = 1920 # Húrin I
+}
+10587.1.1=
+{
+holder = 1921 # Túrin I
+}
+10621.1.1=
+{
+holder = 1922 # Hador
+}
+10738.1.1=
+{
+holder = 1923 # Barahir
+}
+10755.1.1=
+{
+holder = 1924 # Dior
+}
+10778.1.1=
+{
+holder = 1926 # Denethor I
+}
+# Boromir dies the same time as his father
+10820.1.1=
+{
+holder = 1928 # Cirion
+}
+10910.1.1=
+{
+holder = 1929 # Hallas
+}
+10948.1.1=
+{
+holder = 1930 # Húrin II
+}
+10971.1.1=
+{
+holder = 1931 # Belecthor I
+}
+10998.1.1=
+{
+holder = 1932 # Orodreth
+}
+11028.1.1=
+{
+holder = 1933 # Ecthelion I
+}
+11041.1.1=
+{
+holder = 1935 # Egalmoth
+}
+11086.1.1=
+{
+holder = 1936 # Beren
+}
+11106.1.1=
+{
+holder = 1937 # Beregond
+}
+11154.1.1=
+{
+holder = 1938 # Belecthor II
+}
+11215.1.1=
+{
+holder = 1939 # Thorondir
+}
+11225.1.1=
+{
+holder = 1940 # Túrin II
+}
+11257.1.1=
+{
+holder = 1941 # Turgon
+}
+11296.1.1=
+{
+holder = 1942 # Ecthelion II
+}
+11327.1.1=
+{
+holder = 1943 # Denethor II
+}
+	
+}	
+
+
+# Minas Anor holder?!
+d_pelennor={
+	
+
+4950.1.1=
+{
+holder =  24001 # Ishmalogim lines
+}
+5010.1.1=
+{
+holder =  24002
+}
+5051.1.1=
+{
+holder =  24003
+}
+5102.1.1=
+{
+holder =  24004
+}
+5153.1.1=
+{
+holder =  24005
+}
+5215.1.1=
+{
+holder =  24006
+}
+5262.1.1=
+{
+holder =  24007
+}
+5317.1.1=
+{
+holder =  24008
+}
+5375.1.1=
+{
+holder =  24009
+}
+5427.1.1=
+{
+holder =  24010
+}
+5488.1.1=
+{
+holder =  24011
+}
+5550.1.1=
+{
+holder =  24012
+}
+5604.1.1=
+{
+holder =  24013
+}
+5666.1.1=
+{
+holder =  24014
+}
+5717.1.1=
+{
+holder =  24015
+}
+5774.1.1=
+{
+holder =  24016
+}
+5836.1.1=
+{
+holder =  24017
+}
+5891.1.1=
+{
+holder =  24018
+}
+5945.1.1=
+{
+holder =  24019
+}
+6005.1.1=
+{
+holder = 24020
+}
+6068.1.1=
+{
+holder = 24021
+}
+6130.1.1=
+{
+holder = 24022
+}
+6188.1.1=
+{
+holder = 24023
+}
+6246.1.1=
+{
+holder = 24024
+}
+6303.1.1=
+{
+holder = 24025
+}
+6359.1.1=
+{
+holder = 24026
+}
+6422.1.1=
+{
+holder = 24027
+}
+6475.1.1=
+{
+holder = 24028
+}
+6534.1.1=
+{
+holder = 24029
+}
+6596.1.1=
+{
+holder = 24030
+}
+6650.1.1=
+{
+holder = 24031
+}
+6710.1.1=
+{
+holder = 24032
+}
+6771.1.1=
+{
+holder = 24033
+}
+6822.1.1=
+{
+holder = 24034
+}
+6883.1.1=
+{
+holder = 24035
+}
+6942.1.1=
+{
+holder = 24036
+}
+7007.1.1=
+{
+holder = 0
+}
+
+
+7800.1.1=
+{
+liege="e_numenor"
+holder =  12349 # Ainundur
+}
+7991.1.1=
+{
+holder =  12350 # Duranil
+}
+8104.1.1=
+{
+holder =  12351 # Eärcil
+}
+8194.1.1=
+{
+holder =  12352 # Hostandil
+}
+8220.1.1=
+{
+liege="e_reunited_kingdom"
+}
+8221.1.1=
+{
+holder =  12137 # Anarion
+}
+8343.1.1=
+{
+holder =  1160 # Haldar
+liege = "e_gondor"
+}
+8471.1.1=
+{
+holder =  1161 # Rùmil
+}
+8525.1.1=
+{
+holder =  1162 # Aranwë
+}
+8577.1.1=
+{
+holder =  1163 # Tarcil
+}
+8618.1.1=
+{
+holder =  1164 # Andunar
+}
+8655.1.1=
+{
+holder =  1165 # Andvir
+}
+8710.1.1=
+{
+holder =  1166 # Turin I
+}
+8746.1.1=
+{
+holder =  1167 # Belimir
+}
+8821.1.1=
+{
+holder =  1168 # Baragund I
+}
+8880.1.1=
+{
+holder =  1169 # Vorondil
+}
+8935.1.1=
+{
+holder =  1170 # Mamandil 
+}
+9005.1.1=
+{
+holder =  1171 # Naramir 
+}
+9047.1.1=
+{
+holder =  1173 # Mardil 
+}
+9066.1.1=
+{
+holder =  1174 # Numendur 
+}
+9113.1.1=
+{
+holder =  1175 # Gwindor
+}
+9155.1.1=
+{
+holder =  1176 # Hurin I
+}
+9228.1.1=
+{
+holder =  1177 # Alandur I
+}
+9258.1.1=
+{
+holder =  1178 # Bregor 
+}
+9318.1.1=
+{
+holder =  1179 # Ohtar I
+}
+9363.1.1=
+{
+holder =  1180 # Turgon I
+}
+9418.1.1=
+{
+holder =  1181 # Terendul I
+}
+9458.1.1=
+{
+holder =  1182 # Belegor
+}
+9511.1.1=
+{
+holder =  1183 # Dirhael
+}
+9551.1.1=
+{
+holder =  1184 # Dorlas
+}
+9601.1.1=
+{
+holder =  1185 # Eäcil
+}
+9648.1.1=
+{
+holder =  1186 # Eäthil
+}
+9705.1.1=
+{
+holder =  1187 # Eädur
+}
+9747.1.1=
+{
+holder =  1188 # Halmir
+}
+9785.1.1=
+{
+liege = e_gondor_kinstrife
+}
+9790.1.1=
+{
+liege = e_gondor
+}
+9805.1.1=
+{
+holder =  1189 # Hardang
+}
+9844.1.1=
+{
+holder =  1190 # Hathor
+}
+9885.1.1=
+{
+holder =  1191 # Hatholdir
+}
+9925.1.1=
+{
+holder =  1192 # Harathor
+}
+9975.1.1=
+{
+holder =  1193 # Hanmir
+}
+10001.1.1=
+{
+holder =  1194 # Hurin II
+}
+10055.1.1=
+{
+holder =  1195 # Andvir II
+}
+10093.1.1=
+{
+holder =  1196 # Galdor
+}
+10132.1.1=
+{
+holder =  1197 # Baragund II
+}
+10180.1.1=
+{
+holder =  1198 # Belemir
+}
+10217.1.1=
+{
+holder =  1199 # Bereg
+}
+10246.1.1=
+{
+holder =  1200 # Bregor
+}
+10299.1.1=
+{
+holder =  1201 # Belegor
+}
+10331.1.1=
+{
+holder =  1202 # Turin II
+}
+10379.1.1=
+{
+holder =  1203 # Baran
+}
+10393.1.1=
+{
+liege="e_steward_gondor"
+}
+10420.1.1=
+{
+holder =  1204 # Caranthir
+}
+10466.1.1=
+{
+holder =  1205 # Alatar
+}
+10543.1.1=
+{
+holder =  1206 # Aldamir
+}
+10601.1.1=
+{
+holder =  1207 # Ecthelion
+}
+10631.1.1=
+{
+holder =  1208 # Hurin III
+}
+10688.1.1=
+{
+holder =  1209 # Alandur II
+}
+10710.1.1=
+{
+holder =  1210 # Numenir
+}
+10747.1.1=
+{
+holder =  1211 # Nolondur
+}
+10792.1.1=
+{
+holder =  1212 # Nucumnehtar
+}
+10830.1.1=
+{
+holder =  16021 # Tiliondur (corrected ID)
+}
+10874.1.1=
+{
+holder =  16020 # Turmacil (corrected ID)
+}
+10913.1.1=
+{
+holder =  1214 # Turendil
+}
+10946.1.1=
+{
+holder =  1215 # Turgon II
+}
+10977.1.1=
+{
+holder =  1216 # Tuor II
+}
+11028.1.1=
+{
+holder =  1217 # Telicur
+}
+11080.1.1=
+{
+holder =  1218 # Terendul
+}
+11116.1.1=
+{
+holder =  1219 # Sulendur
+}
+11155.1.1=
+{
+holder =  1220 # Seregon
+}
+11175.1.1=
+{
+holder =  1221 # Saelon
+}
+11244.1.1=
+{
+holder =  1222 # Maglor (Name change)
+}
+11280.1.1=
+{
+holder =  1015 # Hador (son of Maglor)
+}
+11335.1.1=
+{
+holder =  1014 # Herion
+}
+11347.1.1=
+{
+holder =  2000 # Hurin IV of the Keys
+}
+11362.5.1=
+{
+liege = e_reunited_kingdom
+}
+11418.1.1=
+{
+holder =  30320 # Herion II of the Keys
+}
+11483.1.1=
+{
+holder =  30321 # Hirgon of the Keys
+}
+	
+	
+}
+
+
+
+
+## Calenardhon
+#k of rohan -earlier imported k_rohan
+k_rohan={
+	
+	8000.2.2 = { change_development_level = 2 } #
+	
+7575.1.1=
+{
+liege="e_numenor"
+holder =  12342 # Calmacil
+}
+7799.1.1=
+{
+holder =  12343 # Cirion
+}
+7888.1.1=
+{
+holder =  12344 # Éruaryon
+}
+7986.1.1=
+{
+holder =  12345 # Telemacil
+}
+8097.1.1=
+{
+holder =  12346 # Almaryon
+}
+8190.1.1=
+{
+holder =  12347 # Mámandil
+}
+8221.1.1=
+{
+liege="e_reunited_kingdom"
+#de_jure_liege="e_gondor"
+}
+8259.1.1=
+{
+holder =  12348 # Aerennel
+}
+8331.1.1=
+{
+holder =  1262 # Fëantur
+}
+8343.1.1=
+{
+liege = "e_gondor"
+}
+8477.1.1=
+{
+holder =  1263 # Fëandur
+}
+8525.1.1=
+{
+holder =  1264 # Turendil
+}
+8577.1.1=
+{
+holder =  1265 # Márenar
+}
+8618.1.1=
+{
+holder =  1266 # Numentur
+}
+8655.1.1=
+{
+holder =  1267 # Turmacil
+}
+8710.1.1=
+{
+holder =  1268 # Alcarnir
+}
+8746.1.1=
+{
+holder =  1269 # Belegor
+}
+8821.1.1=
+{
+holder =  1270 # Baragund
+}
+8880.1.1=
+{
+holder =  1271 # Calmacil
+}
+8935.1.1=
+{
+holder =  1272 # Tarcalar
+}
+9005.1.1=
+{
+holder =  1273 # Êruhil
+}
+9047.1.1=
+{
+holder =  1275 # Mardil
+}
+9066.1.1=
+{
+holder =  1276 # Telemnar
+}
+9113.1.1=
+{
+holder =  1277 # Indilzar
+}
+9155.1.1=
+{
+holder =  1278 # Llótendil
+}
+9228.1.1=
+{
+holder =  1279 # Amrothor
+}
+9258.1.1=
+{
+holder =  1280 # Anáratan
+}
+9318.1.1=
+{
+holder =  1281 # Amantur
+}
+9363.1.1=
+{
+holder =  1282 # Hallacar
+}
+9418.1.1=
+{
+holder =  1283 # Halboron
+}
+9458.1.1=
+{
+holder =  1284 # Incandur
+}
+9511.1.1=
+{
+holder =  1285 # Mindacil
+}
+9551.1.1=
+{
+holder =  1286 # Olórendur
+}
+9601.1.1=
+{
+holder =  1287 # Ostonar
+}
+9648.1.1=
+{
+holder =  1288 # Silmardur
+}
+9705.1.1=
+{
+holder =  1289 # Thorongil
+}
+9747.1.1=
+{
+holder =  1290 # Vinyarion
+}
+9785.1.1=
+{
+liege = e_gondor_kinstrife
+}
+9790.1.1=
+{
+liege = e_gondor
+}
+9805.1.1=
+{
+holder =  1291 # Restimar
+}
+9844.1.1=
+{
+holder =  1292 # Pelendur
+}
+9885.1.1=
+{
+holder =  1293 # Rómatar
+}
+9925.1.1=
+{
+holder =  1294 # Glormagil
+}
+9974.1.1=
+{
+holder =  1295 # Hallacar
+}
+9978.1.1=
+{
+holder =  1295 # Ivrindur
+}
+# Great Plague in Calenardhon
+10393.1.1=
+{
+liege="e_steward_gondor"
+}
+# Rohan is founded
+10853.1.1=
+{
+liege=0
+holder = 1 # Eorl
+#
+}
+10888.1.1=
+{
+holder = 2 # Brego
+}
+10913.1.1=
+{
+holder = 4 # Aldor
+}
+10988.1.1=
+{
+holder =  6 # Frea
+}
+11002.1.1=
+{
+holder =  7 # Freawine
+}
+11023.1.1=
+{
+holder =  8 #Goldwine
+}
+11042.1.1=
+{
+holder =  9 # Deor
+}
+11061.1.1=
+{
+holder =  10 # Gram
+}
+11084.1.1=
+{
+holder =  11 #Helm Hammerhand
+}
+11101.3.1=
+{
+holder =  43 #Wulf
+}
+11102.7.1=
+{
+holder =  15 #Frealaf
+}
+11141.1.1=
+{
+holder =  16 # Brytta
+}
+11185.1.1=
+{
+holder =  17 # Walda
+}
+11194.1.1=
+{
+holder =  18 # Folca le Hunter
+}
+11207.1.1=
+{
+holder =  19 # Folcwine
+}
+11246.1.1=
+{
+holder =  22 # Fengel
+}
+11296.1.1=
+{
+holder =  23 # Thengel
+}
+11323.1.1=
+{
+holder =  24 # Theoden
+}
+#
+11362.3.15=
+{
+holder =  27 # Éomer
+
+}
+11427.1.1=
+{
+holder =  29 # Elfwine
+}
+11469.1.1=
+{
+holder =  366 # Elfbrand
+}
+11486.1.1=
+{
+holder =  368 # Elfara
+}
+	
+	
+}
+
+#royal duchy holder? - used d_kings_land imported
+d_thefolde={
+	
+	7575.1.1=
+{
+liege="k_rohan"
+holder =  12342 # Calmacil
+}
+7799.1.1=
+{
+holder =  12343 # Cirion
+}
+7888.1.1=
+{
+holder =  12344 # Éruaryon
+}
+7986.1.1=
+{
+holder =  12345 # Telemacil
+}
+8097.1.1=
+{
+holder =  12346 # Almaryon
+}
+8190.1.1=
+{
+holder =  12347 # Mámandil
+}
+8259.1.1=
+{
+holder =  12348 # Aerennel
+}
+8331.1.1=
+{
+holder =  1262 # Fëantur
+}
+8477.1.1=
+{
+holder =  1263 # Fëandur
+}
+8525.1.1=
+{
+holder =  1264 # Turendil
+}
+8577.1.1=
+{
+holder =  1265 # Márenar
+}
+8618.1.1=
+{
+holder =  1266 # Numentur
+}
+8655.1.1=
+{
+holder =  1267 # Turmacil
+}
+8710.1.1=
+{
+holder =  1268 # Alcarnir
+}
+8746.1.1=
+{
+holder =  1269 # Belegor
+}
+8821.1.1=
+{
+holder =  1270 # Baragund
+}
+8880.1.1=
+{
+holder =  1271 # Calmacil
+}
+8935.1.1=
+{
+holder =  1272 # Tarcalar
+}
+9005.1.1=
+{
+holder =  1273 # Êruhil
+}
+9047.1.1=
+{
+holder =  1275 # Mardil
+}
+9066.1.1=
+{
+holder =  1276 # Telemnar
+}
+9113.1.1=
+{
+holder =  1277 # Indilzar
+}
+9155.1.1=
+{
+holder =  1278 # Llótendil
+}
+9228.1.1=
+{
+holder =  1279 # Amrothor
+}
+9258.1.1=
+{
+holder =  1280 # Anáratan
+}
+9318.1.1=
+{
+holder =  1281 # Amantur
+}
+9363.1.1=
+{
+holder =  1282 # Hallacar
+}
+9418.1.1=
+{
+holder =  1283 # Halboron
+}
+9458.1.1=
+{
+holder =  1284 # Incandur
+}
+9511.1.1=
+{
+holder =  1285 # Mindacil
+}
+9551.1.1=
+{
+holder =  1286 # Olórendur
+}
+9601.1.1=
+{
+holder =  1287 # Ostonar
+}
+9648.1.1=
+{
+holder =  1288 # Silmardur
+}
+9705.1.1=
+{
+holder =  1289 # Thorongil
+}
+9747.1.1=
+{
+holder =  1290 # Vinyarion
+}
+9805.1.1=
+{
+holder =  1291 # Restimar
+}
+9844.1.1=
+{
+holder =  1292 # Pelendur
+}
+9885.1.1=
+{
+holder =  1293 # Rómatar
+}
+9925.1.1=
+{
+holder =  1294 # Glormagil
+}
+9974.1.1=
+{
+holder =  1295 # Hallacar
+}
+9978.1.1=
+{
+holder =  1295 # Ivrindur
+}
+# Great Plague in Calenardhon
+10853.1.1=
+{
+holder = 1 # Eorl
+}
+10888.1.1=
+{
+holder = 2 # Brego
+}
+10913.1.1=
+{
+holder = 4 # Aldor
+}
+10988.1.1=
+{
+holder =  6 # Frea
+}
+11002.1.1=
+{
+holder =  7 # Freawine
+}
+11023.1.1=
+{
+holder =  8 #Goldwine
+}
+11042.1.1=
+{
+holder =  9 # Deor
+}
+11061.1.1=
+{
+holder =  10 # Gram
+}
+11084.1.1=
+{
+holder =  11 #Helm Hammerhand
+}
+11101.1.1=
+{
+holder =  43 #Wulf (corrected date)
+}
+11102.7.1=
+{
+holder =  15 #Frealaf
+}
+11141.1.1=
+{
+holder =  16 # Brytta
+}
+11185.1.1=
+{
+holder =  17 # Walda
+}
+11194.1.1=
+{
+holder =  18 # Folca le Hunter
+}
+11207.1.1=
+{
+holder =  19 # Folcwine
+}
+11246.1.1=
+{
+holder =  22 # Fengel
+}
+11296.1.1=
+{
+holder =  23 # Thengel
+}
+11323.1.1=
+{
+holder =  24 # Theoden
+}
+11362.3.15=
+{
+holder =  27 # Éomer
+}
+11427.1.1=
+{
+holder =  29 # Elfwine
+}
+
+
+	
+}
+
+
+
+# not sure where this should be? - imported c_kings_land from ck2 ME
+c_calmirie={
+	
+	7575.1.1=
+{
+liege="d_thefolde"
+holder =  12342 # Calmacil
+}
+7799.1.1=
+{
+holder =  12343 # Cirion
+}
+7888.1.1=
+{
+holder =  12344 # Éruaryon
+}
+7986.1.1=
+{
+holder =  12345 # Telemacil
+}
+8097.1.1=
+{
+holder =  12346 # Almaryon
+}
+8190.1.1=
+{
+holder =  12347 # Mámandil
+}
+8259.1.1=
+{
+holder =  12348 # Aerennel
+}
+8331.1.1=
+{
+holder =  1262 # Fëantur
+}
+8477.1.1=
+{
+holder =  1263 # Fëandur
+}
+8525.1.1=
+{
+holder =  1264 # Turendil
+}
+8577.1.1=
+{
+holder =  1265 # Márenar
+}
+8618.1.1=
+{
+holder =  1266 # Numentur
+}
+8655.1.1=
+{
+holder =  1267 # Turmacil
+}
+8710.1.1=
+{
+holder =  1268 # Alcarnir
+}
+8746.1.1=
+{
+holder =  1269 # Belegor
+}
+8821.1.1=
+{
+holder =  1270 # Baragund
+}
+8880.1.1=
+{
+holder =  1271 # Calmacil
+}
+8935.1.1=
+{
+holder =  1272 # Tarcalar
+}
+9005.1.1=
+{
+holder =  1273 # Êruhil
+}
+9047.1.1=
+{
+holder =  1275 # Mardil
+}
+9066.1.1=
+{
+holder =  1276 # Telemnar
+}
+9113.1.1=
+{
+holder =  1277 # Indilzar
+}
+9155.1.1=
+{
+holder =  1278 # Llótendil
+}
+9228.1.1=
+{
+holder =  1279 # Amrothor
+}
+9258.1.1=
+{
+holder =  1280 # Anáratan
+}
+9318.1.1=
+{
+holder =  1281 # Amantur
+}
+9363.1.1=
+{
+holder =  1282 # Hallacar
+}
+9418.1.1=
+{
+holder =  1283 # Halboron
+}
+9458.1.1=
+{
+holder =  1284 # Incandur
+}
+9511.1.1=
+{
+holder =  1285 # Mindacil
+}
+9551.1.1=
+{
+holder =  1286 # Olórendur
+}
+9601.1.1=
+{
+holder =  1287 # Ostonar
+}
+9648.1.1=
+{
+holder =  1288 # Silmardur
+}
+9705.1.1=
+{
+holder =  1289 # Thorongil
+}
+9747.1.1=
+{
+holder =  1290 # Vinyarion
+}
+9805.1.1=
+{
+holder =  1291 # Restimar
+}
+9844.1.1=
+{
+holder =  1292 # Pelendur
+}
+9885.1.1=
+{
+holder =  1293 # Rómatar
+}
+9925.1.1=
+{
+holder =  1294 # Glormagil
+}
+9974.1.1=
+{
+holder =  1295 # Hallacar
+}
+9978.1.1=
+{
+holder =  1295 # Ivrindur
+}
+
+10912.1.1=
+{
+holder = 2 # Brego
+}
+10913.1.1=
+{
+holder = 4 # Aldor
+}
+10988.1.1=
+{
+holder =  6 # Frea
+}
+11002.1.1=
+{
+holder =  7 # Freawine
+}
+11023.1.1=
+{
+holder =  8 #Goldwine
+}
+11042.1.1=
+{
+holder =  9 # Deor
+}
+11061.1.1=
+{
+holder =  10 # Gram
+}
+11084.1.1=
+{
+holder =  11 #Helm Hammerhand
+}
+11101.1.1=
+{
+holder =  43 #Wulf (corrected date)
+}
+11102.7.1=
+{
+holder =  15 #Frealaf
+}
+11141.1.1=
+{
+holder =  16 # Brytta
+}
+11185.1.1=
+{
+holder =  17 # Walda
+}
+11194.1.1=
+{
+holder =  18 # Folca le Hunter
+}
+11207.1.1=
+{
+holder =  19 # Folcwine
+}
+11246.1.1=
+{
+holder =  22 # Fengel
+}
+11296.1.1=
+{
+holder =  23 # Thengel
+}
+11323.1.1=
+{
+holder =  24 # Theoden
+}
+11362.3.15=
+{
+holder =  27 # Éomer
+}
+11427.1.1=
+{
+holder =  29 # Elfwine
+}
+
+	
+	
+}	

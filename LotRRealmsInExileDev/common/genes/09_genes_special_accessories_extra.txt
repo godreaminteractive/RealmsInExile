@@ -1,0 +1,110 @@
+﻿
+special_genes = {
+
+accessory_genes = {
+
+#####################################
+#									#
+# 			  HEADGEAR 			    #
+#									#
+#####################################
+
+	headgear_2 = {
+		nazgul_withkinghelmet = {
+			index = 0
+			male = {
+				1 = male_headgear_nazgulwithkinghelm
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		arnorian_neckchainmail = {
+			index = 1
+			male = {
+				1 = male_headgear_secular_western_war_nobility_01
+			}
+			female = {
+				1 = female_headgear_secular_western_war_nobility_01
+			}
+			boy = male
+			girl = female
+		}
+	}
+	
+	# not sure what to put here yet...perhaps another nazgul helm or sauron helm?
+	headgear_3 = {
+		nazgul_witchkinghelmetnum3 = {
+			index = 0
+			male = {
+				1 = male_headgear_nazgulwithkinghelm
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+	}
+	
+	# not sure what to put here yet...perhaps another nazgul helm or sauron helm?
+	#
+	
+	misc = {
+		nazgul_robes2 = {
+            index = 0
+            male = {
+                10 = male_clothes_nazgul_robes2
+            }
+            female = {
+                30 = empty
+            }
+            boy = male
+            girl = female
+        }
+	}
+}
+
+morph_genes = {
+	
+#####################################
+#									#
+# 			  MAKEUP 			    #
+#									#
+#####################################
+	cosmetics_eyeliner = {
+
+		egyptian_1 = {
+			index = 0
+			male = {
+				decal = {											
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/cosmetics/eyeliner_egyptian_1_diffuse.dds"
+						properties = "gfx/models/portraits/decals/cosmetics/eyeliner_egyptian_1_properties.dds"
+						
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# normal = overlay
+						properties = replace
+					}
+					priority = 2
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+
+	}
+	
+	#
+	
+	#
+
+}
+
+}

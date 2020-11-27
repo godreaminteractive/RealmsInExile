@@ -1,0 +1,40 @@
+
+e_valinor={
+
+350.1.1={
+holder =  10001
+}
+
+350.2.2 = { change_development_level = 5 } #
+
+}
+
+k_valinor={
+
+350.1.1={
+holder =  10001
+}
+
+#
+
+}
+
+d_valinor={
+
+350.1.1={
+holder =  10001
+}
+
+#
+
+}
+
+c_valinor={
+
+350.1.1={
+holder =  10001
+}
+
+#
+
+}

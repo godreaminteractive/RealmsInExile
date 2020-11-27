@@ -13,7 +13,7 @@ spawn_uruk_crossbowmen = {
 		name = event_troop_default_name
 		#levies = 800
 		men_at_arms = {
-			type = urukhai_crossbowmen
+			type = crossbowmen
 			stacks = 2
 		}
 		location = capital_province

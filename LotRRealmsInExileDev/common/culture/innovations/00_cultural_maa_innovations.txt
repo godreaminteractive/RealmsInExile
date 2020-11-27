@@ -28,3 +28,299 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+# 
+###############new artwork?!
+########
+@cave_trollsui = "gfx/interface/icons/culture_innovations/innovation_cave_trolls.dds"
+@orc_forcesui = "gfx/interface/icons/culture_innovations/innovation_orc_forces.dds"
+@southron_forcesui = "gfx/interface/icons/culture_innovations/innovation_southron_basic_forces.dds"
+@gondorbasictroopsui = "gfx/interface/icons/culture_innovations/innovation_gondor_basic_forces.dds"
+###
+### ARNOR TEST 1
+
+innovation_arnor_inf = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @gondorbasictroopsui
+
+	potential = {
+		OR={
+			this = culture:culture_numenorean
+			this = culture:culture_arnorian
+			
+		}
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = arnor_infantry
+	unlock_maa = arnor_archers
+
+	flag = global_maa
+}
+
+innovation_gondor_basic_forces = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @gondorbasictroopsui
+
+	potential = {
+			this = culture:culture_gondorian
+			
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = gondor_swordsmen
+	unlock_maa = gondor_archers
+	unlock_maa = gondor_pikemen
+	#
+
+	flag = global_maa
+}
+
+innovation_gondor_cavalry_forces = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @gondorbasictroopsui
+
+	potential = {
+			this = culture:culture_gondorian
+			
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = gondor_horsemen
+	unlock_maa = gondor_knights
+	#
+	#
+
+	flag = global_maa
+}
+
+innovation_gondor_amrothcavalry_forces = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @gondorbasictroopsui
+
+	potential = {
+			this = culture:culture_gondorian
+			
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	
+	unlock_maa = gondor_dolamroth_knights
+	#
+	#
+
+	flag = global_maa
+}
+
+innovation_arnor_pikemen = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @maa_01
+
+	potential = {
+		OR={
+			this = culture:culture_numenorean
+			this = culture:culture_arnorian
+			
+		}
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = arnor_pikemen
+	
+
+	flag = global_maa
+}
+
+innovation_arnor_horsemen = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @maa_01
+
+	potential = {
+		OR={
+			this = culture:culture_numenorean
+			this = culture:culture_arnorian
+			
+		}
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = arnor_horsemen
+	
+
+	flag = global_maa
+}
+
+## SOUTHRONS
+# o basic troops
+innovation_basic_southron_forces = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @southron_forcesui
+
+	potential = {
+		OR = {
+			this = culture:culture_haradrim
+			this = culture:culture_far_haradrim
+			this = culture:culture_blacknumenorean
+		}
+
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = southron_soldiers
+	unlock_maa = southron_horsemen
+	unlock_maa = southron_archers
+	
+
+	flag = global_maa
+}
+# orcs/goblins basic troops
+innovation_basic_orc_forces = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @orc_forcesui
+
+	potential = {
+			this = culture:culture_regularorc
+
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = goblin_band
+	unlock_maa = orc_band
+	unlock_maa = orc_archers
+
+	flag = global_maa
+}
+
+
+# orcs/goblins basic troops
+innovation_orc_warriors = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @orc_forcesui
+
+	potential = {
+			this = culture:culture_regularorc
+
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = orc_warriors
+
+	flag = global_maa
+}
+
+innovation_cave_trolls = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @cave_trollsui
+
+	potential = {
+			this = culture:culture_regularorc
+
+	}
+	
+	#can_progress = { 
+	#	OR={
+	#		this = culture:culture_numenorean
+	#		this = culture:culture_arnorian
+	#		
+	#	}
+	#
+	#}
+	#
+
+	unlock_maa = cave_trolls
+
+	flag = global_maa
+}
+
+
+

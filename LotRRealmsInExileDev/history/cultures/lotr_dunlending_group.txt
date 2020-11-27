@@ -70,14 +70,9 @@
 #	discover_innovation = innovation_dunlending_hill_forts
 	discover_innovation = innovation_horseshoes
 	discover_innovation = innovation_arched_saddle
-	
-	# Dunlending Discoveries
-	discover_innovation = innovation_dunlending_warriors
 }
 
-2999.12.1 = { # Saruman's Isengard
-	discover_innovation = innovation_numenorean_architecture_01
-}
+
 
 
 

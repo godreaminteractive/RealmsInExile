@@ -1,0 +1,623 @@
+﻿lotr_character_create_elflord_effect = {
+
+	#Gender
+	random_list = {
+		50 = { #Female
+			dummy_female = { save_temporary_scope_as = elf_gender }
+		}
+		50 = { #Male
+			dummy_male = { save_temporary_scope_as = elf_gender }
+		}
+	}
+
+# World of Mortals
+	if = {
+		limit = {
+			NOT = { has_game_rule = world_of_immortals }
+			#OR =  {
+			#	has_game_rule = world_of_mortals
+			#	has_game_rule = world_of_mortals_player_knows
+			#}
+		}
+		
+# Create Secret Vampire Lord
+		create_character = {
+			save_temporary_scope_as = created_elflord
+			location = root.capital_province
+			culture = root.culture
+			faith = root.faith
+			gender = scope:elf_gender
+			random_traits = yes
+		}
+
+		scope:created_elflord = {
+			lotr_remove_all_terrible_traits_effect = yes
+			#
+			#lotr_clear_resonance_effect = yes
+			lotr_set_resonance_effect = yes
+		}	
+	
+	}
+
+# World of Monsters
+
+	if = {
+		limit = {
+				has_game_rule = world_of_immortals
+		}
+
+		# Age of Vampire Lord
+		
+		random_list = {
+			30 = { #Ancilla
+				#Create them
+				create_character = {
+					save_temporary_scope_as = created_elflord
+					location = root.capital_province
+					culture = root.culture
+					faith = root.faith
+					gender = scope:elf_gender
+					age = { 100 199 }
+					trait = elf 
+					random_traits = yes
+					#template = vampire_ancilla_character
+				}	
+				scope:created_elflord = {
+					#
+					#lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_elves_look_younger_effect = yes
+					lotr_remove_all_terrible_traits_effect = yes
+					#lotr_character_vampire_clan_initialization_effect = yes
+					#lotr_character_vampire_nosferatu_initialization_effect = yes
+					#lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					#lotr_character_vampire_malkavian_initialization_effect = yes
+					#lotr_character_vampire_discipline_initialization_effect = yes
+					#lotr_character_vampire_faith_initialization_effect = yes
+					#lotr_character_vampire_infernalist_initialization_effect = yes
+					save_scope_as = elfneedsnewdynasty					
+					lotr_character_new_dynasty_effect = yes
+					#lotr_character_vampire_predatortype_initialization_effect = yes
+					#
+					#lotr_character_vampire_bloodhunger_initialization_effect = yes
+					#lotr_character_initialization_random_background_effect = yes
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+					add_character_flag = {
+						flag = immune_to_disease
+					}
+					#lotr_clear_resonance_effect = yes
+					#lotr_set_resonance_effect = yes
+					
+					#trigger_event = {
+					#	id = lotr_ai_vampire_embrace.1
+					#	days = 30
+					#}
+				}				
+			}
+		
+			60 = { #Elder
+				#Create them
+				create_character = {
+					save_temporary_scope_as = created_elflord
+					location = root.capital_province
+					culture = root.culture
+					faith = root.faith
+					gender = scope:elf_gender
+					age = { 200 499 }
+					trait = elf 
+					random_traits = yes
+					#template = vampire_elder_character
+				}	
+				scope:created_elflord = {
+					#		
+					#lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_elves_look_younger_effect = yes
+					lotr_remove_all_terrible_traits_effect = yes
+					#lotr_character_vampire_clan_initialization_effect = yes
+					#lotr_character_vampire_nosferatu_initialization_effect = yes
+					#lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					#lotr_character_vampire_malkavian_initialization_effect = yes
+					#lotr_character_vampire_discipline_initialization_effect = yes
+					#lotr_character_vampire_faith_initialization_effect = yes	
+					#lotr_character_vampire_infernalist_initialization_effect = yes
+					save_scope_as = elfneedsnewdynasty
+					lotr_character_new_dynasty_effect = yes
+					#lotr_character_vampire_predatortype_initialization_effect = yes
+					#					
+					#lotr_character_vampire_bloodhunger_initialization_effect = yes
+					#lotr_character_initialization_random_background_effect = yes
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+					#lotr_clear_resonance_effect = yes
+					#lotr_set_resonance_effect = yes
+					
+					add_character_flag = {
+						flag = immune_to_disease
+					}
+					#trigger_event = {
+					#	id = lotr_ai_vampire_embrace.1
+					#	days = 30
+					#}
+				}
+			
+			}
+			10 = { #Ancient
+				#Create them
+				create_character = {
+					save_temporary_scope_as = created_elflord
+					location = root.capital_province
+					culture = root.culture
+					faith = root.faith
+					gender = scope:elf_gender
+					age = { 500 800 }
+					trait = elf 
+					#template = vampire_ancient_character
+					random_traits = yes
+				}	
+				scope:created_elflord = {
+					#
+					#lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_elves_look_younger_effect = yes
+					lotr_remove_all_terrible_traits_effect = yes
+					#lotr_character_vampire_clan_initialization_effect = yes
+					#lotr_character_vampire_nosferatu_initialization_effect = yes
+					#lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					#lotr_character_vampire_malkavian_initialization_effect = yes
+					#lotr_character_vampire_discipline_initialization_effect = yes
+					#lotr_character_vampire_faith_initialization_effect = yes	
+					#lotr_character_vampire_infernalist_initialization_effect = yes
+					save_scope_as = elfneedsnewdynasty
+					lotr_character_new_dynasty_effect = yes
+					#lotr_character_vampire_predatortype_initialization_effect = yes
+					#
+					#lotr_clear_resonance_effect = yes
+					#lotr_set_resonance_effect = yes
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+					add_character_flag = {
+						flag = immune_to_disease
+					}
+					#trigger_event = {
+					#	id = lotr_ai_vampire_embrace.1
+					#	days = 30
+					#}
+				}
+			
+			}
+		}
+	}
+	clear_saved_scope = elf_gender
+}
+
+lotr_character_create_elvishchild_effect = {
+
+	#Gender
+	random_list = {
+		50 = { #Female
+			dummy_female = { save_temporary_scope_as = elf_gender }
+		}
+		50 = { #Male
+			dummy_male = { save_temporary_scope_as = elf_gender }
+		}
+	}
+	
+	if = {
+		limit = {
+			scope:elfsire = {
+				is_female = yes
+				#
+			}
+		}
+		dummy_female = { save_temporary_scope_as = elf_gender }
+	}
+			
+	
+
+# World of Monsters
+
+	if = {
+		limit = {
+				has_game_rule = world_of_immortals
+
+		}
+
+		scope:elfsire = {
+			if = {
+				limit = {
+					is_female = yes
+					}
+				create_character = {
+					save_temporary_scope_as = created_elvishchild
+					mother = scope:elfsire
+					age = { 18 60 }
+					location = scope:elfsire.capital_province
+					dynasty_house = scope:elfsire.house
+					culture = scope:elfsire.culture
+					faith = scope:elfsire.faith
+					gender = scope:elf_gender
+					trait = elf 
+					random_traits = yes
+				}				
+				scope:created_elvishchild = {
+					lotr_remove_all_terrible_traits_effect = yes
+					lotr_character_immortals_inherit_generation_effect = yes
+					lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_character_vampire_inherit_clan_effect = yes
+					lotr_character_vampire_nosferatu_initialization_effect = yes
+					lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					lotr_character_vampire_malkavian_initialization_effect = yes
+					lotr_character_vampire_discipline_initialization_effect = yes
+					random = {
+						chance = 30
+						lotr_character_vampire_faith_initialization_effect  = yes
+					}
+					lotr_character_vampire_infernalist_initialization_effect = yes
+					lotr_character_vampire_predatortype_initialization_effect = yes
+					if = {
+						limit = { 
+							is_ventrue_trigger = yes 
+						}
+						lotr_character_ventrue_prey_exclusion_initialization_effect = yes
+					}					
+					lotr_character_vampire_bloodhunger_initialization_effect = yes
+					#set_house = scope:elfsire.house
+					lotr_character_initialization_random_background_effect = yes
+					#lotr_clear_resonance_effect = yes
+					lotr_set_resonance_effect = yes
+					add_character_flag = {
+						flag = immune_to_disease
+					}
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+					}
+				create_character = {
+					save_temporary_scope_as = created_elvishchild
+					father = scope:elfsire
+					age = { 18 60 }
+					location = scope:elfsire.capital_province
+					dynasty_house = scope:elfsire.house
+					culture = scope:elfsire.culture
+					faith = scope:elfsire.faith
+					gender = scope:elf_gender
+					trait = elf 
+					random_traits = yes
+				}	
+				scope:created_elvishchild = {
+					lotr_remove_all_terrible_traits_effect = yes
+					lotr_character_immortals_inherit_generation_effect = yes
+					lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_character_vampire_inherit_clan_effect = yes
+					lotr_character_vampire_nosferatu_initialization_effect = yes
+					lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					lotr_character_vampire_malkavian_initialization_effect = yes
+					lotr_character_vampire_discipline_initialization_effect = yes
+					random = {
+						chance = 30
+						lotr_character_vampire_faith_initialization_effect = yes
+					}
+					lotr_character_vampire_infernalist_initialization_effect = yes
+					lotr_character_vampire_predatortype_initialization_effect = yes
+					if = {
+						limit = { 
+							is_ventrue_trigger = yes 
+						}
+						lotr_character_ventrue_prey_exclusion_initialization_effect = yes
+					}					
+					lotr_character_vampire_bloodhunger_initialization_effect = yes
+					#set_house = scope:elfsire.house
+					lotr_character_initialization_random_background_effect = yes
+					#lotr_clear_resonance_effect = yes
+					lotr_set_resonance_effect = yes
+					add_character_flag = {
+						flag = immune_to_disease
+					}					
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+				}				
+		
+			}
+		}
+	
+	}
+	
+# World of Mortals
+	if = {
+		limit = {
+			NOT = { has_game_rule = world_of_immortals }
+		}
+
+		scope:elfsire = {
+			if = {
+				limit = {
+					is_female = yes
+					}		
+				create_character = {
+					save_temporary_scope_as = created_elvishchild
+					mother = scope:elfsire
+					age = { 18 60 }
+					location = scope:elfsire.capital_province
+					culture = scope:elfsire.culture
+					faith = scope:elfsire.faith
+					gender = scope:elf_gender
+					trait = elf 
+					random_traits = yes
+				}				
+				scope:created_elvishchild = {
+					add_secret = {
+						type = secret_vampire
+					}			
+					lotr_remove_all_terrible_traits_effect = yes
+					lotr_character_immortals_inherit_generation_effect = yes
+					lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_character_vampire_inherit_clan_effect = yes
+					lotr_character_vampire_nosferatu_initialization_effect = yes
+					lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					lotr_character_vampire_malkavian_initialization_effect = yes
+					lotr_character_vampire_discipline_initialization_effect = yes
+					random = {
+						chance = 30
+						lotr_character_vampire_faith_initialization_effect = yes
+					}
+					lotr_character_vampire_infernalist_initialization_effect = yes
+					lotr_character_vampire_predatortype_initialization_effect = yes
+					if = {
+						limit = { 
+							is_ventrue_trigger = yes 
+						}
+						lotr_character_ventrue_prey_exclusion_initialization_effect = yes
+					}				
+					lotr_character_vampire_bloodhunger_initialization_effect = yes
+					lotr_character_initialization_random_background_effect = yes
+					add_character_flag = {
+						flag = immune_to_disease
+					}					
+					#lotr_clear_resonance_effect = yes
+					lotr_set_resonance_effect = yes	
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+					}
+				create_character = {
+					save_temporary_scope_as = created_elvishchild
+					father = scope:elfsire
+					age = { 18 60 }
+					location = scope:elfsire.capital_province
+					culture = scope:elfsire.culture
+					faith = scope:elfsire.faith
+					gender = scope:elf_gender
+					random_traits = yes
+				}	
+				scope:created_elvishchild = {
+					add_secret = {
+						type = secret_vampire
+					}			
+					lotr_remove_all_terrible_traits_effect = yes
+					lotr_character_immortals_inherit_generation_effect = yes
+					lotr_character_vampire_bloodpotency_initialization_effect = yes
+					lotr_character_vampire_inherit_clan_effect = yes
+					lotr_character_vampire_nosferatu_initialization_effect = yes
+					lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+					lotr_character_vampire_malkavian_initialization_effect = yes
+					lotr_character_vampire_discipline_initialization_effect = yes
+					random = {
+						chance = 30
+						lotr_character_vampire_faith_initialization_effect  = yes
+					}
+					lotr_character_vampire_infernalist_initialization_effect = yes
+					lotr_character_vampire_predatortype_initialization_effect = yes
+					if = {
+						limit = { 
+							is_ventrue_trigger = yes 
+						}
+						lotr_character_ventrue_prey_exclusion_initialization_effect = yes
+					}					
+					lotr_character_vampire_bloodhunger_initialization_effect = yes
+					lotr_character_initialization_random_background_effect = yes
+					add_character_flag = {
+						flag = immune_to_disease
+					}
+					#lotr_clear_resonance_effect = yes
+					lotr_set_resonance_effect = yes	
+					add_character_flag = {
+						flag = had_lotr_character_initialization
+					}
+				}				
+		
+			}
+		}
+
+
+		#scope:created_elvishchild = {
+		#	add_secret = {
+		#		type = secret_vampire
+		#	}			
+		#}	
+	}
+
+	clear_saved_scope = elf_gender
+	
+}
+
+lotr_remove_all_terrible_traits_effect = {
+	if = {
+		limit = { 
+			has_trait = inbred
+		} 
+		remove_trait = inbred
+	}
+	
+	if = {
+		limit = { 
+			has_trait = physique_bad_3 
+		} 
+		remove_trait = physique_bad_3 
+	}	
+	
+	if = {
+		limit = { 
+			has_trait = physique_bad_2 
+		} 
+		remove_trait = physique_bad_2 
+	}	
+	
+	if = {
+		limit = { 
+			has_trait = intellect_bad_3 
+		} 
+		remove_trait = intellect_bad_3 
+	}		
+	
+	if = {
+		limit = { 
+			has_trait = intellect_bad_2
+		} 
+		remove_trait = intellect_bad_2
+	}		
+			
+	if = {
+		limit = { 
+			has_trait = intellect_bad_1 
+		} 
+		remove_trait = intellect_bad_1
+	}		
+		
+	if = {
+		limit = { 
+			has_trait = blind
+		} 
+		remove_trait = blind
+	}			
+		
+	if = {
+		limit = { 
+			has_trait = incapable
+		} 
+		remove_trait = incapable
+	}		
+	
+	if = {
+		limit = { 
+			has_trait = infirm
+		} 
+		remove_trait = infirm
+	}		
+
+	if = {
+		limit = { 
+			has_trait = one_legged
+		} 
+		remove_trait = one_legged
+	}		
+	
+}
+
+lotr_elves_look_younger_effect = {
+
+	random_list = {
+		10 = {
+			set_immortal_age = 16
+		}	
+		30 = {
+			set_immortal_age = 20
+		}
+		25 = {
+			set_immortal_age = 26
+		}
+		20 = {
+			set_immortal_age = 35
+		}	
+		10 = {
+			set_immortal_age = 50
+		}
+		5 = {
+			random_list = {
+				98 = {
+					set_immortal_age = 49
+				}
+				1 = {
+					set_immortal_age = 12
+				}		
+				1 = {
+					set_immortal_age = 8
+				}	
+			}
+		}			
+	}
+}
+	
+lotr_player_character_create_elvishchild_effect = {
+
+# World of Monsters
+
+	if = {
+		limit = {
+				has_game_rule = world_of_immortals
+		}
+
+		scope:created_elvishchild = {
+			#remove_trait = elf
+			#add_trait = elf
+			set_immortal_age = scope:created_elvishchild.age
+			lotr_character_immortals_inherit_generation_effect = yes
+			#lotr_character_vampire_bloodpotency_initialization_effect = yes
+			#lotr_character_vampire_inherit_clan_effect = yes
+			#lotr_character_vampire_nosferatu_initialization_effect = yes
+			#lotr_character_vampire_gangrel_beast_looks_initialization_effect = yes
+			#lotr_character_vampire_malkavian_initialization_effect = yes
+			#lotr_character_vampire_discipline_initialization_effect = yes
+			set_character_faith = scope:elfsire.faith
+				#
+			#lotr_character_vampire_predatortype_initialization_effect = yes
+					#		
+			#lotr_character_vampire_bloodhunger_initialization_effect = yes
+			set_house = scope:elfsire.house	
+			#lotr_character_initialization_random_background_effect = yes
+			add_character_flag = {
+				flag = immune_to_disease
+			}
+			#lotr_clear_resonance_effect = yes
+			#lotr_set_resonance_effect = yes	
+			add_character_flag = {
+				flag = had_lotr_character_initialization
+			}
+		}
+		scope:elfsire = {
+			if = {
+				limit = {
+					is_female = yes
+					}				
+				scope:created_elvishchild = {
+					set_mother = scope:elfsire		
+				}
+			}
+		}
+		
+		scope:elfsire = {
+			if = {
+				limit = {
+					is_female = no
+					}				
+				scope:created_elvishchild = {
+					set_father = scope:elfsire		
+				}
+			}
+		}
+	}
+	
+
+}

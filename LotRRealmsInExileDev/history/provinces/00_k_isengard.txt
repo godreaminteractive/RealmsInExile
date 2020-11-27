@@ -1,0 +1,18 @@
+﻿### THEMP ISENGARD ###
+#  (3)
+3883 = { # Edoras
+	culture = rohirrim
+	religion = free_peoples
+	holding = castle_holding
+	#
+}
+1545 = { # 
+	culture = rohirrim
+	religion = free_peoples
+	holding = none
+}
+1546 = { # 
+	culture = rohirrim
+	religion = free_peoples
+	holding = none
+}

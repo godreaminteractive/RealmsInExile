@@ -212,8 +212,6 @@ wonder_aglarond_01 = {
 	character_modifier = {
 		monthly_prestige = 0.1
 		prowess_per_piety_level = 1
-		heavy_cavalry_damage_add = 4
-		heavy_cavalry_toughness_add = 2
 	}
 	province_modifier = {
 		garrison_size = 0.25
@@ -254,8 +252,6 @@ wonder_aglarond_02_helm = {
 	character_modifier = {
 		monthly_prestige = 0.2
 		prowess_per_piety_level = 2
-		heavy_cavalry_damage_add = 8
-		heavy_cavalry_toughness_add = 4
 	}
 	province_modifier = {
 		garrison_size = 0.5
@@ -296,8 +292,6 @@ wonder_aglarond_03_dike = {
 	character_modifier = {
 		monthly_prestige = 0.3
 		prowess_per_piety_level = 3
-		heavy_cavalry_damage_add = 12
-		heavy_cavalry_toughness_add = 6
 	}
 	province_modifier = {
 		garrison_size = 0.75
@@ -333,7 +327,6 @@ wonder_angrenost_01 = {
 			culture = {
 				has_innovation = innovation_battlements
 				has_innovation = innovation_burhs
-#				has_innovation = innovation_numenorean_architecture_01
 			}
 		}
 	}
@@ -343,8 +336,6 @@ wonder_angrenost_01 = {
 	character_modifier = {
 		monthly_prestige = 0.1
 		prowess_per_piety_level = 1
-		supply_duration = 0.1
-		mercenary_hire_cost_mult = -0.1
 	}
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_1
@@ -379,7 +370,6 @@ wonder_angrenost_02_storehouses = {
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_hoardings
-#				has_innovation = innovation_numenorean_architecture_01
 			}
 		}
 	}
@@ -389,8 +379,6 @@ wonder_angrenost_02_storehouses = {
 	character_modifier = {
 		monthly_prestige = 0.15
 		prowess_per_piety_level = 1
-		supply_duration = 0.15
-		mercenary_hire_cost_mult = -0.15
 	}
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_2
@@ -424,16 +412,7 @@ wonder_angrenost_03_palantir = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
 		scope:holder = {
 			culture = {
-				OR = {
-					AND = {
-						has_innovation = innovation_machicolations
-						has_innovation = innovation_numenorean_architecture_01
-					}
-					AND = {
-						has_innovation = innovation_machicolations
-						has_innovation = innovation_urukhai_pits
-					}
-				}
+				has_innovation = innovation_machicolations
 			}
 		}
 	}
@@ -443,8 +422,6 @@ wonder_angrenost_03_palantir = {
 	character_modifier = {
 		monthly_prestige = 0.2
 		prowess_per_piety_level = 2
-		supply_duration = 0.2
-		mercenary_hire_cost_mult = -0.2
 	}
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_3
@@ -464,7 +441,7 @@ wonder_angrenost_03_palantir = {
 # Eorl's Hallow
 wonder_eorls_hallow_01 = {
 #	type_icon = "icon_wonder_eorls_hallow.dds"
-	type_icon = "icon_structure_stonehenge.dds"
+	type_icon = "icon_structure_cathedral_pagan.dds"
 	asset = {
 		type = pdxmesh
 		name = "wonder_eorls_hallow_mesh"

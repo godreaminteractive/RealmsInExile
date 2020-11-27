@@ -1,0 +1,6 @@
+﻿lotr_character_immortals_inherit_generation_effect = {
+
+	scope:created_elvishchild = {
+		#	
+		}
+}

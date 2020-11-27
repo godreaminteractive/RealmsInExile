@@ -1,0 +1,5 @@
+﻿# Orc race Portrait check triggers
+portrait_orc_race_trigger = {
+		culture = { has_graphical_culture = orc_clothing_gfx }
+}
+

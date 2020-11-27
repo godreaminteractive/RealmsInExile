@@ -1,0 +1,471 @@
+﻿### Tk_annuminas -> Arthedain basically
+# annuminas
+1609 = { # annuminas
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1629 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1877 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1702 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1701 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+# c_barandalf
+1828 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+
+1704 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+#c_parth_aduial
+
+1608 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1830 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+
+1815 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+## c_men_erain
+1733 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1732 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1616 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1619 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+############# d_canarthforn
+## c_ciltaen
+1620 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+3810 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2216 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1734 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+## c_longridh
+
+1614 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1617 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+2168 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1630 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1599 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1849 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+## c_celin_parth
+1622 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2169 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1703 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2167 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1625 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2170 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+
+############# d_fornost
+## c_fornost
+1821 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1827 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1605 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+## c_oronyar
+1829 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1830 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1819 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1705 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+# c_maenthirost
+1709 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1710 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1634 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1812 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+## pinnath aelinhith
+1611 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1731 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+}
+1610 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+################
+# esteldin
+1735 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1823 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1874 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+############
+# emyn sul
+1632 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1824 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1748 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+## Midgewater? -> needs to be cut-up!
+1845 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1736 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1669 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+}
+1738 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1708 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1739 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+## the white downs
+2172 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2169 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+# thartond
+1615 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2174 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+############################
+# hobbiton->check landed title name for proper loc
+1621 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2173 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+###############################
+# galabas
+1618 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1624 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+##################################
+# govadrimrad -> Calembar?
+1951 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1953 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+####################################
+# raudhost
+2175 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2176 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+####################################
+# little paddle
+2218 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2219 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#######################################
+# greenholm
+2226 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2223 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#######################################
+# undertower
+2220 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2224 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#########################################
+# pinnath luin
+1726 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2225 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+2492 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+########################################
+# lond telerion
+2461 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1840 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+}
+2232 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+########################################
+# bar irlossiel
+2460 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+2462 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+#########################################
+
+
+
+
+
+
+

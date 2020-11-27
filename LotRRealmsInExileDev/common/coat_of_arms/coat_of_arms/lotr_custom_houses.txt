@@ -1,0 +1,253 @@
+﻿#e_reunitedkingdom = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "black"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_arnor_02.dds"
+#		color1 = "white"
+#	}
+#}
+
+# Isuldurs house is a cadet of the earlier house elrosionath according to tolkienwiki
+12001 = { #
+	pattern = "pattern_dunland_01.dds"
+    color1 = "black"
+    color2 = "white"
+    colored_emblem = {
+		texture = "ce_arnor_04.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { rotation = 0 scale = { 0.99 0.99 }  position = { 0.5 0.5 } }
+	}
+}
+
+# REdoing
+2001 = { #
+	pattern = "pattern_solid.dds"
+    color1 = "black"
+    color2 = "white"
+    colored_emblem = {
+		texture = "ce_arnor_02.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { rotation = 0 scale = { 0.99 0.99 }  position = { 0.5 0.5 } }
+	}
+}
+#
+house_isildurionath = 2001
+#
+
+12015 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "blue"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_elendilionath.dds"
+	}
+}
+house_elendilionath = 12015
+#
+
+12003 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_elatanionath.dds"
+	}
+}
+house_elatanionath = 12003
+#
+102 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "black"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_anarionath.dds"
+	}
+}
+#
+house_anarionath = 102
+
+# lower house of Gondor
+# Fëanturionath
+110 = {
+	pattern = "pattern_nordic_06.dds"
+    color1 = "blue"
+    color2 = "white"
+    colored_emblem = {
+		texture = "ce_rohan_10.dds"
+		color1 = "white"
+		color2 = "blue"
+		instance = { rotation = 0 scale = { 0.99 0.99 }  position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_edain_border_05.dds"
+		color1 = "blue"
+		instance = { rotation = 0 scale = { 0.98 0.98 } position = { 0.5 0.5 } }
+	}
+}
+
+# House of Durin!
+4001 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "grey"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_bitdurin.dds"
+	}
+}
+# House of Nelyar - > Enel Nelyar and is the father-house of the lower Nos Elwe, Nos Nowe and Nos Olwe and Nos Elemwe
+house_nelyar = 3012
+3012 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "yellow"
+
+	textured_emblem = {
+		texture = "te_nelyar.dds"
+	}
+}
+
+# House of Nos Nowe cirdan!
+
+3015 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_nosnowe.dds"
+	}
+}
+
+house_nosnowe = 3015
+
+# House of Peredhel - the Half Elves after Dior! children of Beren and Luthien
+3002 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_peredhel.dds"
+	}
+}
+
+# House of Nos Finarfin - imported
+3004 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_finarfin.dds"
+	}
+}
+
+# Ardaturi - Valar Manwe
+10001 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_ardaturi.dds"
+	}
+}
+
+# House Elentari of Lady Varda
+10002 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "white"
+    color2 = "white"
+
+	textured_emblem = {
+		texture = "te_elentari.dds"
+	}
+}
+
+# Melkondili - Sauron evil dynasts!
+10012 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "black"
+    color2 = "black"
+
+	textured_emblem = {
+		texture = "te_melkondili.dds"
+	}
+}
+
+19017 = { #
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "black"
+    color2 = "black"
+
+	textured_emblem = {
+		texture = "te_ulairi.dds"
+	}
+}
+
+# Ostomirionath
+104 = {
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "blue"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_ostomirionath.dds"
+	}
+}
+
+# Haldarionath
+108 = {
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "blue"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_haldarionath.dds"
+	}
+}
+# Mirionionath
+113 = {
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "blue"
+    color2 = "blue"
+
+	textured_emblem = {
+		texture = "te_mirionionath.dds"
+	}
+}
+
+# Azuladanas
+13005 = {
+	pattern = "pattern_vertical_split_01.dds"
+    color1 = "black"
+    color2 = "black"
+
+	textured_emblem = {
+		texture = "te_azuladanas.dds"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "orc_loincloth1_mesh"
+	file = "orc_loincloth1.mesh"
+
+	meshsettings = {
+		name = "celtic_loincloth_group_01_lod1Shape"
+		index = 0
+		texture_diffuse = "celtic_loincloth_diffuse.dds"
+		texture_normal = "celtic_loincloth_normal.dds"
+		texture_specular = "celtic_loincloth_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "orc_loincloth1_entity"
+	pdxmesh = "orc_loincloth1_mesh"
+}

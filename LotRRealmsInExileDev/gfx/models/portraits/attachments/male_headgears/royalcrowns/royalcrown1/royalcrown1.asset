@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "royalcrown1_mesh"
+	file = "royalcrown1.mesh"
+
+	meshsettings = {
+		name = "vik_helmet_crown_01_lod1_group1Shape"
+		index = 0
+		texture_diffuse = "vik_helmet_crown_01_diffuse.dds"
+		texture_normal = "vik_helmet_crown_01_normal.dds"
+		texture_specular = "vik_helmet_crown_01_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "royalcrown1_entity"
+	pdxmesh = "royalcrown1_mesh"
+}

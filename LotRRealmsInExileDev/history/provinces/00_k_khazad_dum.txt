@@ -1,0 +1,18 @@
+﻿### k_khazad-dum
+# c_moria
+3698 = { # 
+	culture = culture_longbeard
+	religion = religion_khazad
+	holding = castle_holding
+	#
+}
+3697 = { # 
+	culture = culture_longbeard
+	religion = religion_khazad
+	holding = city_holding
+}
+3695 = {
+	culture = culture_longbeard
+	religion = religion_khazad
+	holding = none
+}

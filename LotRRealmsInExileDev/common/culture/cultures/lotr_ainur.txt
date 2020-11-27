@@ -1,0 +1,112 @@
+﻿# Matt note: we probably don't include the Valar. The Maiar culture group, as it is coded,
+# includes enigmas such as Tom Bombadil and Goldberry. And primodial creatures such as Ungoliant
+# and her children.
+
+# Temporarily using the Goidelic - Irish culture as a backup.
+
+lotr_ainur_group = {
+	graphical_cultures = { # Use Noldor graphics.
+		western_coa_gfx
+		western_building_gfx
+		valar_clothing_gfx
+		western_unit_gfx
+	}
+
+	mercenary_names = {
+			{ name = mercenary_company_heavenly_host }
+	}
+
+	culture_valar = {
+		color = { 0.99 0.49 0.48 }
+		ethnicities = {
+			30 = race_valar
+			
+		}
+		
+		
+		used_for_random = no
+
+		cadet_dynasty_names = {
+			
+			"dynn_ofvalarcadet"
+			
+		}
+		dynasty_names = {
+			"dynn_ofvalar"
+			"dynn_Myall"
+		}
+
+		male_names = {
+			Manwë Súlimo Aulë Mahal Ulmo Nûron Námo Mandos Irmo Lórien Oromë Aldaron Tulkas Astaldo Melkor Moringotto
+		}
+		female_names = {
+			Varda Tintallë Yavanna Palúrien Nienna Núri Vairë Gwîr Estë Îdh Vána Oiolaisi Nessa Rincëtâl
+		}
+	}
+	#
+	culture_maiar={
+		
+		color = { 0.95 0.95 0.75 }
+		used_for_random = no
+		cadet_dynasty_names = {
+			
+			"dynn_ofvalarcadet"
+			
+		}
+		dynasty_names = {
+			"dynn_ofvalar"
+			"dynn_Myall"
+		}
+		
+		male_names = {
+			Alatar Aiwendil Curumo Eönwë Mairon Olórin Ossë Pallando Salmar Tilion Makar Tavawë
+		}
+		female_names = {
+			Arien Ilmarë Melian Uinen Lélmur Meássë Wenyúlá Nielíqui Sendëlórë Sírëindis Grawbellas
+		}
+		
+		ethnicities = {
+			30 = race_valar
+			
+		}
+	}
+	culture_istari={
+		
+		color = { 0.43 0.43 0.43 }
+		used_for_random = no
+		cadet_dynasty_names = {
+			
+			"dynn_ofvalarcadet"
+			
+		}
+		dynasty_names = {
+			"dynn_ofvalar"
+			"dynn_Myall"
+		}
+		
+		male_names = {
+			Haldad_Haldad Buldar_Buldar
+			Meriadoc_Murdoch Sadoc_Sadoc Bledhun Caron Glundur Ilar_Ilar Parru Haul_Hugh Trehéarn Argel Cada Melfyn Wynfyrdd Sonnagh Lun Hedhwyn Bowen Inyr Siam Báin_Bain Séarl_Cyrill Luarch
+			Nye Déin_Dan Cedyfawr Gethen Cadugan Dai Gethin Hopcun_Hopkin Urien Lugdagnir Léolyn Fraid Goronu Andras Fawlant Ianto Lyfylla Mawrig Celi Celun_Conan Ceri Dylan Dylwyn
+			Tref Yefen_John Penrod Sors Taf Wynfawr Nai Mostun Lleu_Lug Iwan_Owen Arwyl Cyngyn Barri_Barry Sufulch Hamon_Edmund Lleudd_Lug Dafrig Glynn_Glen Penlyn Siorus Rioc Bodúan Britou Gwydr_Gwydr Lugh_Lug
+			Draxos Erp Taran Gorbadoc Segamain Gofannon Goibniu
+
+			Áed Áedán Áengus Éamonn Éicnechán Énna Óengus Ólchobar Ailill Ainmere Amalgaid Ardgar Artgal Augaire  
+			Báetán Blathmac Bróen Cathal Cathalán Cellach Cennétig Cenn-Fáelad Cerball Cináed_Kenneth Coirpre Colmán Conall Conchobar Congalach Conn_Conan Constantín_Constantine
+			Cormac Crimthann Crundmáel Demmán Diarmait Donncuan_Duncan Dúnchad_Duncan Dúngal Dúnlaing Eógan Echmarcach 
+			Fáelán Fáelbe Fergal Fiachnae Fingen Fionn_Finn Fionnsnechtae Flaithbertach Flann Fogartach 
+			Gabrán Túathal Tadg Tigernán Toirrdelbach Ualgarg
+		}
+		female_names = {
+			Elmar_Elmar
+			Nona Eiluned Lleucu_Lucia Nia Munfaeril Tafyn Usbail
+			Fefynn_Vivinn Lunwen Morwen Eres Betrus Aneria Almedha Anwen
+			Enwys
+		}
+		
+		ethnicities = {
+			30 = race_valar
+			
+		}
+	}
+}

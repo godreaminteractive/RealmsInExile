@@ -48,13 +48,17 @@ pool_repopulate_prowess = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -91,13 +95,17 @@ pool_repopulate_diplomacy = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -138,13 +146,17 @@ pool_repopulate_martial = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -178,13 +190,17 @@ pool_repopulate_stewardship = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -221,13 +237,17 @@ pool_repopulate_intrigue = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -268,13 +288,17 @@ pool_repopulate_learning = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -336,13 +360,17 @@ pool_repopulate_spouse = {
 		root.culture = {
 			trigger = {
 				NOT = {
-					root.culture = culture:istari
+					root.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				root.culture = culture:istari
+				root.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -454,7 +482,7 @@ pool_repopulate_local_flavor = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
 				}
-				root.capital_province = {
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_enedwaith
@@ -467,7 +495,7 @@ pool_repopulate_local_flavor = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
 				}
-				root.capital_province = {
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_enedwaith
@@ -477,10 +505,10 @@ pool_repopulate_local_flavor = {
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				#NOT = {
+				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
-				#}
-				root.capital_province = {
+				}
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_enedwaith
@@ -493,7 +521,7 @@ pool_repopulate_local_flavor = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
 				}
-				root.capital_province = {
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_rhovanion_anduin
@@ -506,7 +534,7 @@ pool_repopulate_local_flavor = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
 				}
-				root.capital_province = {
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_enedwaith
@@ -520,7 +548,7 @@ pool_repopulate_local_flavor = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_forcesofevil } }
 				}
-				root.capital_province = {
+				root.capital.province = {
 					OR = {
 						geographical_region = middle_earth_west_rohan
 						geographical_region = middle_earth_west_rhovanion_anduin
@@ -578,9 +606,9 @@ pool_repopulate_local_flavor = {
 		if = {
 			limit = {
 				OR = {
-					culture = culture:herdfolk_dunlending
-					culture = culture:hill_dunlending
-					culture = culture:isengard_dunlending
+					culture = herdfolk_dunlending
+					culture = hill_dunlending
+					culture = isengard_dunlending
 				}
 			}
 			set_character_faith = faith:men_of_darkness
@@ -588,9 +616,9 @@ pool_repopulate_local_flavor = {
 		else_if = {
 			limit = {
 				OR = {
-					culture = culture:eotheod
-					culture = culture:rohirrim
-					culture = culture:leofring
+					culture = eotheod
+					culture = rohirrim
+					culture = leofring
 				}
 			}
 			random_list = {
@@ -599,11 +627,11 @@ pool_repopulate_local_flavor = {
 					add_trait = horse_master
 					add_trait = cavalry_leader
 				}
-				15 = {
+				25 = {
 					set_character_faith = faith:free_peoples
 					add_trait = horse_master
 				}
-				80 = {
+				70 = {
 					set_character_faith = faith:free_peoples
 				}
 			}

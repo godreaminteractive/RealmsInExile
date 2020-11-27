@@ -1,0 +1,227 @@
+﻿# #
+#
+#
+#
+
+# #
+# Rhúdain in Sindarin?
+lotr_easterling_group = {
+	graphical_cultures = {
+		tibetan_group_coa_gfx
+		indian_building_gfx
+		easterling_clothing_gfx
+		mongol_unit_gfx
+		#dde_abbasid_clothing_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_rhudain" coat_of_arms = "mc_mamluks" }
+	}
+	
+	# culture near haradrim
+	culture_easterling = {
+		color = { 0.52 0.53 0.13 }
+		ethnicities = {
+			10 = race_easterling
+		}
+		#
+		
+		#used_for_random = no
+
+		# TEMP NEEDS INPUT
+		cadet_dynasty_names = {
+			"dynn_A_rpA_dy"
+			"dynn_CsA_szA_r"
+			"dynn_Vajlok"
+			"dynn_KA_n"
+			"dynn_Omodej"
+			"dynn_Zapolsky"
+			"dynn_Drugeth"
+			"dynn_Csak"
+			"dynn_Pallfy"
+			"dynn_Apafi"
+			"dynn_BA_nffy"
+			"dynn_BerzE_nyi"
+			"dynn_Bocskai"
+			"dynn_Borsa"
+			"dynn_CzirA_ky"
+			"dynn_Debreceni"
+			"dynn_DerencsE_nyi"
+			"dynn_DiO_szegi"
+			"dynn_DO_ry"
+			"dynn_EgervA_ri"
+			"dynn_ForgA_ch"
+			"dynn_Garai"
+			"dynn_PA_lO_czi"
+			"dynn_HE_dervA_ri"
+			"dynn_Hunyadi"
+			"dynn_KA_n"
+			"dynn_KA_rolyi"
+			"dynn_KO_szegi"
+			"dynn_Kun"
+			"dynn_Losonczi"
+			"dynn_MarO_ti"
+			"dynn_PerE_nyi"
+			"dynn_RA_tO_t"
+			"dynn_Rozgonyi"
+			"dynn_Szakoly"
+			"dynn_SzE_csE_nyi"
+			"dynn_SzE_chy"
+			"dynn_Telegdi"
+			"dynn_ThurzO_"
+			"dynn_U_jlaki"
+			"dynn_Kanizsai"
+			"dynn_Meggyesi"
+			"dynn_Osli"
+			"dynn_Viczay"
+			"dynn_Balassa"
+			"dynn_BA_thory"
+			"dynn_KA_lnoky"
+			"dynn_Niedzica"
+			"dynn_ZA_polya"
+			"dynn_SzE_kely"
+			"dynn_DO_zsa"
+			"dynn_Apafi"
+			"dynn_Balassi"
+			"dynn_Bethlen_von_IktA_r"
+			{ "dynnp_of" "dynn_Szekezfehervar" }
+			"dynn_Budai_Nagy"
+			{ "dynnp_de" "dynn_KincstartO_" }
+			"dynn_Celko"
+			"dynn_Corvinus"
+			{ "dynnp_de" "dynn_Cseszneky" }
+			{ "dynnp_de" "dynn_MilvA_ny" }
+			{ "dynnp_von" "dynn_MoravA_n" }
+			"dynn_DA_vid"
+			"dynn_DE_csey"
+			"dynn_ME_zesi"
+			{ "dynnp_de" "dynn_Ruszka" }
+			"dynn_Draskovich"
+			"dynn_ErdO_dy"
+			"dynn_RE_vay"
+			"dynn_DuruZ_mic"
+			"dynn_Szemere"
+			"dynn_Hadik"
+			"dynn_BatthyA_ny"
+			"dynn_Csesznegi"
+			"dynn_EsterhA_zy"
+			"dynn_HajdU_"
+			"dynn_JesenskY_"
+			"dynn_Medveczky"
+			"dynn_RA_kO_czi"
+			"dynn_Wass_de_Czege"
+			"dynn_Szapolyai"
+			"dynn_Zichy"
+			"dynn_Zrinski"
+		}
+
+		dynasty_names = {
+			"dynn_A_rpA_dy"
+			"dynn_CsA_szA_r"
+			"dynn_Vajlok"
+			"dynn_KA_n"
+			"dynn_Omodej"
+			"dynn_Zapolsky"
+			"dynn_Drugeth"
+			"dynn_Csak"
+			"dynn_Pallfy"
+			"dynn_Apafi"
+			"dynn_BA_nffy"
+			"dynn_BerzE_nyi"
+			"dynn_Bocskai"
+			"dynn_Borsa"
+			"dynn_CzirA_ky"
+			"dynn_Debreceni"
+			"dynn_DerencsE_nyi"
+			"dynn_DiO_szegi"
+			"dynn_DO_ry"
+			"dynn_EgervA_ri"
+			"dynn_ForgA_ch"
+			"dynn_Garai"
+			"dynn_PA_lO_czi"
+			"dynn_HE_dervA_ri"
+			"dynn_Hunyadi"
+			"dynn_KA_n"
+			"dynn_KA_rolyi"
+			"dynn_KO_szegi"
+			"dynn_Kun"
+			"dynn_Losonczi"
+			"dynn_MarO_ti"
+			"dynn_PerE_nyi"
+			"dynn_RA_tO_t"
+			"dynn_Rozgonyi"
+			"dynn_Szakoly"
+			"dynn_SzE_csE_nyi"
+			"dynn_SzE_chy"
+			"dynn_Telegdi"
+			"dynn_ThurzO_"
+			"dynn_U_jlaki"
+			"dynn_Kanizsai"
+			"dynn_Meggyesi"
+			"dynn_Osli"
+			"dynn_Viczay"
+			"dynn_Balassa"
+			"dynn_BA_thory"
+			"dynn_KA_lnoky"
+			"dynn_Niedzica"
+			"dynn_ZA_polya"
+			"dynn_SzE_kely"
+			"dynn_DO_zsa"
+			"dynn_Apafi"
+			"dynn_Balassi"
+			"dynn_Bethlen_von_IktA_r"
+			{ "dynnp_of" "dynn_Szekezfehervar" }
+			"dynn_Budai_Nagy"
+			{ "dynnp_de" "dynn_KincstartO_" }
+			"dynn_Celko"
+			"dynn_Corvinus"
+			{ "dynnp_de" "dynn_Cseszneky" }
+			{ "dynnp_de" "dynn_MilvA_ny" }
+			{ "dynnp_von" "dynn_MoravA_n" }
+			"dynn_DA_vid"
+			"dynn_DE_csey"
+			"dynn_ME_zesi"
+			{ "dynnp_de" "dynn_Ruszka" }
+			"dynn_Draskovich"
+			"dynn_ErdO_dy"
+			"dynn_RE_vay"
+			"dynn_DuruZ_mic"
+			"dynn_Szemere"
+			"dynn_Hadik"
+			"dynn_BatthyA_ny"
+			"dynn_Csesznegi"
+			"dynn_EsterhA_zy"
+			"dynn_HajdU_"
+			"dynn_JesenskY_"
+			"dynn_Medveczky"
+			"dynn_RA_kO_czi"
+			"dynn_Wass_de_Czege"
+			"dynn_Szapolyai"
+			"dynn_Zichy"
+			"dynn_Zrinski"
+		}
+		#dynasty_of_location_prefix = "min "
+		
+		male_names = {
+			Khamûl Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
+			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
+			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
+			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur
+			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+		}
+		female_names = {
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin
+			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
+		}
+		
+		patronym_prefix_male = "dynnpat_pre_ve"
+		patronym_prefix_female = "dynnpat_pre_ve"
+		
+		#dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		
+	}
+
+}

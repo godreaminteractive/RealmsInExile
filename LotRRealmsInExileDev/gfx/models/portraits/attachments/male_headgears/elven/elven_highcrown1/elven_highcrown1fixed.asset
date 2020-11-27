@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "elven_highcrown1fixed_mesh"
+	file = "elven_highcrown1fixed.mesh"
+
+	meshsettings = {
+		name = "dk_lead_barbarian_headwear_female_01_lod1_group1Shape"
+		index = 0
+		texture_diffuse = "dk_lead_barbarian_headwear_female_01_diffuse.dds"
+		texture_normal = "dk_lead_barbarian_headwear_female_01_normal.dds"
+		texture_specular = "dk_lead_barbarian_headwear_female_01_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "elven_highcrown1fixed_entity"
+	pdxmesh = "elven_highcrown1fixed_mesh"
+}

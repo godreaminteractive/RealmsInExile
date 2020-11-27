@@ -1,0 +1,68 @@
+﻿### Tk_
+# 
+2435 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = castle_holding
+	#
+}
+2436 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = city_holding
+}
+2452 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+}
+2448 = { # 
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = castle_holding
+}
+2441 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = city_holding
+}
+2438 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = castle_holding
+}
+#
+##c_tir_lowen
+2437 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = castle_holding
+}
+2494 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+}
+2493 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+}
+#
+##c_rhomros
+2443 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = city_holding
+}
+2454 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+}
+2453 = {
+	culture = culture_noldor
+	religion = religion_eldar
+	holding = none
+}
+#

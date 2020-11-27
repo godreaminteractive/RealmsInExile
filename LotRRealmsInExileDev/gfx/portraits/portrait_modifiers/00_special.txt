@@ -71,11 +71,183 @@ special = {
 				template = prophet_shield
 				value = 0.5
 			}
+			#
 
 		}
 		weight = {
 			base = 0
 		}
+	}
+	
+	## nazgul fixup
+	nazgulcleanup_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = replace				
+				gene = gene_bs_body_type
+				template = no_portrait
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = gene_age
+				template = no_aging
+				value = 1.0
+			}
+			accessory = {
+				mode = modify				
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = hairstyles
+				template = no_hairstyles
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_shape
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_fullness
+				template = no_eyebrows
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = clothes
+				template = no_clothes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+			morph = {
+				mode = replace				
+				gene = gene_no_decal
+				template = no_decal
+				value = 1.0
+			}
+			#
+
+		}
+		weight = {
+	        base = 0
+	        modifier = {
+	            add = 129
+				has_trait = nazgul
+				}
+				modifier = {
+	            add = 129
+				has_trait = morgothform
+				}
+			}
+	}
+	
+	# for wraith/wight generic?
+	##  fixup
+	wraithcleanup_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = replace				
+				gene = gene_bs_body_type
+				template = no_portrait
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = gene_age
+				template = no_aging
+				value = 1.0
+			}
+			accessory = {
+				mode = modify				
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = hairstyles
+				template = no_hairstyles
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_shape
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_fullness
+				template = no_eyebrows
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = clothes
+				template = no_clothes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+			morph = {
+				mode = replace				
+				gene = gene_no_decal
+				template = no_decal
+				value = 1.0
+			}
+			#
+
+		}
+		weight = {
+	        base = 0
+	        modifier = {
+	            add = 131
+				has_trait = wraith
+				}
+			modifier = {
+	            add = 131
+				has_trait = morgothform
+				}
+			}
 	}
 
 

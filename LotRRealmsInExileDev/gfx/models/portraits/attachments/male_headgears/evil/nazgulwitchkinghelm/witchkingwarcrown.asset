@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "witchkingwarcrown_mesh"
+	file = "witchkingwarcrown.mesh"
+
+	meshsettings = {
+		name = "witchkinghelmet2_group_01_lod2Shape"
+		index = 0
+		texture_diffuse = "witchKingHelm_diffuse.dds"
+		texture_normal = "witchKingHelm_normal.dds"
+		texture_specular = "witchKingHelm_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "witchkinghelmet2_group_01_lod2Shape"
+		index = 1
+		texture_diffuse = "male_headgear_nazgulhood_diffuse.dds"
+		texture_normal = "male_headgear_nazgulhood_normal.dds"
+		texture_specular = "male_headgear_nazgulhood_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "witchkingwarcrown_entity"
+	pdxmesh = "witchkingwarcrown_mesh"
+}

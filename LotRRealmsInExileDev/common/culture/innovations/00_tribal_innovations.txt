@@ -96,7 +96,11 @@ innovation_quilted_armor = {
 	culture_era = culture_era_tribal
 	icon = @weapons_and_armor_02
 
-	unlock_maa = armored_footmen
+	#unlock_maa = armored_footmen
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 3
+	}
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -201,3 +205,17 @@ innovation_ledger = {
 }
 
 #culture_group_regional
+###### added back in one by one redone!
+
+innovation_elephantry = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_innovation_elephants
+	icon = @elephant
+
+	unlock_maa = war_elephant
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+

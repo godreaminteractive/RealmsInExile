@@ -46,6 +46,8 @@ on_birth_child = {
 		major_decisions.0101 #Divine/Consecrated Blood Descendants.
 		birth.8001 #Reincarnation
 		trait_specific.0500 #To handle genetic traits not expressed until later in life
+		# ADDED FOR EVLES AND VALAR Maintenance ATTEMPT 1
+		lotrracesmaint.001
 	}
 	effect = {
 		#Add bastardy traits and set correct House

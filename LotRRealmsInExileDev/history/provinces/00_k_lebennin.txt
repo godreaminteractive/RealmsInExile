@@ -1,0 +1,374 @@
+﻿### k_lebennin
+#
+#c_pelargir
+1303= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+2117= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1305= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#######################
+#c_landor
+1307= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1308= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+######################
+#c_balimur
+1304= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1306= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#########################
+#c_minas_arnach
+1325= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1295= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#########################
+#c_arthor
+1335= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1343= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#######################
+#c_imduin
+1333= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1336= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+####################
+#c_enedhir
+1296= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1334= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+############################
+#c_calimir
+1294= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1298= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+##############################
+#c_caragost 
+1330= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1337= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1342= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###############################
+#c_brethil
+1297= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1399= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###########################
+#c_linhir
+1345= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1396= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1397= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+############################
+#c_arnbad 
+1349= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1293= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1292= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###############################
+#c_lindon
+1348= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1328= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1320= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+##############################
+#c_lebennivet
+1321= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1344= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+2118= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+##############################
+#c_lanthiriath
+1346= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+2038= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+############################
+#c_bar_tumladen
+1339= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1340= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = church_holding
+	#
+}
+1341= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#############################
+#c_herevorn
+1398= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1420= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+##############################
+#c_bar_lymen
+1360= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1338= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+1329= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###################################
+#c_tarnost 
+1389= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1391= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1392= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+1515= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+1387= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+#########################
+#c_bar_gilraen
+1384= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1322= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+	#
+}
+1388= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = church_holding
+	#
+}
+1395= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+1390= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+	#
+}
+###################
+#c_lanrain 
+1386= { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+######################					

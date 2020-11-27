@@ -6,13 +6,17 @@
 		scope:project_county.culture = {
 			trigger = {
 				NOT = {
-					scope:project_county.culture = culture:istari
+					scope:project_county.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				scope:project_county.culture = culture:istari
+				scope:project_county.culture = {
+					culture = istari
+				}
 			}
 		}
 	}
@@ -45,13 +49,17 @@ peasant_leader_martial_character = {
 		scope:project_county.culture = {
 			trigger = {
 				NOT = {
-					scope:project_county.culture = culture:istari
+					scope:project_county.culture = {
+						culture = istari
+					}
 				}
 			}
 		}
 		culture:isengard_dunlending = {
 			trigger = {
-				scope:project_county.culture = culture:istari
+				scope:project_county.culture = {
+					culture = istari
+				}
 			}
 		}
 	}

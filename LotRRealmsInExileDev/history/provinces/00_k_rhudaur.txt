@@ -1,0 +1,75 @@
+﻿### Tk_rhudaur
+# 
+1757 = { 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+2199 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+3852 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2200 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+# nothros
+2186 = { 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1747 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2190 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2189 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+# safin raghlaw?
+1796 = { 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1758 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+}
+1755 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1666 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2187 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+######################

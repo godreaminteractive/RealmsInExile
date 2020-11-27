@@ -1,0 +1,1399 @@
+ï»¿10001 = {
+	name = nm_manwe_sulimo
+	dynasty = 10001
+	martial = 30
+	diplomacy = 30
+	intrigue = 30
+	stewardship = 30
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = just
+	trait = generous
+	trait = trusting
+	trait = humble
+	trait = content
+
+	dna = 10001_manwe
+	4.6.1 = {
+		birth = "4.6.1"
+		effect = {
+			set_character_flag = manwe_sulimo
+			give_nickname = nick_elder_king	
+		}
+		set_immortal_age = 47
+		#	
+	}
+	6.1.1={
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	25.1.1 = {
+		add_spouse = 10002
+	}
+	#imprison morgoth
+	#	
+	16000.1.1 = {
+		death = yes
+	}
+}
+10002 = {
+	name = nm_varda_tintalle
+	female = yes
+	dynasty = 10002
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = beauty_good_2
+	trait = kind
+	trait = patient
+	trait = diligent
+
+	dna = 10002_varda
+	
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 34
+		employer = 10001
+		effect = {
+			give_nickname = nick_star_kindler	
+		}
+	}
+	6.1.1={
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10003 = {
+	name = nm_aule_mahal
+	dynasty = 10003
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = master_craftsman
+	trait = quick
+	trait = humble
+	trait = diligent
+	trait = kind
+	
+	dna = 10003_aule
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 31
+		effect = {
+			set_character_flag = aule_mahal
+			give_nickname = nick_the_smith
+		}		
+	}
+	6.1.1={
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	46.1.1 = {
+		add_spouse = 10004
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10004 = {
+	name = nm_yavanna_palurien
+	female = yes
+	dynasty = 10004
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = gardener
+	trait = diligent
+	trait = patient
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 31
+		effect = {
+			set_character_flag = yavanna
+			#give_nickname = nick_giver_of_fruits
+		}		
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10005 = {
+	name = nm_ulmo_nuron
+	dynasty = 10005
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = kind
+	trait = just
+	
+	dna = 10005_ulmo
+	
+	5.1.1 = {	
+		birth = "5.1.1"
+		set_immortal_age = 40
+		effect = {
+			set_character_flag = ulmo
+			give_nickname = nick_lord_of_waters
+		}		
+	}
+	6.1.1={
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	11364.6.25 = {
+		add_spouse = 10006
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10006 = {
+	name = nm_nienna_nuri
+	female = yes
+	dynasty = 10006
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = kind
+	trait = depressed
+	trait = patient
+	trait = brave
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 30
+		employer = 10001
+		effect = {
+			set_character_flag = nienna
+			give_nickname = nick_the_lady_of_mourning
+		}	
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10007 = {
+	name = nm_namo_mandos
+	dynasty = 10006
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = just
+	trait = cynical
+	
+	dna = 10007_mandos
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 38
+		effect = {
+			set_character_flag = mandos
+			give_nickname = nick_the_judge
+		}		
+	}
+	6.1.1={
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	44.1.1 = {
+		add_spouse = 10008
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10008 = {
+	name = nm_vaire_gwir
+	female = yes
+	dynasty = 10007
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = diligent
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 30
+		employer = 10001
+		effect = {		
+			give_nickname = nick_the_weaver
+		}
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10009 = {
+	name = nm_irmo_lorien
+	dynasty = 10006
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = mystic
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 36
+		effect = {
+			set_character_flag = irmo_lorien
+			give_nickname = nick_master_of_dreams
+		}		
+	}
+	43.1.1 = {
+		add_spouse = 10010
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10010 = {
+	name = nm_este_idh
+	female = yes
+	dynasty = 10008
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = kind
+	trait = master_healer
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 36
+		effect = {
+			give_nickname = nick_the_healer
+		}
+	}
+	43.1.1 = {
+		add_spouse = 10009
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10011 = {
+	name = nm_orome_aldaron
+	dynasty = 10009
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = brave
+	trait = wrathful
+	trait = hunter_2
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 36
+		effect = {
+			set_character_flag = orome
+			give_nickname = nick_the_huntsman
+			add_artifact = valaroma
+		}		
+	}
+	49.1.1 = {
+		add_spouse = 10012
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10012 = {
+	name = nm_vana_oiolaisi
+	female = yes
+	dynasty = 10004
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = beauty_good_2
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 36
+		employer = 10001
+		effect = {
+			give_nickname = nick_ever_young
+		}
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10013 = {
+	name = "Tulkas Astaldo"
+	dynasty = 10010
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = strategist
+	trait = brave
+	trait = strong
+	trait = patient
+	trait = master_fighter
+
+	9.1.1 = {
+		birth = "9.1.1"
+		set_immortal_age = 44
+		effect = {
+			set_character_flag = tulkas
+			give_nickname = nick_the_valiant
+		}		
+	}
+	53.1.1 = {
+		add_spouse = 10014
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10014 = {
+	name = nm_nessa_rincetal
+	female = yes
+	dynasty = 10009
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+
+	5.1.1 = {
+		birth = "5.1.1"
+		set_immortal_age = 29
+		employer = 10001
+		effect = {
+			give_nickname = nick_the_dancer
+		}
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10015 = {
+	name = "Melkor"
+	dynasty = 10001
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "evilofmelkor"
+	culture = "culture_valar"
+
+	disallow_random_traits = yes
+	trait = valar
+	trait = torturer
+	#trait = scholar
+	trait = deceitful
+	trait = arrogant
+	trait = ambitious
+	trait = sadistic
+	trait = inthevoid
+	trait = morgothform
+
+	5.2.2 = {
+		birth = "5.2.2"
+		set_immortal_age = 48
+	} #First Vala to enter Arda
+	4264.1.1 = {
+		name = "Morgoth Bauglir"
+		employer = 10001
+		religion = "men_of_darkness"
+		effect = {
+			give_nickname = nick_the_dark_traitor
+			set_character_flag = morgoth_bauglir
+			#trait=wraith
+			#trait=sauroninbattleform
+			add_rival = 10001
+			e_valinor = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+			#add_artifact = angainor
+		}
+	} # #Name given by Fëanor
+	#4282.1.1={
+	#	effect = {
+	#		add_artifact = silmaril
+	#	}
+	#}
+	#4778.1.1 = {
+	#	effect = {
+	#		destroy_artifact = silmaril
+	#	}
+	#}
+	#4898.1.1={
+	#	effect = {
+	#		destroy_artifact = silmaril
+	#	}
+	#}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10016 = {
+	name = "Mairon"
+	dynasty = 10011
+
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+	trait = sauroninbattleform
+	trait = wraith
+
+	martial = 15
+	diplomacy = 15
+	intrigue = 20
+	learning = 8
+	stewardship = 10
+
+ 	#dna = "bkadfwkiaal"
+  	#properties = "am0ad000a00"
+
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 47
+		effect = {
+		set_character_flag = sauron
+		}
+	}
+	42.1.1 = {
+		name = nm_thu
+		dynasty = 10012
+		religion = "men_of_darkness"
+	} #Mairon is corrupted by Melkor
+	4120.1.1 = {
+		name = "Gorthaur"
+	} #Gothmog and Thû begin to restore Angband, Thû is called Gorthaur by the Sindar
+	4769.1.1 = {
+		name = "Sauron"
+	} #Minas Tirith falls to Gorthaur, and the Noldor give him the Quenya name Sauron, 'the Abhorred'
+	6102.1.1 = {
+		name = "Annatar"
+		trait = beauty_good_2
+		religion = "free_peoples"
+	} #Sauron comes to the Eldar under a beauty_good_2 guise
+	6482.1.1 = {
+		name = "Sauron"
+		#employer = 10001
+		remove_trait = beauty_good_2
+		trait = strong
+		trait = wrathful
+		religion = "evilofmelkor"
+		trait = sadistic
+		trait = deceitful
+		trait = education_intrigue_3
+		trait = aggressive_attacker
+	} #Sauron returns to Mordor
+	#6502.1.1 = {
+	#	effect = { 
+	#		add_artifact = artifact_ring  #Sauron forges the One Ring
+	#		set_character_flag = one_ring_info
+	#		set_global_flag = one_ring_held
+	#	}
+	#}
+	##8343.1.1 = {
+	#	effect = {
+	#		unsafe_destroy_artifact = artifact_ring
+	#	}
+	#	trait = ringbearer2
+	#	trait = spiritform
+	#} #Sauron is defeated and loses the Ring
+	#9343.1.1 = {
+	#	effect = {
+	#		clr_global_flag = one_ring_held
+	#	}
+	#	name = "Necromancer"
+	#	dynasty = 0
+	#	give_nickname = nick_the_black
+	#} #Sauron come to Dol Guldur
+	#10345.1.1 = {
+		# trait = palantir_ithil
+	#} #The Nazgul capture the Ithil-stone
+	#11188.1.1 = {
+	#	effect = {
+	#		add_artifact = durin_ring
+	#		add_artifact = dwarf_ring
+	#	}
+	#}
+	#11284.1.1 = {
+	#	name = "Sauron"
+	#	dynasty = 10012
+	#	prestige = -700
+	#} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
+	#11362.3.25 = {
+	#	death =  yes
+	#} #The ring is destroyed, Sauron dies
+	16000.1.1 = {
+		death = yes
+	}
+}
+10017 = {
+	name = "Melyanna"
+	female = yes
+	dynasty = 10013
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	trait = intellect_good_3
+	trait = beauty_good_2
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 24
+	}
+	977.1.1 = {
+		name = "Melian"
+		employer = 10001
+	} #Elwë weds Melian in Nan Elmoth
+	16000.1.1 = {
+		death = yes
+	}
+}
+10018 = {
+	name = nm_virolome
+	female = yes
+	dynasty = 10014
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+	}
+	25.1.1 = {
+		religion = "men_of_darkness"
+	} #Virilomë is corrupted by Melkor
+	54.1.1 = {
+		name = "Ungoliant"
+		#trait = spider
+	} #Virilomë takes the form of a Great Spider
+	4853.1.1 = {
+		death = yes
+	} #Ungoliant is slain by Eärendil
+}
+##10019 = { ### Replaced by 10071 - Thorondor
+##	name = "Sorontar"
+##	dynasty = 10015
+##	religion = "free_peoples"
+##	culture = "culture_maiar"
+##	trait = maiar
+##	6.1.1 = {
+##		birth = "6.1.1"
+##	}
+##}
+10020 = {
+	name = "Makar"
+	dynasty = 10016
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	trait = brave
+	trait = arrogant
+	trait = hunter_2
+	7.1.1 = {
+		birth = "7.1.1"
+		set_immortal_age = 38
+	}
+	8.1.1 = {
+		religion = "men_of_darkness"
+	} #Makar and Meássë join Melkor's War against the Valar
+	9.1.1 = {
+		religion = "free_peoples"
+		employer = 10001
+	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and Meássë swear loyalty to him
+	16000.1.1 = {
+		death = yes
+	}
+}
+10021 = {
+	name = nm_measse
+	female = yes
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	trait = brave
+	trait = arrogant
+	trait = hunter_2
+	7.1.1 = {
+		birth = "7.1.1"
+		set_immortal_age = 32
+	}
+	8.1.1 = {
+		religion = "men_of_darkness"
+	} #Makar and Meássë join Melkor's War against the Valar
+	9.1.1 = {
+		dynasty = 10016
+		religion = "free_peoples"
+		employer = 10001
+	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and Meássë swear loyalty to him
+	16000.1.1 = {
+		death = yes
+	}
+}
+10022 = {
+	name = nm_osse
+	dynasty = 10017
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 29
+	}
+	26.1.1 = {
+	religion = "men_of_darkness"
+	} #Ossë is corrupted by Melkor
+	56.1.1 = {
+		dynasty = 10017
+		religion = "free_peoples"
+		add_spouse = 10023
+		employer = 10001
+	} #Unien persuades Ossë to return to loyalty for Ulmo
+	16000.1.1 = {
+		death = yes
+	}
+}
+10023 = {
+	name = "Uinen"
+	female = yes
+	dynasty = 10017
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 33
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10024 = {
+	name = "Salmar"
+	dynasty = 10017
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 34
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10025 = {
+	name = "Vallavelca"
+	dynasty = 10018
+	religion = "free_peoples"
+	culture = "culture_maiar" ## SHOULD BE BALROG - IS JUST TEMP this
+	trait = maiar
+	#trait = balrog
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 34
+	}
+	33.1.1 = {
+		religion = "men_of_darkness"
+	} #Vallavelca is corrupted by Melkor
+	57.1.1 = {
+		name = "Gothmog"
+	} #The Balrogs recieve their hröa
+	4822.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 3226
+		}
+	} #Gothmog is slain by Ecthelion in Gondolin
+}
+10026 = {
+	name = "Haldavelca"
+	religion = "free_peoples"
+	culture = "culture_maiar"  ## SHOULD BE BALROG - IS JUST TEMP this
+	dynasty = 24009
+	trait = maiar
+	#trait = balrog
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 34
+	}
+	33.1.1 = {
+		religion = "men_of_darkness"
+	} #Haldavelca is corrupted by Melkor
+	57.1.1 = {
+
+		name = "Hallmog"
+	} #The Balrogs recieve their hröa
+	4899.1.1 = {
+		name = "Nameless Terror"
+		effect = {
+		set_character_flag = moriabalrog
+		}		
+		employer = 10007
+	} #The Balrog hides under Khazad-dûm in fear of the coming of the Valar in the War of Wrath
+	10323.1.1 = {
+		name = "Durin's Bane"
+		trait = strategist
+		trait = wrathful
+		trait = sadistic
+		trait = aggressive_attacker
+	} #The Balrog is awoken from its slumber by the Dwarves of Khazad-dûm and slays Durin VI
+	11362.1.25 = {
+		death = yes
+	} #Dúrin's Bane is slain by Gandalf in Moria
+}
+10027 = {
+	name = "Arien"
+	female = yes
+	dynasty = 10019
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.2.2 = {
+		birth = "6.2.2"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10028 = {
+	name = "Tilion"
+	dynasty = 10020
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 34
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10029 = {
+	name = nm_romestamo
+	dynasty = 10020
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 39
+		employer = 10001
+	}
+	9343.1.1 = {
+		name = "Pallando"
+		culture = "culture_istari"
+		trait = at_east
+		trait = lifestyle_herbalist
+		trait = education_intrigue_3
+		trait = intellect_good_1
+		trait = scholar
+		#trait = falconer
+		give_nickname = nick_the_blue
+		#effect = {
+		#	set_graphical_culture = culture_istari
+		#	set_character_flag = pallando
+		#	add_friend = 10030 #Alatar
+		#	add_artifact = staff_of_pallando
+		#}
+	} #The Five Istari arrive in Middle-earth
+	16000.1.1 = {
+		death = yes
+	}
+}
+10030 = {
+	name = "Morinehtar"
+	dynasty = 10018
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 30
+		employer = 10001
+	}
+	9343.1.1 = {
+		name = "Alatar"
+		culture = "culture_istari"
+		trait = at_east
+		trait = lifestyle_herbalist
+		trait = education_intrigue_3
+		trait = mystic_2
+		trait = scholar
+		trait = hunter_2
+		give_nickname = nick_the_blue
+		effect = {
+			#set_graphical_culture = culture_istari
+			set_character_flag = alatar
+			#add_friend = 10029 #Pallando
+			#add_artifact = staff_of_alatar
+		}
+	} #The Five Istari arrive in Middle-earth
+	16000.1.1 = {
+		death = yes
+	}
+}
+10031 = {
+	name = "Aiwendil"
+	dynasty = 10021
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+
+ 	#dna = "bbfcj0jdcb0"
+  	#properties = "ii0nefbebbb"
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 63
+		employer = 10001
+	}
+	9343.1.1 = {
+		name = "Radagast"
+		culture = "culture_istari"
+		give_nickname = "nick_the_brown"
+		trait = education_stewardship_3
+		trait = lunatic
+		trait = lifestyle_herbalist
+		trait = generous
+		trait = humble
+		#trait = gregarious
+		trait = celibate
+		effect = {
+			#set_graphical_culture = culture_istari
+			add_friend = 10033
+			#add_artifact = staff_of_radagast
+        }
+		employer = 3003 # He does not get Rosgobel until 10818, so I'll stick him with Elrond
+	} #The Five Istari arrive in Middle-earth
+	#10806.1.1 = {
+	#	trait = white_council
+	#} #The White Council is formed	
+	16000.1.1 = {
+		death = yes
+	}
+}
+10032 = {
+	name = "Curumo"
+	dynasty = 10011
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+
+ 	#dna = "alfca0kdaa0"
+ 	#properties = "hg0ncfbebbb"
+	6.1.1 = {
+		birth = "6.1.1"
+		employer = 10001
+	}
+	9343.1.1 = {
+		name = "Saruman"
+		culture = "culture_istari"
+		give_nickname = "nick_the_white"
+		trait = theologian
+		trait = #at_east
+		#effect = {
+			#set_graphical_culture = culture_istari
+			#add_artifact = staff_of_saruman
+		#}
+	} #The Five Istari arrive in Middle-earth
+	10806.1.1 = {
+		#trait =  white_council
+		#remove_trait = #at_east
+		employer = 3003 # He does not get Isengard until 11102, so I'll stick him with Elrond
+	} #The White Council is formed
+	11102.1.1 = {
+	    trait = ambitious
+		trait = cynical
+		trait = deceitful
+		# trait =  palantir_orthanc
+		remove_trait = theologian
+		trait = education_intrigue_3
+		#effect = {
+		#	add_artifact = key_of_orthanc
+		#}
+	} #Saruman settled in Isengard
+	11296.1.1 = {
+		#remove_trait = white_council
+		religion = "men_of_darkness"
+		trait = sadistic
+		effect = {
+			#add_artifact = ring_saruman
+			set_character_flag = corrupted
+			add_rival = 10033 #Gandalf
+		}
+	} #Saruman is fully corrupted by Sauron
+	11362.3.13  = {
+   		effect = { set_character_flag = one_ring_info }
+	}
+ 	#Saruma isn't the major Istari anymore
+	11362.11.3 = {
+		death = yes
+	} #Saruman is stabbed by Wormtongue
+}
+10033 = {
+	name = nm_olorin
+	dynasty = 10022
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+
+  	#dna = "bmfle0idfb0"
+  	#properties = "kh0ndgbebbb"
+	
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 68
+		effect = {
+			set_character_flag = gandalf
+		}
+		employer = 10001
+	}
+	
+	9343.1.1 = {
+		culture = "culture_istari"
+		give_nickname = "nick_the_grey"
+		trait = brave
+		name = "Gandalf"
+		effect = {
+			#add_artifact = staff_of_gandalf
+			set_character_flag = gandalf
+			#set_graphical_culture = culture_istari
+		}
+		employer = 3003 # Needed to move him out of Valinor so I'll stick him with Elrond		
+	} #The Five Istari arrive in Middle-earth
+	
+	10806.1.1 = {
+		#trait = white_council
+		trait = humble
+		trait = generous
+		trait = patient
+		#trait = charismatic_negotiator
+		trait = celibate
+		#e Council is formed
+	}
+	11284.5.30  = {
+		trait = unyielding_defender
+		# REMOVED THE HOBBIT FRIENDS HERE
+	}
+	#Glamdring, Orcrist and Sting recovered from the Troll-hoard
+
+	11300.1.1 = {
+		employer = 10031
+	}# Gandalf in the court of radagast to prevent him to be with Saruman
+	#andalf the White
+	
+	11362.3.14 = {
+		give_nickname = "nick_the_white"
+		effect = {
+			set_character_flag = gandalf_the_white
+			#destroy_artifact = staff_of_gandalf
+			#add_artifact = white_staff_of_gandalf
+		}
+	} #Gandalf the White
+	
+	11366.1.1  = {
+		#effect = { destroy_artifact = narya }
+		#remove_trait = white_council
+		#trait = sailed_west
+		employer = "10001"
+	}
+	16000.1.1 = {
+		death = yes
+	}
+ }
+ 
+10034 = {
+	name = nm_eonwe
+	dynasty = 10015
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 32
+		employer = 10001
+		#
+	}
+	#4898.1.1={
+	#	effect = {
+	#		add_artifact = silmaril
+	#	}
+	#}
+	#4899.1.1={
+	#	effect = {
+	#		destroy_artifact = silmaril
+	#	}
+	#}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10035 = {
+	name = nm_ilmare
+	female = yes
+	dynasty = 10019
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10036 = {
+	name = nm_wenyula
+	female = yes
+	dynasty = 10021
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10037 = {
+	name = nm_tavawe
+	dynasty = 10020
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10038 = {
+	name = nm_nieliqui
+	female = yes
+	dynasty = 10013
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10039 = {
+	name = nm_poldorea
+	dynasty = 10016
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10040 = {
+	name = nm_sulemo
+	dynasty = 10018
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10041 = {
+	name = nm_sendelore
+	female = yes
+	dynasty = 10023
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	70.1.1 = {
+		birth = "70.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10042 = {
+	name = "Envinyatar"
+	dynasty = 10024
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 28
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10043 = {
+	name = nm_sireindis #River-wife
+	female = yes
+	dynasty = 10017
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	6.1.1 = {
+		birth = "6.1.1"
+		set_immortal_age = 34
+		employer = 10001
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10044 = {
+	name = nm_sireiel #River-daughter
+	female = yes
+	dynasty = 10017
+	religion = "free_peoples"
+	culture = "culture_maiar"
+
+	disallow_random_traits = yes
+	trait = maiar
+	trait = generous
+	trait = lifestyle_herbalist
+	trait = beauty_good_2
+	mother = 10043
+	1942.1.1 = {
+		birth = "1942.1.1"
+		set_immortal_age = 22
+	}
+	9944.1.1 = {
+		name = "Goldberry"
+	} #Hobbits enter the Shire
+	16000.1.1 = {
+		death = yes
+	}
+}
+10045 = {
+	name = "Iarwain"
+	dynasty = 10025
+	martial = 9
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 9
+	religion = "free_peoples"
+	culture = "culture_maiar" # Should be culture_enigma
+
+	disallow_random_traits = yes
+	#trait = enigma
+	#trait = poet
+	trait = physician_2
+	trait = arbitrary
+	trait = generous
+
+	3.1.1 = {
+		birth = "3.1.1"
+		set_immortal_age = 48
+		effect = { set_character_flag = tombombadil }
+	} #In Arda before the Valar arrived
+	#Elves awaken at Cuivienen
+	4600.1.1 = {
+		effect = {	
+			#trait = elf_friend
+			add_friend = 10048 #Treebeard woken by elves, can talk
+		}
+	}
+	9944.1.1 = {
+		name = "Tom"
+		dynasty = 10026
+	} #Hobbits enter the Shire
+	10027.1.1 = {
+		add_spouse = 10044
+		#trait = hobbit_friend
+		#effect = {
+		#	add_friend = 8195 #Marcho
+		#	add_friend = 8196 #Blanko
+		#}	
+	}
+	16000.1.1 = {
+		death = yes
+	}
+}
+10046 = {
+	name = "Ungoliel"
+	female = yes
+	religion = "men_of_darkness"
+	culture = "culture_maiar" # Should be spider
+	mother = 10018
+	dynasty = 19012
+	4274.1.1 = {
+		birth = "4274.1.1"
+	}
+	5002.1.1 = {
+	#trait = spider
+	trait = education_intrigue_3	
+	trait = gluttonous
+	trait = patient
+	trait = deceitful
+	trait = sadistic
+	name = "Shelob"
+	}
+	11362.3.25 = {
+		death = yes
+	} #Shelob succums to her wounds inflicted by Sam Gamgee
+}
+
+10047 = {
+	name = "Grawbellas" ## Ancestror of Beorn ##
+	dynasty = 17
+	religion = "free_peoples"
+	culture = "culture_maiar"
+	trait = maiar
+	female = yes
+	4247.1.1 = {
+		birth = yes
+		set_immortal_age = 48
+	}
+	11000.1.1 = {
+		death = yes
+	}
+}
+
+
+## Ents ##
+#removed ENTS FOR NOW
+
+### Dragons ###
+# REMOVED DRAGONS AND EAGLES FOR NOW

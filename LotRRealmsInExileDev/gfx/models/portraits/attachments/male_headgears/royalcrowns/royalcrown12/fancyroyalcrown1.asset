@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "fancyroyalcrown1_mesh"
+	file = "fancyroyalcrown1.mesh"
+
+	meshsettings = {
+		name = "att_bel_justinian_crown_lod1_group1Shape"
+		index = 0
+		texture_diffuse = "att_bel_justinian_crown_diffuse.dds"
+		texture_normal = "att_bel_justinian_crown_normal.dds"
+		texture_specular = "att_bel_justinian_crown_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "fancyroyalcrown1_entity"
+	pdxmesh = "fancyroyalcrown1_mesh"
+}

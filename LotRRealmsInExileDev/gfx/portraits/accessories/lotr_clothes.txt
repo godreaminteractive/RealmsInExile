@@ -1,35 +1,68 @@
 ﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
 
-## ROHAN ##
 
+#####################################
+#									#
+# 			 Clothes			#
+#									#
+#####################################
 
-## Commoner Clothes ##
+## Nazgul robes pt1
 
-male_legwear_generic = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_legwear_generic_entity}
+male_clothes_nazgul_robes1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = witchkingrobespt1_entity }
+}
+## Nazgul robes pt2
+male_clothes_nazgul_robes2 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = witchkingrobespt2_entity }
+}
+# Sauron newtorso
+## 
+male_clothes_sauron_suit = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = saurontorso1_entity }
+}
+male_clothes_dwarven_armor = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = dwarvenarmor_entity }
 }
 
-## Low Nobility Clothes ##
-
-## High Nobility Clothes ##
-
-male_clothes_rohan_nobility = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_rohan_nobility_entity }
+male_clothes_gondorian_fullarmor = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gondorian_fullarmoursuit2_entity }
+}
+#
+male_clothes_gondorian_elitefullarmor = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gondorelitearmorsuit_entity }
+}
+# new sauronlegs
+#put into cloaks here in this folder-space as it's called by anotehrtype?
+## Black Numenorean armor! using vanilla dde _abbasid as base
+male_clothes_blacknumenoreanarmor1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_dde_abbasid_wararmournumenorean_01_entity }
 }
 
-male_cloaks_rohan_nobility = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cloaks_rohan_nobility_entity }
+# easterling test undersuit
+male_clothes_easterling_undersuit1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_easterlingtest_entity }
 }
 
-## Maia ##
-
-male_clothes_maia_saruman = {
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_maia_saruman_entity }
+# orc loincloth 1
+male_clothes_orc_loincloth1 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = orc_loincloth1_entity }
 }
-
+# orc loincloth 2
+male_clothes_orc_loincloth2 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = orcnewleatherwraps2_entity }
+}
 
 ##########################################################################
 
+# Isildur-styled Royal Arnorian Armour
+male_clothes_arnorian_royal_armour = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothing_arnor_royalarmour_01_entity }
+}
+
+male_clothes_arnor_specialsuit = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_crusades_western_war_nobility_05_common_entity }
+}
 
 
 

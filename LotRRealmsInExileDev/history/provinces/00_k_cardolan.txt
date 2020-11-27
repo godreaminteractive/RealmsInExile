@@ -1,0 +1,33 @@
+﻿### 
+# 
+1601 = { 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+1818 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1844 = {
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+2360 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = none
+}
+1707 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = city_holding
+}
+1737 = { # 
+	culture = culture_arnorian
+	religion = religion_edain
+	holding = church_holding
+}

@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "sauronhelmetfinall2_mesh"
+	file = "sauronhelmetfinall2.mesh"
+
+	meshsettings = {
+		name = "smd_mesh3707Shape"
+		index = 0
+		texture_diffuse = "sauron_helm_diffuse.dds"
+		texture_normal = "sauron_helm_normal.dds"
+		texture_specular = "sauron_helm_specular.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "smd_mesh3707Shape"
+		index = 1
+		texture_diffuse = "male_headgear_nazgulhood_diffuse.dds"
+		texture_normal = "male_headgear_nazgulhood_normal.dds"
+		texture_specular = "male_headgear_nazgulhood_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "sauronhelmetfinall2_entity"
+	pdxmesh = "sauronhelmetfinall2_mesh"
+}

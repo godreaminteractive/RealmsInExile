@@ -3,82 +3,11 @@
  #############################################
 #General names:
 
- prince:0 "Prince"
- princess:0 "Princess"
- queen_mother:0 "Dowager Queen"
- empress_mother:0 "Dowager Queen"
- khan:0 "King"
- sultan:0 "High King"
- mayor:0 "Sherriff"
- king:0 "King"
- king_female:0 "Queen"
- kingdom:0 "Kingdom"
- empress:0 "High Queen"
- emperor:0 "High King"
- empire:0 "High Kingdom"
- queen:0 "Queen"
- duchess:0 "High Lady"
- duke:0 "High Lord" 
- duchy:0 "High Lordship"
- countess:0 "Lady"
- count:0 "Lord" 
- county:0 "Lordship"
- baron:0 "Baron"
- baroness:0 "Baroness"
- barony:0 "Barony"
- 
- baron_plural:0 "Barons"
- count_plural:0 "Lords"
- duke_plural:0 "High Lords"
- king_plural:0 "Kings"
- emperor_plural:0 "High Kings"
- unlanded_plural:0 "Unlanded"
-
 ##############################################
 #Theocracy titles, religious (group) localization.
 
 ##############################################
 # Special cultural titles (sorted by culture, then government type). 
-
-### ELVES ###
-
-
-### DUNEDAIN ###
-# Feudal 
- 
-# barony_feudal_dunedain:0 ""
- 
- count_feudal_male_dunedain:0 "Captain"
- count_feudal_male_dunedain_nonholder:0 "Captain"
- count_feudal_female_dunedain:0 "Captain"
- count_feudal_female_dunedain_nonholder:0 "Lady"
- county_feudal_dunedain:0 "Encampment"
- duke_feudal_male_dunedain:0 "Chieftain"
- duke_feudal_male_dunedain_nonholder:0 "Chieftain"
- duke_feudal_female_dunedain:0 "Chieftess"
- duke_feudal_female_dunedain_nonholder:0 "Chieftess"
- duchy_feudal_dunedain:0 "Chiefdom"
- king_feudal_male_dunedain:0 "King"
- king_feudal_female_dunedain:0 "Queen"
- kingdom_feudal_dunedain:0 "Kingdom"
- 
- count_feudal_independent:0 "Lord"
- count_feudal_independent_female:0 "Lady"
- 
-# prince_male_dunedain:1 "First Marshal" # Give this title to the Marshal position on the realm council.
-# prince_female_dunedain:1 "First Marshal"
- 
- realm_marshal_dunedain:0 "First Ranger"
-
- baron_republic_male_dunedain:0 "Mayor"
- baron_republic_female_dunedain:0 "Mayor"
- barony_republic_dunedain:0 "Village"
- 
- count_republic_male_dunedain:0 "Sheriff"
- count_republic_female_dunedain:0 "Sheriff"
- county_republic_dunedain:0 "Shire"
-
-
 
 ### ROHIRRIM ###
 # Feudal 
@@ -91,26 +20,17 @@
 # barony_feudal_rohirrim:0 ""
  
  count_feudal_male_rohirrim:0 "Third Marshal"
- count_feudal_male_rohirrim_nonholder:0 "Lord"
  count_feudal_female_rohirrim:0 "Third Marshal"
- count_feudal_female_rohirrim_nonholder:0 "Lady"
  county_feudal_rohirrim:0 "Mark"
  duke_feudal_male_rohirrim:0 "Second Marshal"
- duke_feudal_male_rohirrim_nonholder:0 "Lord"
  duke_feudal_female_rohirrim:0 "Second Marshal"
- duke_feudal_female_rohirrim_nonholder:0 "Lady"
  duchy_feudal_rohirrim:0 "Mark"
  king_feudal_male_rohirrim:0 "King"
  king_feudal_female_rohirrim:0 "Queen"
  kingdom_feudal_rohirrim:0 "Riddermark"
  
- count_feudal_independent:0 "Lord"
- count_feudal_independent_female:0 "Lady"
- 
 # prince_male_rohirrim:1 "First Marshal" # Give this title to the Marshal position on the realm council.
 # prince_female_rohirrim:1 "First Marshal"
- 
- realm_marshal_rohirrim:0 "First Marshal"
 
  baron_republic_male_rohirrim:0 "Reeve"
  baron_republic_female_rohirrim:0 "Reeve"

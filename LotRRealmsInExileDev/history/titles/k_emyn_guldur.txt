@@ -1,0 +1,38 @@
+﻿#imported from ck2 ME
+
+##### SHOULD BE IN 9651 !!!! this is just temp!?
+k_emyn_guldur={
+	
+	8000.2.2 = { change_development_level = 1 } #
+	
+	9151.1.1 = {
+
+	holder = 10016 # First Coming of Sauron
+	}
+
+	
+}
+
+d_emyn_guldur={
+	
+	#
+	
+	9151.1.1 = {
+
+	holder = 10016 # First Coming of Sauron
+	}
+
+	
+}
+
+c_emyn_lum={
+	
+	
+	
+	9151.1.1 = {
+
+	holder = 10016 # First Coming of Sauron
+	}
+
+	
+}

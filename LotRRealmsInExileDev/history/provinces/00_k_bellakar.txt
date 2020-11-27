@@ -1,0 +1,22 @@
+﻿### k_bellakar black numenoreans for now..maybe locals ? Bellakaze or something?
+# 
+
+# nykkia
+2057 = { # 
+	culture = culture_blacknumenorean
+	religion = religion_fallennumenorean
+	holding = castle_holding
+	#
+}
+2056 = { # 
+	culture = culture_blacknumenorean
+	religion = religion_fallennumenorean
+	holding = city_holding
+	#
+}
+2058 = { # 
+	culture = culture_blacknumenorean
+	religion = religion_fallennumenorean
+	holding = church_holding
+	#
+}

@@ -1,0 +1,235 @@
+﻿### k_anorien - Gondor
+# 
+1300 = { # imnas anor - minas tirith
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+	#
+}
+# Harlond
+1312 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+# Pelennor
+1301 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+# Nardos
+1502 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1504 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+# dunmardo
+1496 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1500 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+# c_tir_elena
+1493 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1499 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+
+# c_caranthan
+1494 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1495 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+
+# cair andros
+1201 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1492 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+
+# herenyard
+1489 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1501 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = church_holding
+}
+
+# c_maldred
+1491 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1490 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+
+# Osgiliath west
+1302 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+# osgiliath east
+1200 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+#
+# celerdain
+1331 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+##########################
+# ost rimmon
+1967 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1309 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+######################
+# beleganor
+1332 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1313 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+#######################
+# amon anwar
+1483 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+3821 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = church_holding
+}
+#######################
+# 
+2120 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1484 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+#####################
+# harnastin
+1485 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1497 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+2119 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+#######################
+#  astirian
+1487 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+1486 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = city_holding
+}
+1498 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+3827 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+#############################
+# imloth melui
+1324 = { 
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = castle_holding
+}
+
+1314 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+1310 = {
+	culture = culture_gondorian
+	religion = religion_edain
+	holding = none
+}
+####################################
+# 
