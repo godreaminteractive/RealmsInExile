@@ -423,6 +423,7 @@ accessory_genes = {
 				12 = male_hair_western_07
 				12 = male_hair_western_08
 				2 = male_hair_western_09
+				0 = empty
 
 			}
 			

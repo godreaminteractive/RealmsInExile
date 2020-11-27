@@ -3400,17 +3400,76 @@ headgear = {
 				template = ear_size_neg
 				value = 1.0
 			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_angle
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_inner_shape
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_ear_bend
+				value = 0.0
+			}
+			
+			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 988
+
+				AND = {
+				highest_held_title_tier = tier_kingdom
+				portrait_wear_armor_trigger = yes
+				portrait_gondorian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	gondorian_highkingswar = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = gondorian_highkingswar
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			#accessory = {
+			#	mode = add
+			#	gene = headgear_2
+			#	template = arnorian_neckchainmail
+			#	range = { 0 1 } # For the randomness to work correctly
+			#} # Removed as it conflicts with the cloak!
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
 		}	
 		weight = {
 			base = 0
 			modifier = {
 				add = 989
-				OR = {
-						highest_held_title_tier = tier_kingdom
-						highest_held_title_tier = tier_empire
-					}
+
+				AND = {
+				highest_held_title_tier = tier_empire
 				portrait_wear_armor_trigger = yes
 				portrait_gondorian_clothing_trigger = yes
+				}
 			}
 		}
 	}

@@ -1639,7 +1639,8 @@ accessory_genes = {
 				#3 = male_headgear_arnorian_warhelm
 				6 = male_headgear_imperator_gondorhelm1
 				#3 = male_headgear_gondorian_soldierhelm -> from ROM cant use!
-				3 = male_headgear_gondorian_citadelhelm
+				#3 = male_headgear_gondorian_citadelhelm
+				# 3 = male_headgear_gondorian_goldhelm -> higher rank?
 				3 = male_headgear_gondorian_generalhelm
 				#1 = male_headgear_gondorian_fountainguard_helm
 				#1 = male_headgear_arnorian_highkingwarhelm
@@ -1670,7 +1671,7 @@ accessory_genes = {
 		gondorian_kingswar = {
 			index = 109
 			male = {
-				1 = male_headgear_isildurswarhelm
+				1 = male_headgear_gondorian_goldhelm
 				
 				
 			}
@@ -2220,6 +2221,20 @@ accessory_genes = {
 			index = 142
 			male = {
 				1 = male_headgear_arnorianfountainguard_withmask
+				
+			}
+			female = {
+				1 = female_headgear_religious_northern_high_01
+				
+			}
+			boy = male
+            girl = female
+		}
+		gondorian_highkingswar = {
+			index = 143
+			male = {
+				1 = male_headgear_isildurswarhelm
+				
 				
 			}
 			female = {
